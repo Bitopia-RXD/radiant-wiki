@@ -4,11 +4,11 @@ description: >-
   everyone
 ---
 
-# Radiant Blockchain Wiki
+# Radiant Blockchain
 
-## Welcome to the Wiki by the community for the community
+## Welcome to the Radiant Blockchain Community Wiki
 
-If you have an idea for Radiant, feel free to share it and get involved.&#x20;
+If you have an idea for Radiant, feel free to share it and get involved.
 
 This Wiki is maintained by active community members who continuely show up to be reliable, timely and dedicated to the growth and health of the Radiant Blockchain and ecosystem.
 
@@ -103,4 +103,3 @@ The induction proof system makes it possible to efficiently compose outputs in a
 ### Account emulation
 
 With the novel induction proof technique, it is now possible to create globally unique identifiers and therefore implement accounts in the UTXO based architecture. The best of both worlds in emulating the account models while also providing the coin (UTXO) model that offers massive scale and parallelism.
-

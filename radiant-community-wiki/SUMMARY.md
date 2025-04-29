@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Radiant Blockchain Wiki](README.md)
+* [Radiant Blockchain](README.md)
 * [FAQs](faqs.md)
 * [Links](links.md)
 
