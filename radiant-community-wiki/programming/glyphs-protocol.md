@@ -1,7 +1,3 @@
----
-description: How the Glyphs Protocol works on Radiant
----
-
 # Glyphs Protocol
 
 ## Introduction <a href="#introduction" id="introduction"></a>
