@@ -36,7 +36,7 @@ This Wiki is maintained by active community members who continuely show up to be
 
 The total supply of Radiant is predetermined for 21 billion RXD, with a 50,000 block emission and 2-year halving time.
 
-### 5 mins (300 secs) block time
+### 5 minute (300 secs) block time
 
 Instant transactions with 0-confs
 
@@ -44,7 +44,7 @@ Instant transactions with 0-confs
 
 A safe block size to handle high throughput to start, designed fundamentally to achieve 10+ GB and beyond.
 
-### Layer 1
+### Layer One
 
 Radiant is a layer 1 blockchain with no secondary layers ever needed.
 
@@ -56,7 +56,7 @@ Unique proof-of-work consensus designed to embrace GPU/FPGA/ASICs while being mo
 
 Diversified mining pools and solo operators contributing to decentralization.
 
-### 4000 TX/sec
+### 4,000 TX/sec
 
 Protocol designed to handle 4,000 tx/sec with default 256 MB block sizes. Miners can optimize in the future to scale linearly.
 
