@@ -12,6 +12,8 @@ If you have an idea for Radiant, feel free to share it and get involved.
 
 This Wiki is maintained by active community members who continuely show up to be reliable, timely and dedicated to the growth and health of the Radiant Blockchain and ecosystem.
 
+
+
 {% content-ref url="white-papers/radiant-a-peer-to-peer-digital-asset-system.md" %}
 [radiant-a-peer-to-peer-digital-asset-system.md](white-papers/radiant-a-peer-to-peer-digital-asset-system.md)
 {% endcontent-ref %}
@@ -68,7 +70,7 @@ Each Radiant has 8 decimal places, and the smallest indivisible unit is called a
 
 ### Community driven
 
-Fairly mined with no developer allocation, just technology for you to build.
+Fairly mined with no developer allocation, just technology for you to build with and grow.
 
 ### Massively scalable
 
