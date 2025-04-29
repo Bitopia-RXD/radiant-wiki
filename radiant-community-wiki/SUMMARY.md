@@ -18,8 +18,9 @@
 
 ## Programming
 
-* [scryptlib](programming/programming.md)
 * [Radiant Opcodes](programming/radiant-opcodes.md)
-* [Non-Fungible Tokens on Radiant](programming/non-fungible-tokens-on-radiant.md)
 * [Pay to Ref](programming/pay-to-ref.md)
+* [Non-Fungible Tokens on Radiant](programming/non-fungible-tokens-on-radiant.md)
+* [Token-Controlled Contracts on Radiant (Pay to Token)](programming/token-controlled-contracts-on-radiant-pay-to-token.md)
+* [scryptlib](programming/programming.md)
 * [Scrypt Boilerplate](programming/scrypt-boilerplate.md)
