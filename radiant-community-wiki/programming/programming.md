@@ -1,6 +1,4 @@
-# Programming
-
-## scryptlib <a href="#scryptlib" id="scryptlib"></a>
+# scryptlib
 
 Javascript/TypeScript SDK for integration of Radiant (RAD) Blockchain Smart Contracts written in the sCrypt language.
 
