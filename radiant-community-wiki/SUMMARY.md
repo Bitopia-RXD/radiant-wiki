@@ -16,10 +16,6 @@
 * [Radiant Node](guides/radiant.md)
 * [Flux](guides/flux.md)
 
-***
-
-* [Tech Guides](tech-guides.md)
-
 ## Programming
 
 * [scryptlib](programming/programming.md)
