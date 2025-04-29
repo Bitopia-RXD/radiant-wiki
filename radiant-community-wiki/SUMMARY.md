@@ -20,6 +20,6 @@
 
 * [scryptlib](programming/programming.md)
 * [Radiant Opcodes](programming/radiant-opcodes.md)
-* [Scrypt Boilerplate](programming/scrypt-boilerplate.md)
 * [Non-Fungible Tokens on Radiant](programming/non-fungible-tokens-on-radiant.md)
 * [Pay to Ref](programming/pay-to-ref.md)
+* [Scrypt Boilerplate](programming/scrypt-boilerplate.md)
