@@ -15,13 +15,13 @@ layout:
 
 # Links
 
-### Principal <a href="#principal" id="principal"></a>
+## Principal <a href="#principal" id="principal"></a>
 
 * **Website:** [https://radiantblockchain.org](https://radiantblockchain.org/)
 * **Whitepaper:** [https://radiantblockchain.org/radiant.pdf](https://radiantblockchain.org/radiant.pdf)
 * **System Design:** [https://github.com/RadiantBlockchain/radiant-node/blob/master/doc/whitepaper/radiant-system-design.md](https://github.com/RadiantBlockchain/radiant-node/blob/master/doc/whitepaper/radiant-system-design.md)
 
-### Code <a href="#code" id="code"></a>
+## Code <a href="#code" id="code"></a>
 
 * **GitHub Community - Active:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
 * **GitHub Initial - Archived:** [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain)
@@ -32,15 +32,15 @@ layout:
 * **Muon Pay SDK:** [https://github.com/RadiantRanger42/MuonPaySDK](https://github.com/RadiantRanger42/MuonPaySDK)
 * **Docker for Radiant Node:** [https://hub.docker.com/u/radiantcommunity](https://hub.docker.com/u/radiantcommunity)
 
-### Faucets <a href="#faucets" id="faucets"></a>
+## Faucets <a href="#faucets" id="faucets"></a>
 
 * **Faucet - Mainnet:** [https://faucet.radiant4people.com](https://faucet.radiant4people.com/)
 * **Faucet - Testnet:** [https://faucet-testnet.radiant4people.com](https://faucet-testnet.radiant4people.com/)
 * **Faucet Games - Mainnet:** [https://faucetgames.rxddapps.com/?ref=104x](https://faucetgames.rxddapps.com/?ref=104x)
 
-### Explorers <a href="#explorers" id="explorers"></a>
+## Explorers <a href="#explorers" id="explorers"></a>
 
-#### Mainnet Explorers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
+### Mainnet Explorers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
 
 * **Explorer 1:** [https://radiantexplorer.com](https://radiantexplorer.com/)
 * **Explorer 2:** [https://explorer.radiant.ovh](https://explorer.radiant.ovh/)
@@ -49,11 +49,11 @@ layout:
 * **Explorer 5:** [https://blockbook.radiant4people.com](https://blockbook.radiant4people.com)
 * **Top 100 RXD Wallets:** [https://radiantexplorer.com/richlist](https://radiantexplorer.com/richlist)
 
-#### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
+### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
 * **Explorer:** [https://explorer-testnet.radiantblockchain.org](https://explorer-testnet.radiantblockchain.org/)
 
-### Social Network <a href="#social-network" id="social-network"></a>
+## Communication <a href="#social-network" id="social-network"></a>
 
 * **Discord - Main:** [https://discord.gg/radiantblockchain](https://discord.gg/radiantblockchain)
 * **Discord - RXDDapps:** [https://discord.gg/BccnsD3Gsh](https://discord.gg/BccnsD3Gsh)
@@ -69,7 +69,7 @@ layout:
 * **X - Initial:** [https://x.com/RadiantLayerOne](https://x.com/RadiantLayerOne)
 * **Bitcointalk:** [https://bitcointalk.org/index.php?topic=5436028;all](https://bitcointalk.org/index.php?topic=5436028)
 
-### Wallets <a href="#wallets" id="wallets"></a>
+## Wallets <a href="#wallets" id="wallets"></a>
 
 * **Wallet Electron 0.1.4 - Win / Linux /Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
 * **CHAINBOW 2.0.0 - Mac / iOS / Android:** [https://chainbow.io](https://chainbow.io/)
@@ -78,7 +78,7 @@ layout:
 * **Photonic Wallet - Extension:** [https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1)
 * **Photonic Wallet - Source:** [https://github.com/RadiantBlockchain-Community/photonic-wallet](https://github.com/RadiantBlockchain-Community/photonic-wallet)
 
-### Exchanges <a href="#exchanges" id="exchanges"></a>
+## Exchanges <a href="#exchanges" id="exchanges"></a>
 
 * **CoinEx RXD/USDT:** [https://www.coinex.com/en/exchange/rxd-usdt](https://www.coinex.com/en/exchange/rxd-usdt)
 * **CoinEx RXD/BTC:** [https://www.coinex.com/en/exchange/rxd-btc](https://www.coinex.com/en/exchange/rxd-btc)
@@ -88,7 +88,7 @@ layout:
 * **NonKYC RXD/USDT:** [https://nonkyc.io/market/RXD\_USDT](https://nonkyc.io/market/RXD_USDT)
 * **XT RXD/USDT:** [https://www.xt.com/en/trade/rxd\_usdt](https://www.xt.com/en/trade/rxd_usdt)
 
-### Market Info <a href="#market-info" id="market-info"></a>
+## Market Info <a href="#market-info" id="market-info"></a>
 
 * **CoinMarketCap:** [https://coinmarketcap.com/currencies/radiant](https://coinmarketcap.com/currencies/radiant)
 * **CoinGecko:** [https://www.coingecko.com/en/coins/radiant](https://www.coingecko.com/en/coins/radiant)
@@ -100,15 +100,13 @@ layout:
 * **CryptoCompare:** [https://www.cryptocompare.com/coins/rxd/analysis/USDT](https://www.cryptocompare.com/coins/rxd/analysis/USDT)
 * **CoinCarp:** [https://www.coincarp.com/currencies/radiant/price/](https://www.coincarp.com/currencies/radiant/price/)
 
-## Miner Stuff <a href="#miner-stuff" id="miner-stuff"></a>
+## Token Mining <a href="#miner-stuff" id="miner-stuff"></a>
 
-Token Mining
-
-* **Photonic:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
-* **Glyph:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
+* **Glyph Miner:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
+* **Photonic Wallet:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
 * **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
 
-### Pools - Mainnet <a href="#pools" id="pools"></a>
+## Pools - Mainnet <a href="#pools" id="pools"></a>
 
 * **MiningPoolStats Rank:** [https://miningpoolstats.stream/radiant](https://miningpoolstats.stream/radiant)
 * **HumPool:** [https://humpool.com](https://humpool.com/)
@@ -117,7 +115,6 @@ Token Mining
 * **BlockMinerz:** [https://blockminerz.com/en/pools/Radiant](https://blockminerz.com/en/pools/Radiant)
 * **Kryptex:** [https://pool.kryptex.com/rxd](https://pool.kryptex.com/rxd)
 * **WoolyPooly:** [https://woolypooly.com/en/coin/rxd](https://woolypooly.com/en/coin/rxd)
-*
 * **RXD SoloPool:** [https://rxd.solopool.org](https://rxd.solopool.org/)
 * **ZergPool:** [https://zergpool.com](https://zergpool.com/)
 * **TW-Pool:** [https://tw-pool.com](https://tw-pool.com/)
@@ -125,11 +122,11 @@ Token Mining
 * **9kpool:** [https://9kpool.com/#RadiantPool](https://9kpool.com/#RadiantPool)
 * **WhalePool:** [https://www.whalepool.com/coin/RXD](https://www.whalepool.com/coin/RXD)
 
-### Pools - Testnet <a href="#pools" id="pools"></a>
+## Pools - Testnet <a href="#pools" id="pools"></a>
 
-**Satopool:** [https://satopool.com/#rxd-testnet](https://satopool.com/#rxd-testnet)
+* **Satopool:** [https://satopool.com/#rxd-testnet](https://satopool.com/#rxd-testnet)
 
-### Mining Ware <a href="#miner-software" id="miner-software"></a>
+## Mining Ware <a href="#miner-software" id="miner-software"></a>
 
 * **ICERIVER RXD RX0 ASIC:** [https://www.iceriver.io/product/iceriver-rxd-rx0](https://www.iceriver.io/product/iceriver-rxd-rx0/)
 * **DragonBall A11 Dual ASIC:** [https://dragonballminer.com/en/product/dragonball-miner-a11/](https://dragonballminer.com/en/product/dragonball-miner-a11/)
