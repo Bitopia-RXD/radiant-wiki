@@ -22,6 +22,7 @@
 * [Pay to Ref](programming/pay-to-ref.md)
 * [Non-Fungible Tokens on Radiant](programming/non-fungible-tokens-on-radiant.md)
 * [Token-Controlled Contracts on Radiant (Pay to Token)](programming/token-controlled-contracts-on-radiant-pay-to-token.md)
+* [Glyphs Protocol](programming/glyphs-protocol.md)
 * [RadiantScript](programming/radiantscript/README.md)
   * [Writing Covenants & Introspection](programming/radiantscript/writing-covenants-and-introspection.md)
   * [Syntax Highlighting](programming/radiantscript/syntax-highlighting.md)
