@@ -28,9 +28,12 @@ layout:
 * **Radiant Node:** [https://github.com/RadiantBlockchain-Community/radiant-node](https://github.com/RadiantBlockchain-Community/radiant-node)
 * **RadiantJS:** [https://github.com/chainbow/radiantjs](https://github.com/chainbow/radiantjs)
 * **RXD.WASM/RXD-RS:** [https://github.com/RadiantBlockchain-Community/rxd-wasm](https://github.com/RadiantBlockchain-Community/rxd-wasm)
-* **RadiantScript:** [https://github.com/radifier/radiantscript](https://github.com/radifier/radiantscript)
+* **RadiantScript:** [https://github.com/RadiantBlockchain-Community/radiantscript](https://github.com/RadiantBlockchain-Community/radiantscript)
 * **Muon Pay SDK:** [https://github.com/RadiantRanger42/MuonPaySDK](https://github.com/RadiantRanger42/MuonPaySDK)
 * **Docker for Radiant Node:** [https://hub.docker.com/u/radiantcommunity](https://hub.docker.com/u/radiantcommunity)
+* **Glyph Miner:** [https://github.com/RadiantBlockchain-Community/glyph-miner](https://github.com/RadiantBlockchain-Community/glyph-miner)
+* **Photonic Wallet:** [https://github.com/RadiantBlockchain-Community/photonic-wallet](https://github.com/RadiantBlockchain-Community/photonic-wallet)
+* **Radiant ElectrumX:** [https://github.com/RadiantBlockchain-Community/electrumx](https://github.com/RadiantBlockchain-Community/electrumx)
 
 ## Faucets <a href="#faucets" id="faucets"></a>
 
@@ -47,7 +50,13 @@ layout:
 * **Explorer 3:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
 * **Explorer 4:** [https://radiantscan.io](https://radiantscan.io/)
 * **Explorer 5:** [https://blockbook.radiant4people.com](https://blockbook.radiant4people.com)
+
+***
+
 * **Top 100 RXD Wallets:** [https://radiantexplorer.com/richlist](https://radiantexplorer.com/richlist)
+* **Mempool Summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
+* **Transaction Stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
+* **Block Stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
 
 ### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
@@ -80,7 +89,7 @@ layout:
 
 ## Wallets <a href="#wallets" id="wallets"></a>
 
-* **Wallet Electron 0.1.4 - Win / Linux /Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
+* **Wallet Electron 0.1.4 - Win / Linux / Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
 * **CHAINBOW 2.0.0 - Mac / iOS / Android:** [https://chainbow.io](https://chainbow.io/)
 * **Tangem Hardware Wallet - Mobile with NFC:** [https://tangem.com/en/pricing/?promocode=RADIANT](https://tangem.com/en/pricing/?promocode=RADIANT)
 * **Photonic Wallet - Web App**: [https://photonic.radiant4people.com](https://photonic.radiant4people.comhttps/photonic.radiant4people.com)
