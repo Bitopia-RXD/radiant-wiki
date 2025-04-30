@@ -1,5 +1,7 @@
 # RadiantScript
 
+{% embed url="https://github.com/RadiantBlockchain-Community/radiantscript" %}
+
 ## What is Radiant?
 
 Radiant (or RXD) is a peer-to-peer electronic cash system. It uses a _blockchain_ to distribute its ledger over a network of independent nodes so that there is no single point of failure, and no central control that might be compromised. It uses a consensus algorithm called _Proof-of-Work_ that allows these independent nodes to approve correct transactions and reject malicious ones.

@@ -446,4 +446,4 @@ With refs returned as part of the `listunspent` response, the wallet can build s
 
 ***
 
-Guide documentation sourced from [GitHub](https://github.com/RadiantBlockchain-Community/glyphs-handbook/blob/master/src/README.md)
+Guide documentation sourced from [GitHub](https://github.com/RadiantBlockchain-Community/glyphs-handbook/tree/master/src)

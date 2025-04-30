@@ -53,6 +53,10 @@ layout:
 
 * **Explorer:** [https://explorer-testnet.radiantblockchain.org](https://explorer-testnet.radiantblockchain.org/)
 
+### Glyph Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
+
+* **Explorer:** [https://glyph.blockminerz.com](https://glyph.blockminerz.com/)
+
 ## Communication <a href="#social-network" id="social-network"></a>
 
 * **Discord - Main:** [https://discord.gg/radiantblockchain](https://discord.gg/radiantblockchain)
@@ -68,6 +72,11 @@ layout:
 * **X - RadiantFoundation:** [https://x.com/RXDFoundation](https://x.com/RXDFoundation)
 * **X - Initial:** [https://x.com/RadiantLayerOne](https://x.com/RadiantLayerOne)
 * **Bitcointalk:** [https://bitcointalk.org/index.php?topic=5436028;all](https://bitcointalk.org/index.php?topic=5436028)
+
+## Organisations
+
+* **RXDDapps:** [https://rxddapps.com](https://rxddapps.com/)
+* **Radiant Foundation:** [https://radiantfoundation.org](https://radiantfoundation.org)
 
 ## Wallets <a href="#wallets" id="wallets"></a>
 
