@@ -10,13 +10,6 @@
 * [Radiant: A Peer-to-Peer Digital Asset System](white-papers/radiant-a-peer-to-peer-digital-asset-system.md)
 * [Radiant Blockchain System Design](white-papers/radiant-blockchain-system-design.md)
 
-## Guides
-
-* [Docker](guides/docker.md)
-* [Electron Wallet](guides/electron.md)
-* [Radiant Node](guides/radiant.md)
-* [Flux](guides/flux.md)
-
 ## Programming
 
 * [Radiant Opcodes](programming/radiant-opcodes.md)
@@ -41,3 +34,10 @@
   * [Release Notes](programming/radiantscript/release-notes.md)
 * [scryptlib](programming/programming.md)
 * [Scrypt Boilerplate](programming/scrypt-boilerplate.md)
+
+## Guides
+
+* [Docker](guides/docker.md)
+* [Electron Wallet](guides/electron.md)
+* [Radiant Node](guides/radiant.md)
+* [Flux](guides/flux.md)
