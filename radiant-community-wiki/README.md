@@ -26,6 +26,10 @@ This Wiki is maintained by active community members who continuely show up to be
 [faqs.md](faqs.md)
 {% endcontent-ref %}
 
+{% content-ref url="induction-proof-system-faqs.md" %}
+[induction-proof-system-faqs.md](induction-proof-system-faqs.md)
+{% endcontent-ref %}
+
 {% content-ref url="links.md" %}
 [links.md](links.md)
 {% endcontent-ref %}
