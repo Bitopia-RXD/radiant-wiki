@@ -2,6 +2,7 @@
 
 * [Radiant Blockchain](README.md)
 * [FAQs](faqs.md)
+* [Induction Proof System FAQs](induction-proof-system-faqs.md)
 * [Links](links.md)
 
 ## White Papers
