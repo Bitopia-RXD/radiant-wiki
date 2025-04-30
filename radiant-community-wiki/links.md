@@ -90,8 +90,9 @@ layout:
 
 ## Wallets <a href="#wallets" id="wallets"></a>
 
-* **Wallet Electron 0.1.4 - Win / Linux / Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
-* **CHAINBOW 2.0.0 - Mac / iOS / Android:** [https://chainbow.io](https://chainbow.io/)
+* **Electron Wallet 0.1.4 - Win / Linux / Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
+* **ChainBow Wallet 2.1.1 - iOS** [https://apps.apple.com/us/app/chainbow-wallet/id1568850934](https://apps.apple.com/us/app/chainbow-wallet/id1568850934)
+* **ChainBow Wallet 2.1.1 - Android** [https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet](https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet)
 * **Tangem Hardware Wallet - Mobile with NFC:** [https://tangem.com/en/pricing/?promocode=RADIANT](https://tangem.com/en/pricing/?promocode=RADIANT)
 * **Photonic Wallet - Web App**: [https://photonic.radiant4people.com](https://photonic.radiant4people.comhttps/photonic.radiant4people.com)
 * **Photonic Wallet - Extension:** [https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1)
