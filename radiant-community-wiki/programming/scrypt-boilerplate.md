@@ -20,7 +20,7 @@ layout:
 
 [![Build Status](https://travis-ci.com/sCrypt-Inc/boilerplate.svg?branch=master)](https://travis-ci.com/sCrypt-Inc/boilerplate)
 
-[https://github.com/sCrypt-Inc/boilerplate](https://github.com/sCrypt-Inc/boilerplate)
+[https://github.com/RadiantBlockchain-Community/scrypt-boilerplate](https://github.com/RadiantBlockchain-Community/scrypt-boilerplate)
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
