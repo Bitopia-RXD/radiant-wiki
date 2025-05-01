@@ -32,7 +32,7 @@
   * [SDK - Sending Transactions](programming/radiantscript/sdk-sending-transactions.md)
   * [Releases - Migration Notes](programming/radiantscript/releases-migration-notes.md)
   * [Release Notes](programming/radiantscript/release-notes.md)
-* [scryptlib](programming/programming.md)
+* [scryptlib](programming/scryptlib.md)
 * [Scrypt Boilerplate](programming/scrypt-boilerplate.md)
 
 ## Guides
