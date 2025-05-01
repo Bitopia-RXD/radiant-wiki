@@ -6,6 +6,8 @@ PLEASE NOTE: This is a fork of scryptlib as a convenience that contains the patc
 
 [![Build Status](https://travis-ci.com/sCrypt-Inc/scryptlib.svg?branch=master)](https://travis-ci.com/sCrypt-Inc/scryptlib)
 
+[https://github.com/sCrypt-Inc/scryptlib](https://github.com/sCrypt-Inc/scryptlib)
+
 You can install `scryptlib` in your project as below:
 
 ```
