@@ -14,8 +14,8 @@ This Wiki is maintained by active community members who continuely show up to be
 
 
 
-{% content-ref url="white-papers/radiant-a-peer-to-peer-digital-asset-system.md" %}
-[radiant-a-peer-to-peer-digital-asset-system.md](white-papers/radiant-a-peer-to-peer-digital-asset-system.md)
+{% content-ref url="white-papers/radiant-a-peer-to-peer-digital-asset-system/" %}
+[radiant-a-peer-to-peer-digital-asset-system](white-papers/radiant-a-peer-to-peer-digital-asset-system/)
 {% endcontent-ref %}
 
 {% content-ref url="white-papers/radiant-blockchain-system-design.md" %}
