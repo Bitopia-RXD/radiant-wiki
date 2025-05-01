@@ -1,8 +1,8 @@
 # scryptlib
 
-Javascript/TypeScript SDK for integration of Radiant (RAD) Blockchain Smart Contracts written in the sCrypt language.
+Javascript/TypeScript SDK for integration of Radiant (~~RAD~~ RXD) Blockchain Smart Contracts written in the sCrypt language.
 
-PLEASE NOTE: This is a fork of scryptlib as a convenience that contains the patches to the included bsv.js lib directly Alternatively, the regular scryptlib may be used along with radjs https://github.com/RadiantBlockchain/radjs and not using the bundled bsv in scryptlib.
+PLEASE NOTE: ~~This is a fork of scryptlib as a convenience that contains the patches to the included bsv.js lib directly~~ **Alternatively, the regular scryptlib may be used along with&#x20;**~~**radjs**~~**&#x20;radiantjs** ~~https://github.com/RadiantBlockchain/radjs~~ [https://github.com/chainbow/radiantjs](https://github.com/chainbow/radiantjs) (latest) or [https://github.com/RadiantBlockchain-Community/radiantjs](https://github.com/RadiantBlockchain-Community/radiantjs) and not using the bundled bsv in scryptlib.
 
 [![Build Status](https://travis-ci.com/sCrypt-Inc/scryptlib.svg?branch=master)](https://travis-ci.com/sCrypt-Inc/scryptlib)
 
