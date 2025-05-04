@@ -6,7 +6,7 @@
 
 The older _preimage-based_ introspection/covenants have been replaced with the newly supported _native_ introspection/covenants. This has significant consequences for any existing covenant contracts, but in general this native introspection makes covenants more accessible, flexible and efficient. See below for a list of changes. In some cases there is no one to one mapping between the old introspection and the new introspection methods, so the logic of the smart contracts will need to be refactored as well.
 
-Most importantly, it is now possible to access specific data for all individual inputs and outputs, rather than e.g. working with hashes of the outputs (`tx.hashOutputs`). This offers more flexibility around the data you want to enforce. For more information about this new _native_ introspection functionality, refer to the [Global covenant variables](https://radiant4people.com/docs/language/globals#introspection-variables) section of the documentation, the [Covenants guide](https://radiant4people.com/docs/guides/covenants/) and the [Native Introspection CHIP](https://gitlab.com/GeneralProtocols/research/chips/-/blob/master/CHIP-2021-02-Add-Native-Introspection-Opcodes.md).
+Most importantly, it is now possible to access specific data for all individual inputs and outputs, rather than e.g. working with hashes of the outputs (`tx.hashOutputs`). This offers more flexibility around the data you want to enforce. For more information about this new _native_ introspection functionality, refer to the [Global covenant variables](language-global-variables.md#introspection-variables) section of the documentation, the [Covenants guide](guides-writing-covenants-and-introspection.md) and the [Native Introspection CHIP](https://gitlab.com/GeneralProtocols/research/chips/-/blob/master/CHIP-2021-02-Add-Native-Introspection-Opcodes.md).
 
 #### **Covenant variables**
 
@@ -186,7 +186,7 @@ const contract = new Contract(Mecenas, [alicePkh, bobPkh, 10000], provider);
 * Transaction object's `.send()` function now returns either a libauth Transaction or raw hex string rather than a BITBOX Transaction. If it is necessary, the raw hex string can be imported into libraries such as BITBOX to achieve similar functionality as before.
 * In v0.4.1, `Sig` was deprecated in favour of `SignatureTemplate`. In v0.5.0, the deprecated class has been removed. All occurrences of `Sig` should be replaced with `SignatureTemplate`.
 
-See the [release notes](https://radiant4people.com/docs/releases/release-notes#v050) for an overview of other new changes.
+See the [release notes](release-notes.md#v050) for an overview of other new changes.
 
 ## v0.3 to v0.4 <a href="#v03-to-v04" id="v03-to-v04"></a>
 
@@ -217,4 +217,4 @@ In v0.2.2, `Contract.fromCashFile()` and `Contract.fromArtifact()` were deprecat
 * All occurrences of `Contract.fromCashFile()` should be replaced with `Contract.compile()`.
 * All occurrences of `Contract.fromArtifact()` should be replaced with `Contract.import()`.
 
-See the [release notes](release-notes.md) for an overview of other new changes.
+See the [release notes](release-notes.md#v040) for an overview of other new changes.
