@@ -145,9 +145,9 @@ The `withTime()` function allows you to specify the minimum block number that th
 
 {% hint style="info" %}
 **Tip:** By default, the transaction's `time` variable is set to the most recent block number, which is the most common use case. So you should only override this in specific use cases.
+{% endhint %}
 
 #### **Example**
-{% endhint %}
 
 ```ts
 .withTime(700000)
