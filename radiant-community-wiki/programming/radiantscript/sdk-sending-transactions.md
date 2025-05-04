@@ -43,7 +43,9 @@ transaction.from(inputs: Utxo[]): this
 
 The `from()` function allows you to provide a hardcoded list of contract UTXOs to be used in the transaction. This overrides the regular UTXO selection performed by the CashScript SDK, so **no further selection will be performed** on the provided UTXOs. This function can be called any number of times, and the provided UTXOs will be added to the list of earlier added UTXOs.
 
-:::tip The built-in UTXO selection is generally sufficient. But there are specific use cases for which it makes sense to use a custom selection algorithm. :::
+{% hint style="info" %}
+**Tip:** The built-in UTXO selection is generally sufficient. But there are specific use cases for which it makes sense to use a custom selection algorithm.
+{% endhint %}
 
 #### **Example**
 
@@ -73,7 +75,9 @@ transaction.withHardcodedFee(hardcodedFee: number): this
 
 The `withHardcodedFee()` function allows you to specify a hardcoded fee to the transaction. By default the transaction fee is automatically calculated by the CashScript SDK, but there are certain use cases where the smart contract relies on a hardcoded fee.
 
+{% hint style="info" %}
 **Tip:** If you're not building a covenant contract, you probably do not need a hardcoded transaction fee.
+{% endhint %}
 
 #### **Example**
 
@@ -89,7 +93,9 @@ transaction.withMinChange(minChange: number): this
 
 The `withMinChange()` function allows you to set a threshold for including a change output. Any remaining amount under this threshold will be added to the transaction fee instead.
 
-:::tip This is generally only useful in specific covenant use cases. :::
+{% hint style="info" %}
+**Tip:** This is generally only useful in specific covenant use cases.
+{% endhint %}
 
 #### **Example**
 
@@ -105,7 +111,9 @@ transaction.withoutChange(): this
 
 The `withoutChange()` function allows you to disable the change output. The remaining amount will be added to the transaction fee instead. This is equivalent to `withMinChange(Number.MAX_VALUE)`.
 
+{% hint style="info" %}
 **Caution:** Be sure to check that the remaining amount (sum of inputs - sum of outputs) is not too high. The difference will be added to the transaction fee and cannot be reclaimed.
+{% endhint %}
 
 #### **Example**
 
@@ -135,9 +143,11 @@ transaction.withTime(time: number): this
 
 The `withTime()` function allows you to specify the minimum block number that the transaction can be included in. The `time` parameter will be the value of `tx.time` inside the smart contract.
 
+{% hint style="info" %}
 **Tip:** By default, the transaction's `time` variable is set to the most recent block number, which is the most common use case. So you should only override this in specific use cases.
 
 #### **Example**
+{% endhint %}
 
 ```ts
 .withTime(700000)
@@ -164,7 +174,9 @@ interface TransactionDetails {
 }
 ```
 
+{% hint style="info" %}
 **Tip:** If the transaction fails, a meep command is automatically returned. This command can be used to debug the transaction using the [meep debugger](https://github.com/gcash/meep)
+{% endhint %}
 
 #### **Example**
 
