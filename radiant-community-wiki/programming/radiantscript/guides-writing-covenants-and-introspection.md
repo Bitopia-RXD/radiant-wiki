@@ -1,10 +1,10 @@
-# Writing Covenants & Introspection
+# Guides - Writing Covenants & Introspection
 
 Covenants are all the rage in Bitcoin Cash smart contracts. But what are they, and how do you use them? In one sentence: **a covenant is a constraint on how money can be spent**. A simple example is creating a smart contract that may **only** send money to one specific address and nowhere else. The term _Covenant_ originates in property law, where it is used to constrain the use of any object - or in the case of BCH, the use of money.
 
 Bitcoin covenants were first proposed in a paper titled [Bitcoin Covenants](https://fc16.ifca.ai/bitcoin/papers/MES16.pdf), but several other proposals have been created over the years. In May of 2022 Bitcoin Cash implemented so-called _Native Introspection_ which enables efficient and accessible covenants.
 
-### Accessible introspection data <a href="#accessible-introspection-data" id="accessible-introspection-data"></a>
+## Accessible introspection data <a href="#accessible-introspection-data" id="accessible-introspection-data"></a>
 
 When using CashScript, you can access a lot of _introspection data_ that can be used to inspect and constrain transaction details, such as inputs and outputs.
 
@@ -23,11 +23,11 @@ When using CashScript, you can access a lot of _introspection data_ that can be 
 * **`int tx.outputs[i].value`** - Value of a specific output (in satoshis).
 * **`bytes tx.outputs[i].lockingBytecode`** - Locking bytecode (`scriptPubKey`) of a specific output.
 
-### Using introspection data <a href="#using-introspection-data" id="using-introspection-data"></a>
+## Using introspection data <a href="#using-introspection-data" id="using-introspection-data"></a>
 
 While we know the individual data fields, it's not immediately clear how this can be used to create useful smart contracts on Bitcoin Cash. But there are several constraints that can be created using these fields, most important of which are constraints on the recipients of funds, so that is what we discuss.
 
-#### Restricting P2PKH recipients <a href="#restricting-p2pkh-recipients" id="restricting-p2pkh-recipients"></a>
+### Restricting P2PKH recipients <a href="#restricting-p2pkh-recipients" id="restricting-p2pkh-recipients"></a>
 
 One interesting technique in Bitcoin Cash is called blind escrow, meaning that funds are placed in an escrow contract. This contract can only release the funds to one of the escrow participants, and has no other control over the funds. Non-custodial local exchange [LocalCryptos](https://localcryptos.com/) uses `OP_CHECKDATASIG` to do this, but we can also achieve something similar by restricting recipients with a covenant.
 
@@ -54,7 +54,7 @@ contract Escrow(bytes20 arbiter, bytes20 buyer, bytes20 seller) {
 
 The contract starts by doing some checks to make sure the transaction is signed by the arbiter. Next up it checks that the full contract balance (`tx.inputs[this.activeInputIndex].value`) is sent to the first output by accessing `tx.outputs[0].value`. Finally it checks that the receiver of that money is either the buyer or the seller using `LockingBytecodeP2PKH` and `tx.outputs[0].lockingBytecode`. Note that we use a hardcoded fee as it is difficult to calculate the exact transaction fee inside the smart contract.
 
-#### Restricting P2SH recipients <a href="#restricting-p2sh-recipients" id="restricting-p2sh-recipients"></a>
+### Restricting P2SH recipients <a href="#restricting-p2sh-recipients" id="restricting-p2sh-recipients"></a>
 
 Besides sending money to `P2PKH` addresses, it is also possible to send money to a smart contract (`P2SH`) address. This can be used in the same way as a `P2PKH` address if the script hash is known beforehand, but this can also be used to make sure that money has to be sent back to the current smart contract.
 
@@ -91,7 +91,7 @@ contract LastWill(bytes20 inheritor, bytes20 cold, bytes20 hot) {
 
 This contract has three functions, but only the `refresh()` function uses a covenant. Again it performs necessary checks to verify that the transaction is signed by the owner, after which it checks that the entire contract balance is sent. It then uses `tx.inputs[this.activeInputIndex].lockingBytecode` to access its own locking bytecode, which can be used as the locking bytecode of this output. Sending the full value back to the same contract effectively resets the `tx.age` counter, so the owner of the contract needs to do this every 180 days.
 
-#### Restricting P2PKH and P2SH <a href="#restricting-p2pkh-and-p2sh" id="restricting-p2pkh-and-p2sh"></a>
+### Restricting P2PKH and P2SH <a href="#restricting-p2pkh-and-p2sh" id="restricting-p2pkh-and-p2sh"></a>
 
 The earlier examples showed sending money to only a single output of either `P2PKH` or `P2SH`. But there nothing preventing us from writing a contract that can send to multiple outputs, including a combination of `P2PKH` and `P2SH` outputs. A good example is the _Licho's Mecenas_ contract that allows you to set up recurring payments where the recipient is able to claim the same amount every month, while the remainder has to be sent back to the contract.
 
@@ -131,7 +131,7 @@ contract Mecenas(bytes20 recipient, bytes20 funder, int pledge, int period) {
 
 This contract applies similar techniques as the previous two examples to verify the signature, although in this case it does not matter who the _signer_ of the transaction is. Since the outputs are restricted with covenants, there is **no way** someone could call this function to send money **anywhere but to the correct outputs**.
 
-#### Simulating state <a href="#simulating-state" id="simulating-state"></a>
+### Simulating state <a href="#simulating-state" id="simulating-state"></a>
 
 A more advanced use case of restricting recipients is so-called simulated state. This works by restricting the recipient to a **slightly amended version of the current contract**. This can be done when the changes to the contract are only to its constructor parameters and when these parameters are of a known size (like `bytes20` or `bytes4`).
 
@@ -198,7 +198,7 @@ Instead of having a pledge per 30 day period, we define a pledge per block. At a
 
 A drawback of using this "simulated state" method is that every new stream is a new contract with its own address. So additional abstractions are needed to provide a clear frontend layer for a system like this. Simulated state can be used to create much more sophisticated systems and is the main idea that powers complex solutions such as the offline payments card [Be.cash](https://be.cash/), and the Proof-of-Work SLP token [MistCoin](https://mistcoin.org/).
 
-#### Restricting OP\_RETURN outputs <a href="#restricting-op_return-outputs" id="restricting-op_return-outputs"></a>
+### Restricting OP\_RETURN outputs <a href="#restricting-op_return-outputs" id="restricting-op_return-outputs"></a>
 
 A final way to restrict outputs is adding `OP_RETURN` outputs to the mix. This is necessary when you want to make any SLP-based covenants, such as [MistCoin](https://mistcoin.org/) or the [SLP Mint Contracts](https://github.com/simpleledgerinc/slp-mint-contracts). The integration of SLP and CashScript is still in its early stages though, so that is a topic for a more advanced guide.
 
@@ -238,6 +238,6 @@ contract Announcement() {
 
 In this contract we construct an "announcement" `OP_RETURN` output, we reserve a part of value for the miner fee, and finally we send the remainder back to the contract.
 
-### Conclusion <a href="#conclusion" id="conclusion"></a>
+## Conclusion <a href="#conclusion" id="conclusion"></a>
 
 We have discussed the main uses for covenants as they exist on Bitcoin Cash today. We've seen how we can achieve different use case by combining transaction output restrictions to `P2SH` and `P2PKH` outputs. We also touched on more advanced subjects such as simulated state and `OP_RETURN` outputs. Covenants are the **main differentiating factor** for BCH smart contracts when compared to BTC, while keeping the same **efficient stateless verification**. If you're interested in learning more about the differences in smart contracts among BCH, BTC and ETH, read the article [_Smart contracts on Ethereum, Bitcoin and Bitcoin Cash_](https://kalis.me/smart-contracts-eth-btc-bch/).

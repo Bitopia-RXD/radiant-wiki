@@ -1,8 +1,8 @@
-# Examples
+# Language - Examples
 
 An extensive collection of examples is available in the [GitHub repository](https://github.com/Bitcoin-com/cashscript/tree/master/examples). Below we discuss a few of these examples in more details and go through the functionality.
 
-### Transfer With Timeout <a href="#transfer-with-timeout" id="transfer-with-timeout"></a>
+## Transfer With Timeout <a href="#transfer-with-timeout" id="transfer-with-timeout"></a>
 
 One interesting use case of Bitcoin Cash is using it for _paper tips_. With paper tips, you send a small amount of money to an address, and print the corresponding private key on a piece of paper. Then you can hand out these pieces of paper as a tip or gift to people in person. In practice, however, people might not know what to do with these gifts or they might lose or forget about it.
 
@@ -25,7 +25,7 @@ contract TransferWithTimeout(pubkey sender, pubkey recipient, int timeout) {
 }
 ```
 
-### HodlVault <a href="#hodlvault" id="hodlvault"></a>
+## HodlVault <a href="#hodlvault" id="hodlvault"></a>
 
 For better or worse, HODLing and waiting for price increases is one of the main things people want to do with their cryptocurrency. But it can be difficult to hold on to your cryptocurrency when the price is going down. So to prevent weak hands from getting the best of you, it's better to store your stash in a smart contract that enforces HODLing for you.
 
@@ -64,7 +64,7 @@ contract HodlVault(pubkey ownerPk, pubkey oraclePk, int minBlock, int priceTarge
 }
 ```
 
-### Licho's Mecenas <a href="#lichos-mecenas" id="lichos-mecenas"></a>
+## Licho's Mecenas <a href="#lichos-mecenas" id="lichos-mecenas"></a>
 
 Donations are a great way to support the projects you love and periodic donations can incentivise continuous improvement to the product. But platforms like Patreon generally take fees of 10%+ and don't accept cryptocurrencies. Instead you can create a peer-to-peer smart contract that allows a recipient to withdraw a specific amount every month.
 

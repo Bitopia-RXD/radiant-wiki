@@ -1,27 +1,27 @@
-# Contract Structure
+# Language - Contract Structure
 
 Contracts in CashScript are somewhat similar to classes in object-oriented languages. A notable difference is that there is no mutable state. So once a contract is instantiated with certain parameters, these values cannot change. Instead, functions can be called on the contract that act on the contract's values to spend money from the contract. The extension of CashScript source code files is `.cash`, and the structure of these source files is explained below.
 
-### Pragma <a href="#pragma" id="pragma"></a>
+## Pragma <a href="#pragma" id="pragma"></a>
 
 A contract file may start with a pragma directive to indicate the CashScript version the contract was written for. This ensures that a contract is not compiled with an unsupported compiler version, which could cause unintended side effects.
 
 {% hint style="info" %}
-Note: The pragma directive follows regular [semantic versioning rules](https://semver.npmjs.com/).
+**Note:** The pragma directive follows regular [semantic versioning rules](https://semver.npmjs.com/).
 {% endhint %}
 
-**Example**
+#### **Example**
 
 ```solidity
 pragma cashscript ^0.7.0;
 pragma cashscript >= 0.4.0 < 0.5.4;
 ```
 
-### Constructor <a href="#constructor" id="constructor"></a>
+## Constructor <a href="#constructor" id="constructor"></a>
 
 A CashScript constructor works slightly differently than what you might be used to in regular object-oriented languages. It is not possible to define any statements inside the constructor, as the constructor is only used to store values in the contract. Because of this limited nature, there is no separate `constructor` function, but instead the parameters are specified directly on the class definition.
 
-**Example**
+#### **Example**
 
 ```solidity
 pragma cashscript ^0.7.0;
@@ -31,11 +31,11 @@ contract HTLC(pubkey sender, pubkey recipient, int expiration, bytes32 hash) {
 }
 ```
 
-### Functions <a href="#functions" id="functions"></a>
+## Functions <a href="#functions" id="functions"></a>
 
-The main construct in a CashScript contract is the function. A contract can contain one or multiple functions that can be executed to trigger transactions that spend money from the contract. In the basics the result of a function is just a yes or no answer to the question 'Can money be sent out of this contract?'. But by using a technique called covenants, it is possible to specify other conditions, like restricting _where_ money can be sent. To read more about this technique, refer to the [CashScript Covenants Guide](https://radiant4people.com/docs/guides/covenants).
+The main construct in a CashScript contract is the function. A contract can contain one or multiple functions that can be executed to trigger transactions that spend money from the contract. In the basics the result of a function is just a yes or no answer to the question 'Can money be sent out of this contract?'. But by using a technique called covenants, it is possible to specify other conditions, like restricting _where_ money can be sent. To read more about this technique, refer to the [CashScript Covenants Guide](guides-writing-covenants-and-introspection.md).
 
-**Example**
+#### **Example**
 
 ```solidity
 pragma cashscript ^0.7.0;
@@ -51,15 +51,15 @@ contract TransferWithTimeout(pubkey sender, pubkey recipient, int timeout) {
 }
 ```
 
-### Statements <a href="#statements" id="statements"></a>
+## Statements <a href="#statements" id="statements"></a>
 
 CashScript functions are made up of a collection of statements that determine whether money may be spent from the contract.
 
-#### require() <a href="#require" id="require"></a>
+### require() <a href="#require" id="require"></a>
 
 The most important statement of CashScript contracts is the `require` statement. This statement takes a boolean expression and checks that it evaluates to `true`. If it evaluates to `false` instead, the transaction fails. This statement is used to ensure that the requirements are met to spend money from the contract.
 
-**Example**
+#### **Example**
 
 ```solidity
 pragma cashscript ^0.7.0;
@@ -72,24 +72,26 @@ contract P2PKH(bytes20 pkh) {
 }
 ```
 
-#### Variable declaration <a href="#variable-declaration" id="variable-declaration"></a>
+## Variable declaration <a href="#variable-declaration" id="variable-declaration"></a>
 
 Variables can be declared by specifying their type and name. All variables need to be initialised at the time of their declaration, but can be reassigned later on - unless specifying the `constant` keyword. Since CashScript is strongly typed and has no type inference, it is not possible to use keywords such as `var` or `let` to declare variables.
 
-:::caution CashScript disallows variable shadowing and unused variables. :::
+{% hint style="info" %}
+**Caution:** CashScript disallows variable shadowing and unused variables.
+{% endhint %}
 
-**Example**
+#### **Example**
 
 ```solidity
 int myNumber = 3000;
 string constant myString = 'Bitcoin Cash';
 ```
 
-#### Variable assignment <a href="#variable-assignment" id="variable-assignment"></a>
+## Variable assignment <a href="#variable-assignment" id="variable-assignment"></a>
 
 After their initial declaration, any variable can be reassigned later on. However, CashScript lacks any compound assignment operators such as `+=` or `-=`.
 
-**Example**
+#### **Example**
 
 ```solidity
 i = i + 1;
@@ -97,13 +99,15 @@ hashedValue = sha256(hashedValue);
 myString = 'Cash';
 ```
 
-#### Control structures <a href="#control-structures" id="control-structures"></a>
+## Control structures <a href="#control-structures" id="control-structures"></a>
 
 The only control structures in CashScript are `if` and `else` statements. This is due to limitations in the underlying Bitcoin Script which prevent loops, recursion, and `return` statements. If-else statements follow usual semantics known from languages like C or JavaScript.
 
-:::note There is no implicit type conversion from non-boolean to boolean types. So `if (1) { ... }` is not valid CashScript and should instead be written as `if (bool(1)) { ... }` :::
+{% hint style="info" %}
+**Note:** There is no implicit type conversion from non-boolean to boolean types. So `if (1) { ... }` is not valid CashScript and should instead be written as `if (bool(1)) { ... }`&#x20;
+{% endhint %}
 
-**Example**
+#### **Example**
 
 ```solidity
 pragma cashscript ^0.7.0;
@@ -124,11 +128,11 @@ contract OneOfTwo(bytes20 pkh1, bytes32 hash1, bytes20 pkh2, bytes32 hash2) {
 }
 ```
 
-### Comments <a href="#comments" id="comments"></a>
+## Comments <a href="#comments" id="comments"></a>
 
 Comments can be added anywhere in the contract file. Comment semantics are similar to languages like JavaScript or C. This means that single-line comments can be added with `// ...`, while multiline comments can be added with `/* ... */`.
 
-**Example**
+#### **Example**
 
 ```solidity
 // This is a single-line comment.

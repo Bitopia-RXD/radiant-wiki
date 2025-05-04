@@ -1,14 +1,14 @@
-# Syntax Highlighting
+# Guides - Syntax Highlighting
 
 When developing smart contracts for CashScript it is useful to have the proper syntax highlighting in your code editor / IDE. If you use Visual Studio Code, there is a dedicated CashScript extension. For other editors it is recommended to install a Solidity highlighting plugin and associate it with `.cash` files in your editor, since the syntaxes of the two languages are very similar.
 
-### Visual Studio Code (Recommended) <a href="#visual-studio-code-recommended" id="visual-studio-code-recommended"></a>
+## Visual Studio Code (Recommended) <a href="#visual-studio-code-recommended" id="visual-studio-code-recommended"></a>
 
 For Visual Studio Code a dedicated [CashScript extension](https://marketplace.visualstudio.com/items?itemName=nathanielcherian.cashscript) was developed by community contributor [Nathaniel Cherian](https://twitter.com/nathanielCheria). This plugin works with `.cash` files and supports syntax highlighting, autocompletion, snippets, linting and even integrated compilation.
 
 Because of the first-class CashScript support, Visual Studio Code together with this CashScript extension is the recommended way to develop CashScript contracts.
 
-### Sublime Text <a href="#sublime-text" id="sublime-text"></a>
+## Sublime Text <a href="#sublime-text" id="sublime-text"></a>
 
 The most popular Solidity plugin for Sublime Text 2/3 is [Ethereum](https://packagecontrol.io/packages/Ethereum). Install this plugin with [Package Control](https://packagecontrol.io/), open a `.cash` file and set Solidity as the syntax language in the Sublime menu bar:
 
@@ -16,7 +16,7 @@ The most popular Solidity plugin for Sublime Text 2/3 is [Ethereum](https://pack
 
 This associates `.cash` files with Solidity, and enables syntax highlighting for your CashScript files.
 
-### Atom <a href="#atom" id="atom"></a>
+## Atom <a href="#atom" id="atom"></a>
 
 The most popular Solidity plugin for Atom is [language-solidity](https://atom.io/packages/language-solidity). Install this plugin and add the following snippet to your Config file:
 
@@ -35,12 +35,12 @@ au BufRead,BufNewFile *.cash setfiletype solidity
 
 This associates `.cash` files with Solidity, and enables syntax highlighting for your CashScript files.
 
-### GitHub & GitLab <a href="#github-gitlab" id="github-gitlab"></a>
+## GitHub & GitLab <a href="#github-gitlab" id="github-gitlab"></a>
 
 GitHub and GitLab have syntax highlighting for Solidity built in. To associate `.cash` files with Solidity highlighting, add a `.gitattributes` file to your repository with the following contents:
 
 `python title=".gitattributes" *.cash linguist-language=Solidity # GitHub *.cash gitlab-language=solidity # GitLab`
 
-### Others <a href="#others" id="others"></a>
+## Others <a href="#others" id="others"></a>
 
 If your editor is not mentioned above, the steps are likely very similar. Try to find a Solidity syntax highlighting plugin for your editor of choice and find a method to associate `.cash` files with this Solidity highlighting.

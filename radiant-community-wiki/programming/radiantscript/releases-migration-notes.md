@@ -1,14 +1,14 @@
 # Releases - Migration Notes
 
-### v0.6 to v0.7 <a href="#v06-to-v07" id="v06-to-v07"></a>
+## v0.6 to v0.7 <a href="#v06-to-v07" id="v06-to-v07"></a>
 
-#### cashc compiler <a href="#cashc-compiler" id="cashc-compiler"></a>
+### cashc compiler <a href="#cashc-compiler" id="cashc-compiler"></a>
 
 The older _preimage-based_ introspection/covenants have been replaced with the newly supported _native_ introspection/covenants. This has significant consequences for any existing covenant contracts, but in general this native introspection makes covenants more accessible, flexible and efficient. See below for a list of changes. In some cases there is no one to one mapping between the old introspection and the new introspection methods, so the logic of the smart contracts will need to be refactored as well.
 
 Most importantly, it is now possible to access specific data for all individual inputs and outputs, rather than e.g. working with hashes of the outputs (`tx.hashOutputs`). This offers more flexibility around the data you want to enforce. For more information about this new _native_ introspection functionality, refer to the [Global covenant variables](https://radiant4people.com/docs/language/globals#introspection-variables) section of the documentation, the [Covenants guide](https://radiant4people.com/docs/guides/covenants/) and the [Native Introspection CHIP](https://gitlab.com/GeneralProtocols/research/chips/-/blob/master/CHIP-2021-02-Add-Native-Introspection-Opcodes.md).
 
-**Covenant variables**
+#### **Covenant variables**
 
 * `tx.version` and `tx.locktime` used to be `bytes4`, but are now `int`.
 * `tx.hashtype` has been removed and can no longer be accessed.
@@ -20,15 +20,15 @@ Most importantly, it is now possible to access specific data for all individual 
 
 Additionally, it is now possible to access the _number_ of inputs and outputs with `tx.inputs.length` and `tx.outputs.length`. It is also possible to access individual inputs' locking bytecode and unlocking bytecode with `tx.inputs[i].lockingBytecode` and `tx.inputs[i].unlockingBytecode`. It is also no longer a requirement to have a signature check somewhere in the contract in order to use this introspection/covenant functionality.
 
-**Utility classes**
+#### **Utility classes**
 
 `OutputP2PKH`, `OutputP2SH` and `OutputNullData` have been replaced by `LockingBytecodeP2PKH`, `LockingBytecodeP2SH` and `LockingBytecodeNullData` respectively. These new classes _only_ produce the locking bytecode, rather than the full output (including value). This means that the locking bytecode and value of outputs need to be checked separately.
 
-**Other changes**
+#### **Other changes**
 
 Casting from `sig` to `datasig` has been removed since that was only useful for old-style covenants. If, for any reason, you do want to cast a sig to a datasig you will need to manually cut the `hashtype` off the end and update `datasig(s)` to `s.split(s.length - 1)[0]`.
 
-**Example**
+#### **Example**
 
 Since the new covenant functionality is very different from the existing, it may be useful to see a complex covenant contract refactored from the old way to the new way.
 
@@ -104,9 +104,9 @@ contract Mecenas(bytes20 recipient, bytes20 funder, int pledge, int period) {
 }
 ````
 
-### v0.5 to v0.6 <a href="#v05-to-v06" id="v05-to-v06"></a>
+## v0.5 to v0.6 <a href="#v05-to-v06" id="v05-to-v06"></a>
 
-#### cashc compiler <a href="#cashc-compiler_1" id="cashc-compiler_1"></a>
+### cashc compiler <a href="#cashc-compiler_1" id="cashc-compiler_1"></a>
 
 The exports for library usage of `cashc` have been updated. All utility-type exports have been moved to the `@cashscript/utils` package, but they are still accessible from the `utils` export from `cashc`. Note that the recommended use of `cashc` is still the CLI, not the NPM package.
 
@@ -148,13 +148,13 @@ const { compileFile } = require('cashc');
 const Mecenas = compileFile(path.join(__dirname, 'mecenas.cash'));
 ```
 
-#### CashScript SDK <a href="#cashscript-sdk" id="cashscript-sdk"></a>
+### CashScript SDK <a href="#cashscript-sdk" id="cashscript-sdk"></a>
 
 The CashScript SDK no longer depends on `cashc` and no longer exports the `CashCompiler` object. This reflects the recommended usage where the CLI is used for compilation and the artifact JSON is saved. Then this artifact JSON can be imported into the CashScript SDK. If you prefer to compile your contracts from code, you need to add `cashc` as a dependency and use its compilation functionality.
 
-### v0.4 to v0.5 <a href="#v04-to-v05" id="v04-to-v05"></a>
+## v0.4 to v0.5 <a href="#v04-to-v05" id="v04-to-v05"></a>
 
-#### CashScript SDK <a href="#cashscript-sdk_1" id="cashscript-sdk_1"></a>
+### CashScript SDK <a href="#cashscript-sdk_1" id="cashscript-sdk_1"></a>
 
 The contract instantiation flow has been refactored to enable compatibility with more BCH libraries and simplify the different classes involved.
 
@@ -188,15 +188,15 @@ const contract = new Contract(Mecenas, [alicePkh, bobPkh, 10000], provider);
 
 See the [release notes](https://radiant4people.com/docs/releases/release-notes#v050) for an overview of other new changes.
 
-### v0.3 to v0.4 <a href="#v03-to-v04" id="v03-to-v04"></a>
+## v0.3 to v0.4 <a href="#v03-to-v04" id="v03-to-v04"></a>
 
-#### cashc compiler <a href="#cashc-compiler_2" id="cashc-compiler_2"></a>
+### cashc compiler <a href="#cashc-compiler_2" id="cashc-compiler_2"></a>
 
 In v0.3, casting an `int` type to a `bytes` would perform an `NUM2BIN` operation, padding the value to 8 bytes. This made `bytes(10)` equivalent to `bytes8(10)`. From v0.4.0 onwards, casting to an _unbounded_ `bytes` type is only a semantic cast, indicating that the `int` value should be treated as a `bytes` value.
 
 * If you need the old behaviour, you should change all occurrences of `bytes(x)` to `bytes8(x)`.
 
-#### CashScript SDK <a href="#cashscript-sdk_2" id="cashscript-sdk_2"></a>
+### CashScript SDK <a href="#cashscript-sdk_2" id="cashscript-sdk_2"></a>
 
 The entire `Transaction` flow has been refactored to a more fluent chained TransactionBuilder API.
 
@@ -217,4 +217,4 @@ In v0.2.2, `Contract.fromCashFile()` and `Contract.fromArtifact()` were deprecat
 * All occurrences of `Contract.fromCashFile()` should be replaced with `Contract.compile()`.
 * All occurrences of `Contract.fromArtifact()` should be replaced with `Contract.import()`.
 
-See the [release notes](https://radiant4people.com/docs/releases/release-notes#v040) for an overview of other new changes.
+See the [release notes](release-notes.md) for an overview of other new changes.

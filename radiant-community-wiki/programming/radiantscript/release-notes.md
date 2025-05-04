@@ -1,58 +1,58 @@
 # Release Notes
 
-### v0.7.5 <a href="#v075" id="v075"></a>
+## v0.7.5 <a href="#v075" id="v075"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :bug: Fix a bug with chipnet connection
 
-### v0.7.4 <a href="#v074" id="v074"></a>
+## v0.7.4 <a href="#v074" id="v074"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :hammer\_and\_wrench: Internal refactoring
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :bug: Fix a bug with ESM exports
 
-### v0.7.3 <a href="#v073" id="v073"></a>
+## v0.7.3 <a href="#v073" id="v073"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add `"chipnet"` network option to ElectrumNetworkProvider, used to connect to the May 2023 testnet.
 * :hammer\_and\_wrench: Renamed network options `"testnet"` & `"staging"` to `"testnet3"` and `"testnet4"` respectively. Old options will be removed in a future release.
 
-### v0.7.2 <a href="#v072" id="v072"></a>
+## v0.7.2 <a href="#v072" id="v072"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Fix bug where contracts using `checkMultiSig()` were unspendable.
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add `signatureAlgorithm` parameter to `SignatureTemplate` to allow ECDSA signatures.
 
-### v0.7.1 <a href="#v071" id="v071"></a>
+## v0.7.1 <a href="#v071" id="v071"></a>
 
-**@cashscript/utils**
+### **@cashscript/utils**
 
 * :bug: Fix bug where 64bit integers could not be decoded.
 
-### v0.7.0 <a href="#v070" id="v070"></a>
+## v0.7.0 <a href="#v070" id="v070"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Add destructuring assignments, e.g. `bytes2 left, bytes1 right = 0x123456.split(2)`
 * :sparkles: Add constant keyword, e.g. `int constant x = 10;`
 * :sparkles: Add multiplication, e.g. `int x = 5 * 5`
 * :sparkles: Add _native_ introspection/covenants
 * :boom: **BREAKING**: Remove all old introspection/covenant functionality (`tx.version`, `tx.hashPrevouts`, `tx.hashSequence`, `tx.outpoint`, `tx.bytecode`, `tx.value`, `tx.sequence`, `tx.hashOutputs`, `tx.locktime`, `tx.hashtype`, `OutputP2PKH`, `OutputP2SH`, `OutputNullData`)
-* See the [migration notes](https://radiant4people.com/docs/releases/migration-notes#v06-to-v07) for details on migrating from the old introspection to the new _native_ introspection methods.
+* See the [migration notes](releases-migration-notes.md) for details on migrating from the old introspection to the new _native_ introspection methods.
 * :boom: **BREAKING**: Remove `sig` to `datasig` casting since this was only useful for _old_ covenants
 * :bug: Fix ESM build
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add `"staging"` network option to ElectrumNetworkProvider, used to connect to the May 2022 testnet
 * :hammer\_and\_wrench: Deprecate old introspection/covenant functionality. You can still use pre-0.7 contracts with the new SDK, but this support will be removed in a future release.
@@ -64,37 +64,37 @@
 
 https://twitter.com/RoscoKalis/status/1529072055756414976
 
-### v0.6.5 <a href="#v065" id="v065"></a>
+## v0.6.5 <a href="#v065" id="v065"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Fix `cashc` version
 
-### v0.6.4 <a href="#v064" id="v064"></a>
+## v0.6.4 <a href="#v064" id="v064"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Add `byte` type alias for `bytes1`
 
-### v0.6.3 <a href="#v063" id="v063"></a>
+## v0.6.3 <a href="#v063" id="v063"></a>
 
 * :hammer\_and\_wrench: Use ES2015 for the "module" output for better compatibility
 
-### v0.6.2 <a href="#v062" id="v062"></a>
+## v0.6.2 <a href="#v062" id="v062"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :bug: Fix typing issue with BitcoinRpcNetworkProvider
 
-### v0.6.1 <a href="#v061" id="v061"></a>
+## v0.6.1 <a href="#v061" id="v061"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :bug: Fix bug with incorrect fee calculation when providing custom fee per byte
 
-### v0.6.0 <a href="#v060" id="v060"></a>
+## v0.6.0 <a href="#v060" id="v060"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Add date literal (gets converted to int timestamp)
 * :hammer\_and\_wrench: Update ParseError messages
@@ -105,7 +105,7 @@ https://twitter.com/RoscoKalis/status/1529072055756414976
 * :boom: **BREAKING**: Remove `--args` parameter from the CLI, since this is too error prone with the recent changes in mind
 * :boom: **BREAKING**: Restructure exports
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add BitcoinRpcNetworkProvider that connects to a BCH node RPC
 * :boom: **BREAKING**: Remove dependency on `cashc` and remove `CashCompiler` export
@@ -114,46 +114,46 @@ https://twitter.com/RoscoKalis/status/1529072055756414976
 
 https://twitter.com/RoscoKalis/status/1371896417443282956
 
-### v0.5.7 <a href="#v057" id="v057"></a>
+## v0.5.7 <a href="#v057" id="v057"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Better error reporting for parsing/lexing errors
 
-### v0.5.6 <a href="#v056" id="v056"></a>
+## v0.5.6 <a href="#v056" id="v056"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Make compiler fail early when encountering lexing/parsing errors, rather than performing error recovery
 * :bug: Allow empty hex literals (i.e. `0x`)
 
-### v0.5.5 <a href="#v055" id="v055"></a>
+## v0.5.5 <a href="#v055" id="v055"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add `'regtest'` as a possible network for NetworkProviders.
 
-### v0.5.4 <a href="#v054" id="v054"></a>
+## v0.5.4 <a href="#v054" id="v054"></a>
 
 * :package: Add dual build system (CommonJS and ES Modules) to accommodate tree-shaking.
 
-### v0.5.3 <a href="#v053" id="v053"></a>
+## v0.5.3 <a href="#v053" id="v053"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add `getRedeemScriptHex()` function to the `Contract` class.
 * :bug: Fix a bug where transaction locktime could not specifically be set to 0.
 * :bug: Fix a bug where signature buffers were not checked for size.
 
-### v0.5.2 <a href="#v052" id="v052"></a>
+## v0.5.2 <a href="#v052" id="v052"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Fix a bug where an incorrect error message was displayed in Firefox when an incompatible pragma version was used.
 
-### v0.5.1 <a href="#v051" id="v051"></a>
+## v0.5.1 <a href="#v051" id="v051"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: The `.send()` function now returns a `TransactionDetails` object. This extends the libauth `Transaction` with added `txid` and `hex` fields.
 * Because it extends the previous return type, this is backwards compatible.
@@ -164,9 +164,9 @@ https://twitter.com/RoscoKalis/status/1371896417443282956
 
 https://twitter.com/RoscoKalis/status/1301521593399685121
 
-### v0.5.0 <a href="#v050" id="v050"></a>
+## v0.5.0 <a href="#v050" id="v050"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 CashScript used to be very tightly coupled with BITBOX. This proved to be problematic after maintenance for BITBOX was stopped. The main objective of this update is to allow CashScript to be used with many different BCH libraries.
 
@@ -175,8 +175,8 @@ CashScript used to be very tightly coupled with BITBOX. This proved to be proble
 * :boom: Remove `Sig` alias for `SignatureTemplate` that was deprecated in v0.4.1.
 * :boom: **BREAKING**: Refactor contract instantiation flow
 * A contract is now instantiated by providing a compiled artifact, constructor arguments and an optional network provider.
-* Anyone can implement the NetworkProvider interface to create a custom provider. The CashScript SDK offers three providers out of the box: one based on electrum-cash (default), one based on FullStack.cash' infrastructure, and one based on BITBOX. See the [NetworkProvider docs](https://radiant4people.com/docs/sdk/instantiation#networkprovider) for details.
-* See the [migration notes](https://radiant4people.com/docs/releases/migration-notes#v04-to-v05) for details on migrating from the old contract instantiation flow.
+* Anyone can implement the NetworkProvider interface to create a custom provider. The CashScript SDK offers three providers out of the box: one based on electrum-cash (default), one based on FullStack.cash' infrastructure, and one based on BITBOX. See the [NetworkProvider docs](sdk-contract-instantiation.md#networkprovider) for details.
+* See the [migration notes](releases-migration-notes.md) for details on migrating from the old contract instantiation flow.
 * :boom: **BREAKING**: Remove the artifacts `'networks'` field and `.deployed()` functionality, This proved to be confusing and is better suited to be handled outside of the CashScript SDK.
 * :boom: **BREAKING**: `.send()` now returns a libauth Transaction instead of a BITBOX Transaction object. Alternatively a `raw` flag can be passed into the function to return a raw hex string.
 * :hammer\_and\_wrench: Removed BITBOX as a dependency in favour of libauth for utility functions.
@@ -185,25 +185,25 @@ CashScript used to be very tightly coupled with BITBOX. This proved to be proble
 
 https://twitter.com/RoscoKalis/status/1298645699559596033
 
-### v0.4.4 <a href="#v044" id="v044"></a>
+## v0.4.4 <a href="#v044" id="v044"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Fix a bug where covenants would not always get verified correctly when the first `require(checkSig(...))` statement was inside a branch.
 
-### v0.4.3 <a href="#v043" id="v043"></a>
+## v0.4.3 <a href="#v043" id="v043"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :racehorse: Add compiler optimisations.
 
-### v0.4.2 <a href="#v042" id="v042"></a>
+## v0.4.2 <a href="#v042" id="v042"></a>
 
 * Re-add README files to NPM that were accidentally removed in the v0.4.0 release.
 
-### v0.4.1 <a href="#v041" id="v041"></a>
+## v0.4.1 <a href="#v041" id="v041"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :racehorse: Add optimisations to bitwise operators.
 * :shell: New CLI arguments.
@@ -211,7 +211,7 @@ https://twitter.com/RoscoKalis/status/1298645699559596033
 * Add `--size|-s` flag that displays the size in bytes of the compiled bytecode.
 * :symbols: Add trailing comma support.
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :name\_badge: Rename `Sig` to `SignatureTemplate` to better convey its meaning.
 * `Sig` still exists for backward compatibility, but is deprecated and will be removed in a later release.
@@ -220,9 +220,9 @@ https://twitter.com/RoscoKalis/status/1298645699559596033
 
 https://twitter.com/RoscoKalis/status/1267440143624884227
 
-### v0.4.0 <a href="#v040" id="v040"></a>
+## v0.4.0 <a href="#v040" id="v040"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Add `.reverse()` member function to `bytes` and `string` types.
 * :sparkles: Add bitwise operators `&`, `^`, `|`.
@@ -235,7 +235,7 @@ https://twitter.com/RoscoKalis/status/1267440143624884227
 * :bug: Fix a bug where return type of `sha1` was incorrectly marked as `bytes32`.
 * :bug: `Data.decodeBool` only treated numerical zero as false, now any zero-representation is considered false (e.g. 0x0000, -0, ...).
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add ability to provide hardcoded inputs to the transaction rather than use CashScript's coin selection.
 * :boom: **BREAKING**: Refactor the transaction flow to a fluent API
@@ -244,17 +244,17 @@ https://twitter.com/RoscoKalis/status/1267440143624884227
 * After specifying at least one output with either `to()` or `withOpReturn()`the transaction is ready. From here the transaction can be sent to the network with the `send()` function, the transaction hex can be returned with the `build()` function, or the meep debugging command can be returned with the `meep()` function.
 * :boom: Remove `Contract.fromCashFile()` and `Contract.fromArtifact()` which were deprecated in favour or `Contract.compile()` and `Contract.import()` in v0.2.2.
 
-**Migration**
+### **Migration**
 
-This update contains several breaking changes. See the [migration notes](https://radiant4people.com/docs/releases/migration-notes#v03-to-v04) for a full migration guide.
+This update contains several breaking changes. See the [migration notes](releases-migration-notes.md#v03-to-v04) for a full migration guide.
 
 ***
 
 https://twitter.com/RoscoKalis/status/1264921879346917376
 
-### v0.3.3 <a href="#v033" id="v033"></a>
+## v0.3.3 <a href="#v033" id="v033"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Fix bug where variables could not reliably be used inside `OutputNullData` instantiation.
 
@@ -262,9 +262,9 @@ https://twitter.com/RoscoKalis/status/1264921879346917376
 
 https://twitter.com/RoscoKalis/status/1224389493769342979
 
-### v0.3.2 <a href="#v032" id="v032"></a>
+## v0.3.2 <a href="#v032" id="v032"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Add `OutputNullData(bytes[] chunks)`, an output type to enforce `OP_RETURN` outputs.
 * :shell: CLI improvements
@@ -276,7 +276,7 @@ https://twitter.com/RoscoKalis/status/1224389493769342979
 * :bug: Fix a compilation bug that allowed compilation of "unverified covenants" (#56).
 * :bug: Fix a compilation bug that allowed compilation of `OutputP2PKH(...)` without `new` keyword (#57).
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :globe\_with\_meridians: Browser support! You can now use CashScript inside web projects. Filesystem-based functionality such as compilation from file are not supported due to the nature of web, so CashScript files have to be read in a different way (e.g. Fetch API) and then passed into the CashScript SDK.
 * :purse: Add `minChange` to transaction options. If this `minChange` is not reached, the change will be added to the transaction fee instead.
@@ -285,14 +285,14 @@ https://twitter.com/RoscoKalis/status/1224389493769342979
 
 https://twitter.com/RoscoKalis/status/1223280232343515136
 
-### v0.3.1 <a href="#v031" id="v031"></a>
+## v0.3.1 <a href="#v031" id="v031"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :warning: Add warnings when a contract exceeds 201 opcodes or 520 bytes.
 * :bug: Fix a bug where an incorrect number of items were dropped from the stack after execution of a branch.
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Improve error handling.
 * Further specified `FailedTransactionError` into `FailedRequireError`, `FailedSigCheckError`, `FailedTimeCheckError` and a general fallback `FailedTransactionError`.
@@ -304,9 +304,9 @@ https://twitter.com/RoscoKalis/status/1223280232343515136
 
 https://twitter.com/RoscoKalis/status/1217101473743544320
 
-### v0.3.0 <a href="#v030" id="v030"></a>
+## v0.3.0 <a href="#v030" id="v030"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Covenants abstraction! All individual preimage fields can be accessed without manual decoding, passing, and verification.
 * Available fields: `tx.version`, `tx.hashPrevouts`, `tx.hashSequence`, `tx.outpoint`, `tx.bytecode`, `tx.value`, `tx.sequence`, `tx.hashOutputs`, `tx.locktime`, `tx.hashtype`.
@@ -319,7 +319,7 @@ https://twitter.com/RoscoKalis/status/1217101473743544320
 * `new OutputP2SH(bytes8 amount, bytes20 scriptHash)`
 * :bug: Fix bug with invalid output when the final statement in a contract is an if-statement.
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add `fee` option to TransactionOptions. This allows you to specify a hardcoded fee for your transaction.
 * :sparkles: Automatically pass in sighash preimage into covenant functions. **Important**: uses the hashtype of the first signature in the parameters for generation of this preimage.
@@ -329,9 +329,9 @@ https://twitter.com/RoscoKalis/status/1217101473743544320
 
 https://twitter.com/RoscoKalis/status/1204765863062188033
 
-### v0.2.3 <a href="#v023" id="v023"></a>
+## v0.2.3 <a href="#v023" id="v023"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :bug: Fix a bug where unequal bytes types (e.g. `bytes3` & `bytes8`) could not be concatenated together, as they were considered different types.
 
@@ -339,9 +339,9 @@ https://twitter.com/RoscoKalis/status/1204765863062188033
 
 https://twitter.com/RoscoKalis/status/1202220857566908416
 
-### v0.2.2 <a href="#v022" id="v022"></a>
+## v0.2.2 <a href="#v022" id="v022"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :bug: Remove minimaldata encoding in `OP_RETURN` outputs that caused incompatibility with SLP.
 * :name\_badge: Renamed `Contract.fromCashFile` to `Contract.compile`.
@@ -357,14 +357,14 @@ https://twitter.com/RoscoKalis/status/1202220857566908416
 
 https://twitter.com/RoscoKalis/status/1192900277105389568
 
-### v0.2.1 <a href="#v021" id="v021"></a>
+## v0.2.1 <a href="#v021" id="v021"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :sparkles: Support `bytes` types with bounded size, e.g. `bytes1`, `bytes13`, `bytes32`.
 * :bug: Fix bug in bytecode optimisation
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Support `bytes` types with bounded size, e.g. `bytes1`, `bytes13`, `bytes32`.
 * :bird: Automatically output meep command on failed transaction error.
@@ -374,9 +374,9 @@ https://twitter.com/RoscoKalis/status/1192900277105389568
 
 https://twitter.com/RoscoKalis/status/1186554051720167424
 
-### v0.2.0 <a href="#v020" id="v020"></a>
+## v0.2.0 <a href="#v020" id="v020"></a>
 
-**cashc compiler**
+### **cashc compiler**
 
 * :racehorse: Implement compiler optimisations
 * For the final use of a variable, it is retrieved with `OP_ROLL` rather than `OP_PICK`. This removes the need to clean the stack at the end of a contract.
@@ -391,7 +391,7 @@ https://twitter.com/RoscoKalis/status/1186554051720167424
 * :bug: Add "default case" for function selection that fixes a vulnerability where people could spend funds by not calling any function.
 * :arrow\_up: Update dependencies.
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :arrow\_up: Update `cashc` and other dependencies.
 
@@ -399,9 +399,9 @@ https://twitter.com/RoscoKalis/status/1186554051720167424
 
 https://twitter.com/RoscoKalis/status/1178843657069154305
 
-### v0.1.2 <a href="#v012" id="v012"></a>
+## v0.1.2 <a href="#v012" id="v012"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :sparkles: Add support for `OP_RETURN` outputs.
 * :bug: Improved error handling.
@@ -414,12 +414,12 @@ https://twitter.com/RoscoKalis/status/1178843657069154305
 
 https://twitter.com/RoscoKalis/status/1174910060691984385
 
-### v0.1.1 <a href="#v011" id="v011"></a>
+## v0.1.1 <a href="#v011" id="v011"></a>
 
-**CashScript SDK**
+### **CashScript SDK**
 
 * :bug: Bug fixes with incorrect parameter encoding for string/bool/int types.
 
-### v0.1.0 <a href="#v010" id="v010"></a>
+## v0.1.0 <a href="#v010" id="v010"></a>
 
 * :tada: Initial release.
