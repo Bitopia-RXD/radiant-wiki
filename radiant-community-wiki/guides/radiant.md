@@ -71,7 +71,7 @@ cmake -GNinja .. -DBUILD_RADIANT_QT=OFF
 cmake -GNinja .. -DBUILD_RADIANT_WALLET=OFF -DBUILD_RADIANT_QT=OFF
 ```
 
-### ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/04-UBUNTU-22_04_preparing-no-qt.png) <a href="#id-1" id="id-1"></a>
+<figure><img src="https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/04-UBUNTU-22_04_preparing-no-qt.png" alt=""><figcaption></figcaption></figure>
 
 **Once everything is configured, proceed to compile with ninja and wait a few minutes.**
 

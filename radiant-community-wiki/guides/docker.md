@@ -18,15 +18,15 @@ layout:
 
 ### Installing Docker: <a href="#installing-docker" id="installing-docker"></a>
 
-The process for installing docker engine depends on your operating system. Refer to https://docs.docker.com/engine/install/ and look up instructions for your OS.
+The process for installing docker engine depends on your operating system. Refer to [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) and look up instructions for your OS.
 
 ### Pulling Docker image: <a href="#pulling-docker-image" id="pulling-docker-image"></a>
 
-You can browse https://hub.docker.com/ for images that you might find use for. At the time of writing there are two options for running a Radiant node: just the node and the node with electrum.
+You can browse [https://hub.docker.com](https://hub.docker.com) for images that you might find use for. At the time of writing there are two options for running a Radiant node: just the node and the node with electrum.
 
-The image for just the node: https://hub.docker.com/r/radiantcommunity/radiant-node.
+The image for just the node: [https://hub.docker.com/r/radiantcommunity/radiant-node](https://hub.docker.com/r/radiantcommunity/radiant-node).
 
-The image for the node + electrum: https://hub.docker.com/r/radiantcommunity/electrumx\_radiant\_node.
+The image for the node + electrum: [https://hub.docker.com/r/radiantcommunity/electrumx\_radiant\_node](https://hub.docker.com/r/radiantcommunity/electrumx_radiant_node).
 
 If you want to run the electrum version there is no need to also run the pure node container.
 
@@ -39,8 +39,6 @@ The command for starting the node container is:
 ```
 sudo docker run --name radiantnode -itd radiantcommunity/radiant-node
 ```
-
-![](https://github.com/Bactol-git/Radiant-node/blob/main/img/run.png)
 
 You might not need to sudo if you have given docker sudo rights. The -itd tag is to run the container interactively, with tty (terminal) and detatched (background). The last bit is the reference to the image you want to run.
 
@@ -62,15 +60,11 @@ You can run this to see what containers are currently running:
 sudo docker ps
 ```
 
-![](https://github.com/Bactol-git/Radiant-node/blob/main/img/ps.png)
-
 and you can run this to see all containers that has been ran:
 
 ```
 sudo docker ps -a
 ```
-
-![](https://github.com/Bactol-git/Radiant-node/blob/main/img/ps-a.png)
 
 Acces the container to inspect and troubleshoot: We can access the terminal of the running container to inspect and troubleshoot it using this command:
 
@@ -84,9 +78,7 @@ This will open up the terminal in the container and we can run commands to see t
 radiant-cli -getinfo 
 ```
 
-to see that our node is running. You can see other useful commands to run on the node in the radiant node guide (https://radiant4people.com/guides/node/compile/#useful-commands).
-
-![](https://github.com/Bactol-git/Radiant-node/blob/main/img/radiant-cli.png)
+to see that our node is running. You can see other useful commands to run on the node in the [Radiant Node guide](radiant.md#useful-commands).
 
 To go back out of the container simply use run`exit` inside the container.
 
