@@ -2,11 +2,11 @@
 
 Before interacting with smart contracts on the BCH network, the CashScript SDK needs to instantiate a `Contract` object. This is done by providing the contract's information and constructor arguments. After this instantiation, the CashScript SDK can interact with BCH contracts.
 
-### Contract class <a href="#contract-class" id="contract-class"></a>
+## Contract class <a href="#contract-class" id="contract-class"></a>
 
 The `Contract` class is used to represent a CashScript contract in a JavaScript object. These objects can be used to retrieve information such as the contract's address and balance. They can be used to interact with the contract by calling the contract's functions.
 
-#### Constructor <a href="#constructor" id="constructor"></a>
+### Constructor <a href="#constructor" id="constructor"></a>
 
 ```ts
 new Contract(
@@ -22,7 +22,7 @@ An `Artifact` object is the result of compiling a CashScript contract. See the [
 
 A `NetworkProvider` is used to manage network operations for the CashScript contract. By default, a mainnet `ElectrumNetworkProvider` is used, but alternative network providers can be used. See the section on [NetworkProvider](https://radiant4people.com/programming/radiantscript/sdk/instantiation/#networkprovider) below.
 
-**Example**
+#### **Example**
 
 ```ts
 const { Contract, ElectrumNetworkProvider } = require('cashscript');
