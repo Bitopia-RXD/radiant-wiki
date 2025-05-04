@@ -45,7 +45,7 @@ Because of the way time locks work, **a corresponding time lock needs to be adde
 **Note:** `tx.time` corresponds to the `nLocktime` field of the current transaction and the `OP_CHECKLOCKTIMEVERIFY` opcode.
 {% endhint %}
 
-#### tx.age <a href="#txage" id="txage"></a>
+### tx.age <a href="#txage" id="txage"></a>
 
 `tx.age` is used to create _relative_ time locks. The value of `tx.age` can either represent a number of blocks, or a number of _chunks_, which are 512 seconds. The corresponding _transaction level_ time lock determines which of the two options is used.
 
@@ -57,13 +57,15 @@ require(tx.age >= <expression>);
 
 Because of the way time locks work, **a corresponding time lock needs to be added to the transaction**. This can be done in the CashScript SDK using the [`withAge()`](sdk-sending-transactions.md#withage) function. However, the value passed into this function will always be treated as a number of blocks, so **it is currently not supported to use `tx.age` as a number of second chunks**.
 
-:::note `tx.age` corresponds to the `nSequence` field of the current _UTXO_ and the `OP_CHECKSEQUENCEVERIFY` opcode. :::
+{% hint style="info" %}
+**Note:** `tx.age` corresponds to the `nSequence` field of the current _UTXO_ and the `OP_CHECKSEQUENCEVERIFY` opcode.
+{% endhint %}
 
-### Introspection variables <a href="#introspection-variables" id="introspection-variables"></a>
+## Introspection variables <a href="#introspection-variables" id="introspection-variables"></a>
 
 Introspection functionality is used to create _covenant_ contracts. Covenants are a technique used to put constraints on spending the money inside a smart contract. The main use case of this is limiting the addresses where money can be sent and the amount sent. To explore the possible uses of covenants inside smart contracts, read the [CashScript Covenants Guide](guides-writing-covenants-and-introspection.md).
 
-#### this.activeInputIndex <a href="#thisactiveinputindex" id="thisactiveinputindex"></a>
+### this.activeInputIndex <a href="#thisactiveinputindex" id="thisactiveinputindex"></a>
 
 ```solidity
 int this.activeInputIndex
@@ -71,7 +73,7 @@ int this.activeInputIndex
 
 During the validation of a BCH transaction, every transaction input is evaluated in order, and the contract's code is evaluated in the context of the different inputs. `this.activeInputIndex` represents the index of the input that is currently being evaluated. This can be used in conjunction with the properties under `tx.inputs`.
 
-#### this.activeBytecode <a href="#thisactivebytecode" id="thisactivebytecode"></a>
+### this.activeBytecode <a href="#thisactivebytecode" id="thisactivebytecode"></a>
 
 ```solidity
 bytes this.activeBytecode
@@ -79,7 +81,7 @@ bytes this.activeBytecode
 
 During the validation of a BCH transaction, every transaction input is evaluated in order, and the contract's code is evaluated in the context of the different inputs. `this.activeBytecode` represents the contract bytecode of the input that is currently being evaluated.
 
-#### tx.version <a href="#txversion" id="txversion"></a>
+### tx.version <a href="#txversion" id="txversion"></a>
 
 ```solidity
 int tx.version
@@ -87,7 +89,7 @@ int tx.version
 
 Represents the version of the current transaction. Different transaction versions can have differences in functionality. Currently only version 1 and 2 exist, where only version 2 has support for [BIP68](https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki).
 
-#### tx.locktime <a href="#txlocktime" id="txlocktime"></a>
+### tx.locktime <a href="#txlocktime" id="txlocktime"></a>
 
 ```solidity
 int tx.locktime
@@ -95,13 +97,15 @@ int tx.locktime
 
 Represents the `nLocktime` field of the transaction.
 
-:::note `tx.locktime` is similar to the [`tx.time`](https://radiant4people.com/programming/radiantscript/language/globals/#txtime) global variable. It is recommended to only use `tx.locktime` for adding `nLocktime` to simulated state and [`tx.time`](https://radiant4people.com/programming/radiantscript/language/globals/#txtime) in all other cases. :::
+{% hint style="info" %}
+**Note:** `tx.locktime` is similar to the [`tx.time`](language-global-variables.md#txtime) global variable. It is recommended to only use `tx.locktime` for adding `nLocktime` to simulated state and [`tx.time`](language-global-variables.md#txtime) in all other cases.
+{% endhint %}
 
-#### tx.inputs <a href="#txinputs" id="txinputs"></a>
+### tx.inputs <a href="#txinputs" id="txinputs"></a>
 
 Represents the list of inputs of the evaluated transaction. This is an array, and cannot be used on itself. You need to access an input with a specific index and specify the properties you want to access.
 
-**tx.inputs.length**
+#### **tx.inputs.length**
 
 ```solidity
 int tx.inputs.length
@@ -109,7 +113,7 @@ int tx.inputs.length
 
 Represents the number of inputs in the transaction.
 
-**tx.inputs\[i].value**
+#### **tx.inputs\[i].value**
 
 ```solidity
 int tx.inputs[i].value
@@ -117,7 +121,7 @@ int tx.inputs[i].value
 
 Represents the value of a specific input (in satoshis).
 
-**tx.inputs\[i].lockingBytecode**
+#### **tx.inputs\[i].lockingBytecode**
 
 ```solidity
 bytes tx.inputs[i].lockingBytecode
@@ -125,7 +129,7 @@ bytes tx.inputs[i].lockingBytecode
 
 Represents the locking bytecode (`scriptPubKey`) of a specific input.
 
-**tx.inputs\[i].unlockingBytecode**
+#### **tx.inputs\[i].unlockingBytecode**
 
 ```solidity
 bytes tx.inputs[i].unlockingBytecode
@@ -133,7 +137,7 @@ bytes tx.inputs[i].unlockingBytecode
 
 Represents the unlocking bytecode (`scriptSig`) of a specific input.
 
-**tx.inputs\[i].outpointTransactionHash**
+#### **tx.inputs\[i].outpointTransactionHash**
 
 ```solidity
 bytes32 tx.inputs[i].outpointTransactionHash
@@ -141,7 +145,7 @@ bytes32 tx.inputs[i].outpointTransactionHash
 
 Represents the outpoint transaction hash where a specific input was initially locked.
 
-**tx.inputs\[i].outpointIndex**
+#### **tx.inputs\[i].outpointIndex**
 
 ```solidity
 int tx.inputs[i].outpointIndex
@@ -149,7 +153,7 @@ int tx.inputs[i].outpointIndex
 
 Represents the outpoint index where a specific input was initially locked.
 
-**tx.inputs\[i].sequenceNumber**
+#### **tx.inputs\[i].sequenceNumber**
 
 ```solidity
 int tx.inputs[i].sequenceNumber
@@ -157,11 +161,11 @@ int tx.inputs[i].sequenceNumber
 
 Represents the `nSequence` number of a specific input.
 
-#### tx.outputs <a href="#txoutputs" id="txoutputs"></a>
+### tx.outputs <a href="#txoutputs" id="txoutputs"></a>
 
 Represents the list of outputs of the evaluated transaction. This is an array, and cannot be used on itself. You need to access an output with a specific index and specify the properties you want to access.
 
-**tx.outputs.length**
+#### **tx.outputs.length**
 
 ```solidity
 int tx.outputs.length
@@ -169,7 +173,7 @@ int tx.outputs.length
 
 Represents the number of outputs in the transaction.
 
-**tx.outputs\[i].value**
+#### **tx.outputs\[i].value**
 
 ```solidity
 int tx.outputs[i].value
@@ -177,7 +181,7 @@ int tx.outputs[i].value
 
 Represents the value of a specific output (in satoshis).
 
-**tx.outputs\[i].lockingBytecode**
+#### **tx.outputs\[i].lockingBytecode**
 
 ```solidity
 bytes tx.outputs[i].lockingBytecode
@@ -185,11 +189,11 @@ bytes tx.outputs[i].lockingBytecode
 
 Represents the locking bytecode (`scriptPubKey`) of a specific output.
 
-### Constructing locking bytecode <a href="#constructing-locking-bytecode" id="constructing-locking-bytecode"></a>
+## Constructing locking bytecode <a href="#constructing-locking-bytecode" id="constructing-locking-bytecode"></a>
 
 One of the main use cases of covenants is enforcing transaction outputs (where money is sent). To assist with enforcing these outputs, there is a number of `LockingBytecode` objects that can be instantiated. These locking bytecodes can then be compared to the locking bytecodes of transaction outputs.
 
-**Example**
+### **Example**
 
 ```solidity
 bytes25 lockingBytecode = new LockingBytecodeP2PKH(pkh);
@@ -198,7 +202,7 @@ require(tx.outputs[0].lockingBytecode == lockingBytecode);
 require(tx.outputs[0].value == value);
 ```
 
-#### LockingBytecodeP2PKH <a href="#lockingbytecodep2pkh" id="lockingbytecodep2pkh"></a>
+### LockingBytecodeP2PKH <a href="#lockingbytecodep2pkh" id="lockingbytecodep2pkh"></a>
 
 ```solidity
 new LockingBytecodeP2PKH(bytes20 pkh): bytes25
@@ -206,7 +210,7 @@ new LockingBytecodeP2PKH(bytes20 pkh): bytes25
 
 Creates new P2PKH locking bytecode for the public key hash `pkh`.
 
-#### LockingBytecodeP2SH <a href="#lockingbytecodep2sh" id="lockingbytecodep2sh"></a>
+### LockingBytecodeP2SH <a href="#lockingbytecodep2sh" id="lockingbytecodep2sh"></a>
 
 ```solidity
 new LockingBytecodeP2SH(bytes20 scriptHash): bytes23
@@ -214,7 +218,7 @@ new LockingBytecodeP2SH(bytes20 scriptHash): bytes23
 
 Creates new P2SH locking bytecode for the script hash `scriptHash`.
 
-#### LockingBytecodeNullData <a href="#lockingbytecodenulldata" id="lockingbytecodenulldata"></a>
+### LockingBytecodeNullData <a href="#lockingbytecodenulldata" id="lockingbytecodenulldata"></a>
 
 ```solidity
 new LockingBytecodeNullData(bytes[] chunks): bytes
