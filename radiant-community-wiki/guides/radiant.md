@@ -12,20 +12,20 @@ layout:
     visible: true
 ---
 
-# Radiant
+# Radiant Node
 
 ## COMPILE RADIANT NODE WITH UBUNTU 22.04 <a href="#compile-radiant-node-with-ubuntu-2204" id="compile-radiant-node-with-ubuntu-2204"></a>
 
 Small guide to compile the Radiant node and use its commands
 
-### Github <a href="#github" id="github"></a>
+## Github <a href="#github" id="github"></a>
 
 * **Radiant node source code:** [https://github.com/RadiantBlockchain/radiant-node](https://github.com/RadiantBlockchain/radiant-node)
 * **Original guide to compile in Ubuntu:** [https://github.com/RadiantBlockchain/radiant-node/blob/master/doc/build-unix-deb.md](https://github.com/RadiantBlockchain/radiant-node/blob/master/doc/build-unix-deb.md)
 
 ***
 
-### Libraries to compile <a href="#libraries-to-compile" id="libraries-to-compile"></a>
+## Libraries to compile <a href="#libraries-to-compile" id="libraries-to-compile"></a>
 
 **Necessary libraries and applications to compile the node:**
 
@@ -35,7 +35,7 @@ sudo apt-get install build-essential cmake git libboost-chrono-dev libboost-file
 
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/01-UBUNTU-22_04_install-dependencies.png)
 
-### Download node source <a href="#download-node-source" id="download-node-source"></a>
+## Download node source <a href="#download-node-source" id="download-node-source"></a>
 
 **Download radiant node source code to compile:**
 
@@ -55,7 +55,7 @@ cd build
 
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/03-UBUNTU-22_04_create-dir.png)
 
-### Compile options <a href="#compile-options" id="compile-options"></a>
+## Compile options <a href="#compile-options" id="compile-options"></a>
 
 **Two options to compile (QT does not work properly):**
 
@@ -94,7 +94,7 @@ sudo cp src/radiant* /usr/local/bin/
 
 ***
 
-### **Create config file** <a href="#create-config-file" id="create-config-file"></a>
+## **Create config file** <a href="#create-config-file" id="create-config-file"></a>
 
 ```
 mkdir ~/.radiant
@@ -123,7 +123,7 @@ EOL
 
 ***
 
-### **Useful commands** <a href="#useful-commands" id="useful-commands"></a>
+## **Useful commands** <a href="#useful-commands" id="useful-commands"></a>
 
 * **START NODE:** `radiantd`
 * **STOP NODE:** `radiant-cli stop`
@@ -136,11 +136,11 @@ EOL
 * **IMPORT PRIVATE KEY:** `radiant-cli importprivkey L1NLnbPQWaE3sDMedHgHy9q3wMjzZ2HCRAtgfQqfwXppAvnPBeit Test`
 * **WALLET ADDRESSES:** `radiant-cli listreceivedbyaddress 1 true`
 
-### **Start node** <a href="#start-node" id="start-node"></a>
+## **Start node** <a href="#start-node" id="start-node"></a>
 
 ![](https://raw.githubusercontent.com/Antares-ES/Radiant-Guides/main/Compile-Node/img/09-UBUNTU-22_04_start-node.png)
 
-### **Set up node for testnet** <a href="#set-up-node-for-testnet" id="set-up-node-for-testnet"></a>
+## **Set up node for testnet** <a href="#set-up-node-for-testnet" id="set-up-node-for-testnet"></a>
 
 To start your node in testnet run the following command
 

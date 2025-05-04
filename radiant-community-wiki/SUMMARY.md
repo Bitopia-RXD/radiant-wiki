@@ -44,6 +44,8 @@
 ## Guides
 
 * [Docker](guides/docker.md)
-* [Electron Wallet](guides/electron.md)
+* [Electron Wallet](guides/electron/README.md)
+  * [Restore](guides/electron/restore.md)
+  * [Create multisign](guides/electron/create-multisign.md)
 * [Radiant Node](guides/radiant.md)
 * [Flux](guides/flux.md)
