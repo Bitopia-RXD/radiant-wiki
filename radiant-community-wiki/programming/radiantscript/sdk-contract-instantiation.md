@@ -18,9 +18,9 @@ new Contract(
 
 A CashScript contract can be instantiated by providing an `Artifact` object, a list of constructor arguments, and optionally a `NetworkProvider`.
 
-An `Artifact` object is the result of compiling a CashScript contract. See the [Language Documentation](https://radiant4people.com/docs/language/artifacts) for more information on Artifacts. Compilation can be done using the standalone [`cashc` CLI](https://radiant4people.com/docs/basics/cli) or programmatically with the `cashc` NPM package (see [CashScript Compiler](https://radiant4people.com/programming/radiantscript/sdk/instantiation/#cashscript-compiler)).
+An `Artifact` object is the result of compiling a CashScript contract. See the [Language Documentation](artifacts.md) for more information on Artifacts. Compilation can be done using the standalone [`cashc` CLI](./#command-line-interface) or programmatically with the `cashc` NPM package (see [CashScript Compiler](sdk-contract-instantiation.md#cashscript-compiler)).
 
-A `NetworkProvider` is used to manage network operations for the CashScript contract. By default, a mainnet `ElectrumNetworkProvider` is used, but alternative network providers can be used. See the section on [NetworkProvider](https://radiant4people.com/programming/radiantscript/sdk/instantiation/#networkprovider) below.
+A `NetworkProvider` is used to manage network operations for the CashScript contract. By default, a mainnet `ElectrumNetworkProvider` is used, but alternative network providers can be used. See the section on [NetworkProvider](sdk-contract-instantiation.md#networkprovider) below.
 
 #### **Example**
 
@@ -130,7 +130,7 @@ contract.functions.<functionName>(...args: Argument[]): Transaction
 
 The main way to use smart contracts once they have been instantiated is through the functions defined in the CashScript source code. These functions can be found by their name under `functions` member field of a contract object. To call these functions, the parameters need to match ones defined in the CashScript code.
 
-These contract functions return an incomplete `Transaction` object, which needs to be completed by providing outputs of the transaction. More information about sending transactions is found on the [_Sending Transactions_](https://radiant4people.com/docs/sdk/transactions) page.
+These contract functions return an incomplete `Transaction` object, which needs to be completed by providing outputs of the transaction. More information about sending transactions is found on the [_Sending Transactions_](sdk-sending-transactions.md) page.
 
 #### **Example**
 
