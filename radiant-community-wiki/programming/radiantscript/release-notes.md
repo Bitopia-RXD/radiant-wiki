@@ -48,7 +48,7 @@
 * :sparkles: Add multiplication, e.g. `int x = 5 * 5`
 * :sparkles: Add _native_ introspection/covenants
 * :boom: **BREAKING**: Remove all old introspection/covenant functionality (`tx.version`, `tx.hashPrevouts`, `tx.hashSequence`, `tx.outpoint`, `tx.bytecode`, `tx.value`, `tx.sequence`, `tx.hashOutputs`, `tx.locktime`, `tx.hashtype`, `OutputP2PKH`, `OutputP2SH`, `OutputNullData`)
-* See the [migration notes](releases-migration-notes.md) for details on migrating from the old introspection to the new _native_ introspection methods.
+* See the [migration notes](releases-migration-notes.md#v06-to-v07) for details on migrating from the old introspection to the new _native_ introspection methods.
 * :boom: **BREAKING**: Remove `sig` to `datasig` casting since this was only useful for _old_ covenants
 * :bug: Fix ESM build
 
@@ -62,7 +62,7 @@
 
 ***
 
-https://twitter.com/RoscoKalis/status/1529072055756414976
+[https://twitter.com/RoscoKalis/status/1529072055756414976](https://twitter.com/RoscoKalis/status/1529072055756414976)
 
 ## v0.6.5 <a href="#v065" id="v065"></a>
 
@@ -112,7 +112,7 @@ https://twitter.com/RoscoKalis/status/1529072055756414976
 
 ***
 
-https://twitter.com/RoscoKalis/status/1371896417443282956
+[https://twitter.com/RoscoKalis/status/1371896417443282956](https://twitter.com/RoscoKalis/status/1371896417443282956)
 
 ## v0.5.7 <a href="#v057" id="v057"></a>
 
@@ -162,7 +162,7 @@ https://twitter.com/RoscoKalis/status/1371896417443282956
 
 ***
 
-https://twitter.com/RoscoKalis/status/1301521593399685121
+[https://twitter.com/RoscoKalis/status/1301521593399685121](https://twitter.com/RoscoKalis/status/1301521593399685121)
 
 ## v0.5.0 <a href="#v050" id="v050"></a>
 
@@ -183,7 +183,7 @@ CashScript used to be very tightly coupled with BITBOX. This proved to be proble
 
 ***
 
-https://twitter.com/RoscoKalis/status/1298645699559596033
+[https://twitter.com/RoscoKalis/status/1298645699559596033](https://twitter.com/RoscoKalis/status/1298645699559596033)
 
 ## v0.4.4 <a href="#v044" id="v044"></a>
 
@@ -218,7 +218,7 @@ https://twitter.com/RoscoKalis/status/1298645699559596033
 
 ***
 
-https://twitter.com/RoscoKalis/status/1267440143624884227
+[https://twitter.com/RoscoKalis/status/1267440143624884227](https://twitter.com/RoscoKalis/status/1267440143624884227)
 
 ## v0.4.0 <a href="#v040" id="v040"></a>
 
@@ -250,7 +250,7 @@ This update contains several breaking changes. See the [migration notes](release
 
 ***
 
-https://twitter.com/RoscoKalis/status/1264921879346917376
+[https://twitter.com/RoscoKalis/status/1264921879346917376](https://twitter.com/RoscoKalis/status/1264921879346917376)
 
 ## v0.3.3 <a href="#v033" id="v033"></a>
 
@@ -260,7 +260,7 @@ https://twitter.com/RoscoKalis/status/1264921879346917376
 
 ***
 
-https://twitter.com/RoscoKalis/status/1224389493769342979
+[https://twitter.com/RoscoKalis/status/1224389493769342979](https://twitter.com/RoscoKalis/status/1224389493769342979)
 
 ## v0.3.2 <a href="#v032" id="v032"></a>
 
@@ -283,7 +283,7 @@ https://twitter.com/RoscoKalis/status/1224389493769342979
 
 ***
 
-https://twitter.com/RoscoKalis/status/1223280232343515136
+[https://twitter.com/RoscoKalis/status/1223280232343515136](https://twitter.com/RoscoKalis/status/1223280232343515136)
 
 ## v0.3.1 <a href="#v031" id="v031"></a>
 
@@ -302,7 +302,7 @@ https://twitter.com/RoscoKalis/status/1223280232343515136
 
 ***
 
-https://twitter.com/RoscoKalis/status/1217101473743544320
+[https://twitter.com/RoscoKalis/status/1217101473743544320](https://twitter.com/RoscoKalis/status/1217101473743544320)
 
 ## v0.3.0 <a href="#v030" id="v030"></a>
 
@@ -327,7 +327,7 @@ https://twitter.com/RoscoKalis/status/1217101473743544320
 
 ***
 
-https://twitter.com/RoscoKalis/status/1204765863062188033
+[https://twitter.com/RoscoKalis/status/1204765863062188033](https://twitter.com/RoscoKalis/status/1204765863062188033)
 
 ## v0.2.3 <a href="#v023" id="v023"></a>
 
@@ -337,7 +337,7 @@ https://twitter.com/RoscoKalis/status/1204765863062188033
 
 ***
 
-https://twitter.com/RoscoKalis/status/1202220857566908416
+[https://twitter.com/RoscoKalis/status/1202220857566908416](https://twitter.com/RoscoKalis/status/1202220857566908416)
 
 ## v0.2.2 <a href="#v022" id="v022"></a>
 
@@ -355,7 +355,7 @@ https://twitter.com/RoscoKalis/status/1202220857566908416
 
 ***
 
-https://twitter.com/RoscoKalis/status/1192900277105389568
+[https://twitter.com/RoscoKalis/status/1192900277105389568](https://twitter.com/RoscoKalis/status/1192900277105389568)
 
 ## v0.2.1 <a href="#v021" id="v021"></a>
 
@@ -372,7 +372,7 @@ https://twitter.com/RoscoKalis/status/1192900277105389568
 
 ***
 
-https://twitter.com/RoscoKalis/status/1186554051720167424
+[https://twitter.com/RoscoKalis/status/1186554051720167424](https://twitter.com/RoscoKalis/status/1186554051720167424)
 
 ## v0.2.0 <a href="#v020" id="v020"></a>
 
@@ -397,7 +397,7 @@ https://twitter.com/RoscoKalis/status/1186554051720167424
 
 ***
 
-https://twitter.com/RoscoKalis/status/1178843657069154305
+[https://twitter.com/RoscoKalis/status/1178843657069154305](https://twitter.com/RoscoKalis/status/1178843657069154305)
 
 ## v0.1.2 <a href="#v012" id="v012"></a>
 
@@ -412,7 +412,7 @@ https://twitter.com/RoscoKalis/status/1178843657069154305
 
 ***
 
-https://twitter.com/RoscoKalis/status/1174910060691984385
+[https://twitter.com/RoscoKalis/status/1174910060691984385](https://twitter.com/RoscoKalis/status/1174910060691984385)
 
 ## v0.1.1 <a href="#v011" id="v011"></a>
 
