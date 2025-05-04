@@ -162,4 +162,4 @@ async function run() {
 }
 ```
 
-**Tip:** Read more about the JavaScript SDK in the [SDK documentation](https://radiant4people.com/docs/sdk/instantiation).
+**Tip:** Read more about the JavaScript SDK in the [SDK documentation](sdk-contract-instantiation.md).
