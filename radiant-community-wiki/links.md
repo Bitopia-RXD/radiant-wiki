@@ -62,11 +62,11 @@ layout:
 
 * **Explorer:** [https://explorer-testnet.radiantblockchain.org](https://explorer-testnet.radiantblockchain.org/)
 
-### Glyph Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
+### Glyph Explorers <a href="#glyph-explorers" id="glyph-explorers"></a>
 
 * **Explorer:** [https://glyph.blockminerz.com](https://glyph.blockminerz.com/)
 
-## Communication <a href="#social-network" id="social-network"></a>
+## Communication <a href="#communication" id="communication"></a>
 
 * **Discord - Main:** [https://discord.gg/radiantblockchain](https://discord.gg/radiantblockchain)
 * **Discord - RXDDapps:** [https://discord.gg/BccnsD3Gsh](https://discord.gg/BccnsD3Gsh)
@@ -120,13 +120,15 @@ layout:
 * **CryptoCompare:** [https://www.cryptocompare.com/coins/rxd/analysis/USDT](https://www.cryptocompare.com/coins/rxd/analysis/USDT)
 * **CoinCarp:** [https://www.coincarp.com/currencies/radiant/price/](https://www.coincarp.com/currencies/radiant/price/)
 
-## Token Mining <a href="#miner-stuff" id="miner-stuff"></a>
+## Miner Resources
+
+### Token Mining <a href="#token-mining" id="token-mining"></a>
 
 * **Glyph Miner:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
 * **Photonic Wallet:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
 * **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
 
-## Pools - Mainnet <a href="#pools" id="pools"></a>
+### Pools - Mainnet <a href="#pools-mainnet" id="pools-mainnet"></a>
 
 * **MiningPoolStats Rank:** [https://miningpoolstats.stream/radiant](https://miningpoolstats.stream/radiant)
 * **HumPool:** [https://humpool.com](https://humpool.com/)
@@ -142,11 +144,11 @@ layout:
 * **9kpool:** [https://9kpool.com/#RadiantPool](https://9kpool.com/#RadiantPool)
 * **WhalePool:** [https://www.whalepool.com/coin/RXD](https://www.whalepool.com/coin/RXD)
 
-## Pools - Testnet <a href="#pools" id="pools"></a>
+### Pools - Testnet
 
 * **Satopool:** [https://satopool.com/#rxd-testnet](https://satopool.com/#rxd-testnet)
 
-## Mining Ware <a href="#miner-software" id="miner-software"></a>
+### Mining Ware <a href="#mining-ware" id="mining-ware"></a>
 
 * **ICERIVER RXD RX0 ASIC:** [https://www.iceriver.io/product/iceriver-rxd-rx0](https://www.iceriver.io/product/iceriver-rxd-rx0/)
 * **DragonBall A11 Dual ASIC:** [https://dragonballminer.com/en/product/dragonball-miner-a11/](https://dragonballminer.com/en/product/dragonball-miner-a11/)
