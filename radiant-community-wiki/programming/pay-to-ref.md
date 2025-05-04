@@ -28,11 +28,11 @@ The above script uses `OP_REFTYPE_UTXO` to take a given ref from the stack and r
 * 1 - Ref found in inputs, of normal type
 * 2 - Ref found in inputs, of singleton type
 
-### Composing contracts from multiple UTXOs <a href="#composing-contracts-from-multiple-utxos" id="composing-contracts-from-multiple-utxos"></a>
+## Composing contracts from multiple UTXOs <a href="#composing-contracts-from-multiple-utxos" id="composing-contracts-from-multiple-utxos"></a>
 
 This script can be used to break a contract up into multiple parts. For example a complex NFT contract, split into a token contract and ownership contract:
 
-**UTXO for contract functions**
+### **UTXO for contract functions**
 
 ```
 // Contract functions
@@ -42,7 +42,7 @@ OP_PUSHINPUTREFSINGLETON <ref1> OP_DROP
 <ref2> OP_REFTYPE_UTXO OP_2 OP_NUMEQUAL
 ```
 
-**UTXO for token ownership/control**
+### **UTXO for token ownership/control**
 
 ```
 OP_PUSHINPUTREFSINGLETON <ref2> OP_DROP
@@ -53,17 +53,15 @@ The above contract is composed of two outputs. A singleton ref has been assigned
 
 We can now handle token transfers using only the P2PKH output and not have to touch the rest of the contract. Since the token contract doesn't contain the P2PKH script, only a pay to ref, it is automatically carried forward with the transfer. For wallets to support transfers of this token, they only need to handle a simple singleton + P2PKH script and not be concerned with custom functionality or parsing custom contract templates.
 
-\----DIAGRAM----&#x20;
+**DIAGRAM**
 
-<figure><img src="https://radiant4people.com/programming/radiant/img/pay2ref.png" alt=""><figcaption></figcaption></figure>
-
-> Transferring control of a token contract
+<figure><img src="https://radiant4people.com/programming/radiant/img/pay2ref.png" alt=""><figcaption><p>Transferring control of a token contract</p></figcaption></figure>
 
 The two singletons are best created as a contiguous set, so if any script needs to read from another part of the contract, it can check for the existence of a ref within its own set to verify the authenticity of the input. This also makes it easy for wallets to find all parts of the contract.
 
 In this example we have only used two outputs, but this can be extended to compose contracts from three or more outputs.
 
-### Upgrading contracts <a href="#upgrading-contracts" id="upgrading-contracts"></a>
+## Upgrading contracts <a href="#upgrading-contracts" id="upgrading-contracts"></a>
 
 Another powerful use case is to extend a contract's functionality by permitting the UTXO to be spent alongside one of a range of refs. These contract extensions can be defined at a later date, providing a way of upgrading contracts or adding new functionality.
 

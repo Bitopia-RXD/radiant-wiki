@@ -4,7 +4,7 @@ Token-controlled contracts revolutionize contract composition and management on 
 
 ## Script Details <a href="#script-details" id="script-details"></a>
 
-**Token Input**
+### **Token Input**
 
 A standard singleton + P2PKH token script:
 
@@ -12,7 +12,7 @@ A standard singleton + P2PKH token script:
 OP_PUSHINPUTREFSINGLETON <tokenRef> OP_DROP <p2pkh>
 ```
 
-**Token Output**
+### **Token Output**
 
 The token output features a state script binding it to the contract input using ´OP\_REQUIREINPUTREF´ , followed by the contract's script signature hash:
 
@@ -23,7 +23,7 @@ OP_STATESEPARATOR
 OP_PUSHINPUTREFSINGLETON <tokenRef> OP_DROP <p2pkh> // Standard token script
 ```
 
-**Script Sig**
+### **Script Sig**
 
 ```
 <hashIndex> // Position of ref + hash in token output
@@ -31,7 +31,7 @@ OP_PUSHINPUTREFSINGLETON <tokenRef> OP_DROP <p2pkh> // Standard token script
 <outputIndex> // Output index of token
 ```
 
-**Script Pub Key**
+### **Script Pub Key**
 
 ```
 // Contract ref

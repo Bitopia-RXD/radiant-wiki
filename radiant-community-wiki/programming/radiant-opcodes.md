@@ -2,7 +2,7 @@
 
 The Radiant blockchain introduced a set of opcodes that significantly improves on the capability of the Bitcoin technology it's based on. All these opcodes will be outlined in this article.
 
-### Terms <a href="#terms" id="terms"></a>
+## Terms <a href="#terms" id="terms"></a>
 
 * **Ref:** A 36 byte reference, either of normal or singleton type. A reference is created from an input's outpoint and can be propagated with every spend of a UTXO. For a ref to exist in an output there must be a matching input ref of the same type or an input with a matching outpoint. The ref type cannot be changed once it is created.
 * **Normal ref**: A type of reference that can be propagated to one or more outputs.
@@ -11,7 +11,7 @@ The Radiant blockchain introduced a set of opcodes that significantly improves o
 * **Code script:** The part of the script from and including an `OP_STATESEPARATOR`. If no state separator is present, the code script is the entire script.
 * **`codeScriptHash`:** The double SHA-256 of the code script.
 
-### Hash functions <a href="#hash-functions" id="hash-functions"></a>
+## Hash functions <a href="#hash-functions" id="hash-functions"></a>
 
 SHA-512/256 is the hash function used by Radiant's proof of work algorithm. It is available in script as single and double hash functions. These can be used to validate Radiant block headers in script.
 
@@ -20,23 +20,11 @@ SHA-512/256 is the hash function used by Radiant's proof of work algorithm. It i
 | OP\_SHA512\_256  | ce  | bytes | hash   | SHA-512/256        |
 | OP\_HASH512\_256 | cf  | bytes | hash   | Double SHA-512/256 |
 
-### Induction opcodes <a href="#induction-opcodes" id="induction-opcodes"></a>
+## Induction opcodes <a href="#induction-opcodes" id="induction-opcodes"></a>
 
-| Word                            | Hex | Input       | Output  | Description                                                                                                                                                                           |
-| ------------------------------- | --- | ----------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OP\_PUSHINPUTREF                | d0  | ref         | ref     | Propagates a ref to an output. A ref of normal type must exist in an input or an input must have an outpoint matching the ref. Ref will be left on the stack.                         |
-| OP\_PUSHINPUTREFSINGLETON       | d8  | ref         | ref     | Propagates a singleton ref to an output. A ref of singleton type must exist in an input or an input must have an outpoint matching the ref. Ref will be left on the stack.            |
-| OP\_REQUIREINPUTREF             | d1  | ref         | ref     | A ref of normal type must exist in an input. Ref is not propagated. Ref will be left on the stack.                                                                                    |
-| OP\_DISALLOWPUSHINPUTREF        | d2  | ref         | ref     | Requires a ref to not exist in any input. Leaves the ref on the stack.                                                                                                                |
-| OP\_DISALLOWPUSHINPUTREFSIBLING | d3  | ref         | ref     | Requires a ref to not exist in any input sibling. Leaves the ref on the stack.                                                                                                        |
-| OP\_REFTYPE\_UTXO               | d9  | ref         | type    | Get the type of a ref from transaction inputs. Returns 0 (not found), 1 (normal type) or 2 (singleton type).                                                                          |
-| OP\_REFTYPE\_OUTPUT             | da  | ref         | type    | Get the type of a ref from transaction outputs. Returns 0 (not found), 1 (normal type) or 2 (singleton type).                                                                         |
-| OP\_REFHASHDATASUMMARY\_UTXO    | d4  | inputIndex  | summary | For the input of the given index returns a hash256 of `<nValue><hash256(scriptPubKey)><numRefs><hash(sortedMap(pushRefs))>`                                                           |
-| OP\_REFHASHDATASUMMARY\_OUTPUT  | d6  | outputIndex | summary | For the output of the given index returns a hash256 of `<nValue><hash256(scriptPubKey)><numRefs><hash(sortedMap(pushRefs))>`                                                          |
-| OP\_REFDATASUMMARY\_UTXO        | e1  | inputIndex  | summary | Return refs used within an input. Pushes a vector of the form `<ref1><ref2><ref3>...`. If an input UTXO does not contain at least one reference, then the 36 byte zeroes are pushed.  |
-| OP\_REFDATASUMMARY\_OUTPUT      | e2  | outputIndex | summary | Return refs used within an output. Pushes a vector of the form `<ref1><ref2><ref3>...`. If an input UTXO does not contain at least one reference, then the 36 byte zeroes are pushed. |
+<table><thead><tr><th>Word</th><th width="148.25390625">Hex</th><th>Input</th><th>Output</th><th>Description</th></tr></thead><tbody><tr><td>OP_PUSHINPUTREF</td><td>d0</td><td>ref</td><td>ref</td><td>Propagates a ref to an output. A ref of normal type must exist in an input or an input must have an outpoint matching the ref. Ref will be left on the stack.</td></tr><tr><td>OP_PUSHINPUTREFSINGLETON</td><td>d8</td><td>ref</td><td>ref</td><td>Propagates a singleton ref to an output. A ref of singleton type must exist in an input or an input must have an outpoint matching the ref. Ref will be left on the stack.</td></tr><tr><td>OP_REQUIREINPUTREF</td><td>d1</td><td>ref</td><td>ref</td><td>A ref of normal type must exist in an input. Ref is not propagated. Ref will be left on the stack.</td></tr><tr><td>OP_DISALLOWPUSHINPUTREF</td><td>d2</td><td>ref</td><td>ref</td><td>Requires a ref to not exist in any input. Leaves the ref on the stack.</td></tr><tr><td>OP_DISALLOWPUSHINPUTREFSIBLING</td><td>d3</td><td>ref</td><td>ref</td><td>Requires a ref to not exist in any input sibling. Leaves the ref on the stack.</td></tr><tr><td>OP_REFTYPE_UTXO</td><td>d9</td><td>ref</td><td>type</td><td>Get the type of a ref from transaction inputs. Returns 0 (not found), 1 (normal type) or 2 (singleton type).</td></tr><tr><td>OP_REFTYPE_OUTPUT</td><td>da</td><td>ref</td><td>type</td><td>Get the type of a ref from transaction outputs. Returns 0 (not found), 1 (normal type) or 2 (singleton type).</td></tr><tr><td>OP_REFHASHDATASUMMARY_UTXO</td><td>d4</td><td>inputIndex</td><td>summary</td><td>For the input of the given index returns a hash256 of <code>&#x3C;nValue>&#x3C;hash256(scriptPubKey)>&#x3C;numRefs>&#x3C;hash(sortedMap(pushRefs))></code></td></tr><tr><td>OP_REFHASHDATASUMMARY_OUTPUT</td><td>d6</td><td>outputIndex</td><td>summary</td><td>For the output of the given index returns a hash256 of <code>&#x3C;nValue>&#x3C;hash256(scriptPubKey)>&#x3C;numRefs>&#x3C;hash(sortedMap(pushRefs))></code></td></tr><tr><td>OP_REFDATASUMMARY_UTXO</td><td>e1</td><td>inputIndex</td><td>summary</td><td>Return refs used within an input. Pushes a vector of the form <code>&#x3C;ref1>&#x3C;ref2>&#x3C;ref3>...</code>. If an input UTXO does not contain at least one reference, then the 36 byte zeroes are pushed.</td></tr><tr><td>OP_REFDATASUMMARY_OUTPUT</td><td>e2</td><td>outputIndex</td><td>summary</td><td>Return refs used within an output. Pushes a vector of the form <code>&#x3C;ref1>&#x3C;ref2>&#x3C;ref3>...</code>. If an input UTXO does not contain at least one reference, then the 36 byte zeroes are pushed.</td></tr></tbody></table>
 
-### State/code script opcodes <a href="#statecode-script-opcodes" id="statecode-script-opcodes"></a>
+## State/code script opcodes <a href="#statecode-script-opcodes" id="statecode-script-opcodes"></a>
 
 | Word                            | Hex | Input       | Output         | Description                                                                                                                                                              |
 | ------------------------------- | --- | ----------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -48,7 +36,7 @@ SHA-512/256 is the hash function used by Radiant's proof of work algorithm. It i
 | OP\_STATESCRIPTBYTECODE\_UTXO   | eb  | inputIndex  | bytecode       | Returns the state script bytecode for an output. Does not include the OP\_STATESEPARATOR.                                                                                |
 | OP\_STATESCRIPTBYTECODE\_OUTPUT | ec  | outputIndex | bytecode       | Returns the state script bytecode for an output. Does not include the OP\_STATESEPARATOR.                                                                                |
 
-### Count and sum opcodes <a href="#count-and-sum-opcodes" id="count-and-sum-opcodes"></a>
+## Count and sum opcodes <a href="#count-and-sum-opcodes" id="count-and-sum-opcodes"></a>
 
 These opcodes provide a set queries on inputs and outputs by ref, ref hash and code script hash. Counts and sums can be performed over many outputs with a single opcode, meaning an unrolled loop in the script is not required.
 
