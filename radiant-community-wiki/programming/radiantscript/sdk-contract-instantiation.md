@@ -38,7 +38,7 @@ const provider = new ElectrumNetworkProvider('testnet');
 const contract = new Contract(P2PKH, [alicePkh], provider);
 ```
 
-#### address <a href="#address" id="address"></a>
+### address <a href="#address" id="address"></a>
 
 ```ts
 contract.address: string
@@ -46,13 +46,13 @@ contract.address: string
 
 A contract's address can be retrieved through the `address` member field.
 
-**Example**
+#### **Example**
 
 ```ts
 console.log(contract.address)
 ```
 
-#### opcount <a href="#opcount" id="opcount"></a>
+### opcount <a href="#opcount" id="opcount"></a>
 
 ```ts
 contract.opcount: number
@@ -60,13 +60,13 @@ contract.opcount: number
 
 The number of opcodes in the contract's bytecode can be retrieved through the `opcount` member field. This is useful to ensure that the contract is not too big, since Bitcoin Cash smart contracts can contain a maximum of 201 opcodes.
 
-**Example**
+#### **Example**
 
 ```ts
 assert(contract.opcount <= 201)
 ```
 
-#### bytesize <a href="#bytesize" id="bytesize"></a>
+### bytesize <a href="#bytesize" id="bytesize"></a>
 
 ```ts
 contract.bytesize: number
@@ -74,13 +74,13 @@ contract.bytesize: number
 
 The size of the contract's bytecode in bytes can be retrieved through the `bytesize` member field. This is useful to ensure that the contract is not too big, since Bitcoin Cash smart contracts can be 520 bytes at most.
 
-**Example**
+#### **Example**
 
 ```ts
 console.log(contract.bytesize)
 ```
 
-#### getRedeemScriptHex() <a href="#getredeemscripthex" id="getredeemscripthex"></a>
+### getRedeemScriptHex() <a href="#getredeemscripthex" id="getredeemscripthex"></a>
 
 ```ts
 contract.getRedeemScriptHex: string
@@ -88,13 +88,13 @@ contract.getRedeemScriptHex: string
 
 Returns the contract's redeem script encoded as a hex string.
 
-**Example**
+#### **Example**
 
 ```ts
 console.log(contract.getRedeemScriptHex())
 ```
 
-#### getBalance() <a href="#getbalance" id="getbalance"></a>
+### getBalance() <a href="#getbalance" id="getbalance"></a>
 
 ```ts
 async contract.getBalance(): Promise<number>
@@ -102,13 +102,13 @@ async contract.getBalance(): Promise<number>
 
 Returns the total balance of the contract in satoshis. Both confirmed and unconfirmed balance is included in this figure.
 
-**Example**
+#### **Example**
 
 ```ts
 const contractBalance = await contract.getBalance()
 ```
 
-#### GetUtxos() <a href="#getutxos" id="getutxos"></a>
+### GetUtxos() <a href="#getutxos" id="getutxos"></a>
 
 ```ts
 async contract.getUtxos(): Promise<Utxo[]>
@@ -116,13 +116,13 @@ async contract.getUtxos(): Promise<Utxo[]>
 
 Returns all UTXOs that can be spent by the contract. Both confirmed and unconfirmed UTXOs are included.
 
-**Example**
+#### **Example**
 
 ```ts
 const utxos = await contract.getUtxos()
 ```
 
-#### Contract functions <a href="#contract-functions" id="contract-functions"></a>
+### Contract functions <a href="#contract-functions" id="contract-functions"></a>
 
 ```ts
 contract.functions.<functionName>(...args: Argument[]): Transaction
@@ -132,7 +132,7 @@ The main way to use smart contracts once they have been instantiated is through 
 
 These contract functions return an incomplete `Transaction` object, which needs to be completed by providing outputs of the transaction. More information about sending transactions is found on the [_Sending Transactions_](https://radiant4people.com/docs/sdk/transactions) page.
 
-**Example**
+#### **Example**
 
 ```ts
 import { alice } from './somewhere';
@@ -143,7 +143,7 @@ const tx = await contract.functions
   .send()
 ```
 
-### SignatureTemplate <a href="#signaturetemplate" id="signaturetemplate"></a>
+## SignatureTemplate <a href="#signaturetemplate" id="signaturetemplate"></a>
 
 ```ts
 new SignatureTemplate(signer: Keypair | Uint8Array | string, hashtype?: HashType)
@@ -153,18 +153,18 @@ You may notice the `SignatureTemplate` object in the example above. When a contr
 
 So in the place of a signature, a `SignatureTemplate` can be passed, which will automatically generate the correct signature using the `signer` parameter. This signer can be any representation of a private key, including [BITBOX/BCHJS' `ECPair`](https://bchjs.fullstack.cash/#api-ECPair), [bitcore-lib-cash' `PrivateKey`](https://github.com/bitpay/bitcore/blob/master/packages/bitcore-lib-cash/docs/privatekey.md), [WIF strings](https://en.bitcoin.it/wiki/Wallet_import_format), or raw private key buffers. This ensures that any BCH library can be used.
 
-**Example**
+#### **Example**
 
 ```ts
 const wif = 'L4vmKsStbQaCvaKPnCzdRArZgdAxTqVx8vjMGLW5nHtWdRguiRi1';
 const sig = new SignatureTemplate(wif, HashType.SIGHASH_ALL);
 ```
 
-### NetworkProvider <a href="#networkprovider" id="networkprovider"></a>
+## NetworkProvider <a href="#networkprovider" id="networkprovider"></a>
 
 The CashScript SDK needs to connect to the BCH network to perform certain operations, like retrieving the contract's balance, or sending transactions. All network functionality that the CashScript SDK needs is encapsulated in a network provider. This allows different network providers to be used and makes it easy to swap out dependencies.
 
-#### ElectrumNetworkProvider <a href="#electrumnetworkprovider" id="electrumnetworkprovider"></a>
+### ElectrumNetworkProvider <a href="#electrumnetworkprovider" id="electrumnetworkprovider"></a>
 
 ```ts
 new ElectrumNetworkProvider(network?: Network, electrum?: ElectrumCluster)
@@ -172,13 +172,13 @@ new ElectrumNetworkProvider(network?: Network, electrum?: ElectrumCluster)
 
 The ElectrumNetworkProvider uses [electrum-cash](https://www.npmjs.com/package/electrum-cash) to connect to the BCH network. This is the recommended provider for most use cases and is used as the default when no other provider is provided. Both `network` and `electrum` parameters are optional, and they default to mainnet and a 2-of-3 ElectrumCluster with a number of reliable electrum servers.
 
-**Example**
+#### **Example**
 
 ```ts
 const provider = new ElectrumProvider('testnet');
 ```
 
-#### FullStackNetworkProvider <a href="#fullstacknetworkprovider" id="fullstacknetworkprovider"></a>
+### FullStackNetworkProvider <a href="#fullstacknetworkprovider" id="fullstacknetworkprovider"></a>
 
 ```ts
 new FullStackNetworkProvider(network: Network, bchjs: BCHJS)
@@ -186,7 +186,7 @@ new FullStackNetworkProvider(network: Network, bchjs: BCHJS)
 
 The FullStackNetworkProvider uses [FullStack.cash](https://fullstack.cash/)' infrastructure to connect to the BCH network. FullStack.cash' offers dedicated infrastructure and support plans for larger projects. Both `network` and `bchjs` parameters are mandatory, where `bchjs` is an instance of FullStack.cash' [BCHJS](https://bchjs.fullstack.cash/).
 
-**Example**
+#### **Example**
 
 ```js
 const BCHJS = require('@psf/bch-js');
@@ -198,7 +198,7 @@ const bchjs = new BCHJS({ restURL, apiToken });
 const provider = new FullStackNetworkProvider('mainnet', bchjs);
 ```
 
-#### BitboxNetworkProvider <a href="#bitboxnetworkprovider" id="bitboxnetworkprovider"></a>
+### BitboxNetworkProvider <a href="#bitboxnetworkprovider" id="bitboxnetworkprovider"></a>
 
 ```ts
 new BitboxNetworkProvider(network: Network, bitbox: BITBOX)
@@ -206,7 +206,7 @@ new BitboxNetworkProvider(network: Network, bitbox: BITBOX)
 
 The BitboxNetworkProvider uses Bitcoin.com's [BITBOX](https://developer.bitcoin.com/bitbox/) to connect to the BCH network. Because BITBOX is no longer officially maintained it is not recommended to use this network provider, and it is only available for compatibility with older projects. Both `network` and `bitbox` parameters are mandatory, where `bitbox` is a BITBOX instance.
 
-**Example**
+#### **Example**
 
 ```js
 const BITBOX = require('bitbox-sdk');
@@ -215,7 +215,7 @@ const bitbox = new BITBOX({ restURL: 'https://rest.bitcoin.com/v2/' });
 const provider = new FullStackNetworkProvider('mainnet', bitbox);
 ```
 
-#### BitcoinRpcNetworkProvider <a href="#bitcoinrpcnetworkprovider" id="bitcoinrpcnetworkprovider"></a>
+### BitcoinRpcNetworkProvider <a href="#bitcoinrpcnetworkprovider" id="bitcoinrpcnetworkprovider"></a>
 
 ```ts
 new BitcoinRpcNetworkProvider(network: Network, url: string, options?: any)
@@ -229,11 +229,11 @@ The BitcoinRpcNetworkProvider uses a direct connection to a BCH node. Note that 
 const provider = new BitcoinRpcNetworkProvider('mainnet', 'http://localhost:8332');
 ```
 
-#### Custom NetworkProviders <a href="#custom-networkproviders" id="custom-networkproviders"></a>
+### Custom NetworkProviders <a href="#custom-networkproviders" id="custom-networkproviders"></a>
 
 A big strength of the NetworkProvider setup is that it allows you to implement custom providers. So if new BCH libraries are created in the future, it is simple to use them with CashScript. This also potentially enables the CashScript SDK to be used with other (partially) compatible networks, such as BTC or BSV.
 
-**NetworkProvider interface**
+### **NetworkProvider interface**
 
 ```ts
 interface NetworkProvider {
@@ -280,7 +280,7 @@ interface Utxo {
 }
 ```
 
-### CashScript Compiler <a href="#cashscript-compiler" id="cashscript-compiler"></a>
+## CashScript Compiler <a href="#cashscript-compiler" id="cashscript-compiler"></a>
 
 Generally CashScript contracts are compiled to an Artifact JSON file using the CLI compiler. As an alternative to this, CashScript contracts can be compiled from within JavaScript apps using the `cashc` package. This package needs to be installed separately and exports two compilation functions.
 
@@ -288,7 +288,7 @@ Generally CashScript contracts are compiled to an Artifact JSON file using the C
 npm install cashc
 ```
 
-#### compileFile() <a href="#compilefile" id="compilefile"></a>
+### compileFile() <a href="#compilefile" id="compilefile"></a>
 
 ```ts
 compileFile(sourceFile: string): Artifact
@@ -296,13 +296,13 @@ compileFile(sourceFile: string): Artifact
 
 Compiles a CashScript contract from a source file. This is the recommended compile method if you're using Node.js and you have a source file available.
 
-**Example**
+#### **Example**
 
 ```ts
 const P2PKH = compileFile(path.join(__dirname, 'p2pkh.cash'));
 ```
 
-#### compileString() <a href="#compilestring" id="compilestring"></a>
+### compileString() <a href="#compilestring" id="compilestring"></a>
 
 ```ts
 compileString(sourceCode: string): Artifact
