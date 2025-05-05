@@ -33,7 +33,7 @@ contract HTLC(pubkey sender, pubkey recipient, int expiration, bytes32 hash) {
 
 ## Functions <a href="#functions" id="functions"></a>
 
-The main construct in a CashScript contract is the function. A contract can contain one or multiple functions that can be executed to trigger transactions that spend money from the contract. In the basics the result of a function is just a yes or no answer to the question 'Can money be sent out of this contract?'. But by using a technique called covenants, it is possible to specify other conditions, like restricting _where_ money can be sent. To read more about this technique, refer to the [CashScript Covenants Guide](guides-writing-covenants-and-introspection.md).
+The main construct in a CashScript contract is the function. A contract can contain one or multiple functions that can be executed to trigger transactions that spend money from the contract. In the basics the result of a function is just a yes or no answer to the question 'Can money be sent out of this contract?'. But by using a technique called covenants, it is possible to specify other conditions, like restricting _where_ money can be sent. To read more about this technique, refer to the [CashScript Covenants Guide](../guides-writing-covenants-and-introspection.md).
 
 #### **Example**
 

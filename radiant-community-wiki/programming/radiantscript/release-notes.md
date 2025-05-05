@@ -175,7 +175,7 @@ CashScript used to be very tightly coupled with BITBOX. This proved to be proble
 * :boom: Remove `Sig` alias for `SignatureTemplate` that was deprecated in v0.4.1.
 * :boom: **BREAKING**: Refactor contract instantiation flow
 * A contract is now instantiated by providing a compiled artifact, constructor arguments and an optional network provider.
-* Anyone can implement the NetworkProvider interface to create a custom provider. The CashScript SDK offers three providers out of the box: one based on electrum-cash (default), one based on FullStack.cash' infrastructure, and one based on BITBOX. See the [NetworkProvider docs](sdk-contract-instantiation.md#networkprovider) for details.
+* Anyone can implement the NetworkProvider interface to create a custom provider. The CashScript SDK offers three providers out of the box: one based on electrum-cash (default), one based on FullStack.cash' infrastructure, and one based on BITBOX. See the [NetworkProvider docs](sdk-examples/sdk-contract-instantiation.md#networkprovider) for details.
 * See the [migration notes](releases-migration-notes.md) for details on migrating from the old contract instantiation flow.
 * :boom: **BREAKING**: Remove the artifacts `'networks'` field and `.deployed()` functionality, This proved to be confusing and is better suited to be handled outside of the CashScript SDK.
 * :boom: **BREAKING**: `.send()` now returns a libauth Transaction instead of a BITBOX Transaction object. Alternatively a `raw` flag can be passed into the function to return a raw hex string.
