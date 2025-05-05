@@ -1,8 +1,8 @@
-# SDK - Sending Transactions
+# Sending Transactions
 
-When calling a contract function on a Contract object, an incomplete Transaction object is returned. This transaction can be completed by providing a number of outputs using the [`to()`](https://radiant4people.com/docs/sdk/transactions#to) or [`withOpReturn()`](https://radiant4people.com/docs/sdk/transactions#withopreturn) functions. Other chained functions are included to set other transaction parameters.
+When calling a contract function on a Contract object, an incomplete Transaction object is returned. This transaction can be completed by providing a number of outputs using the [`to()`](sending-transactions.md#to) or [`withOpReturn()`](sending-transactions.md#withopreturn) functions. Other chained functions are included to set other transaction parameters.
 
-Most of the available transaction options are only useful in very specific use cases, but the functions [`to()`](https://radiant4people.com/docs/sdk/transactions#to), [`withOpReturn()`](https://radiant4people.com/docs/sdk/transactions#withopreturn) and [`send()`](https://radiant4people.com/docs/sdk/transactions#send) are commonly used. [`withHardcodedFee()`](https://radiant4people.com/docs/sdk/transactions#withhardcodedfee) is also commonly used with covenant contracts.
+Most of the available transaction options are only useful in very specific use cases, but the functions [`to()`](sending-transactions.md#to), [`withOpReturn()`](sending-transactions.md#withopreturn) and [`send()`](sending-transactions.md#send) are commonly used. [`withHardcodedFee()`](sending-transactions.md#withhardcodedfee) is also commonly used with covenant contracts.
 
 ## Transaction options <a href="#transaction-options" id="transaction-options"></a>
 

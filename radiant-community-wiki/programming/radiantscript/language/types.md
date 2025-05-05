@@ -1,6 +1,6 @@
-# Language - Types
+# Types
 
-CashScript is a statically typed language, which means that the type of each variable needs to be specified. Types can also be implicitly or explicitly cast to other types. For a quick reference of the various casting possibilities, see [Type Casting](language-types.md#type-casting).
+CashScript is a statically typed language, which means that the type of each variable needs to be specified. Types can also be implicitly or explicitly cast to other types. For a quick reference of the various casting possibilities, see [Type Casting](types.md#type-casting).
 
 ## Boolean <a href="#boolean" id="boolean"></a>
 

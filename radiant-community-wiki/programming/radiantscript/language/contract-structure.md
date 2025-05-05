@@ -1,4 +1,4 @@
-# Language - Contract Structure
+# Contract Structure
 
 Contracts in CashScript are somewhat similar to classes in object-oriented languages. A notable difference is that there is no mutable state. So once a contract is instantiated with certain parameters, these values cannot change. Instead, functions can be called on the contract that act on the contract's values to spend money from the contract. The extension of CashScript source code files is `.cash`, and the structure of these source files is explained below.
 
@@ -33,7 +33,7 @@ contract HTLC(pubkey sender, pubkey recipient, int expiration, bytes32 hash) {
 
 ## Functions <a href="#functions" id="functions"></a>
 
-The main construct in a CashScript contract is the function. A contract can contain one or multiple functions that can be executed to trigger transactions that spend money from the contract. In the basics the result of a function is just a yes or no answer to the question 'Can money be sent out of this contract?'. But by using a technique called covenants, it is possible to specify other conditions, like restricting _where_ money can be sent. To read more about this technique, refer to the [CashScript Covenants Guide](../guides-writing-covenants-and-introspection.md).
+The main construct in a CashScript contract is the function. A contract can contain one or multiple functions that can be executed to trigger transactions that spend money from the contract. In the basics the result of a function is just a yes or no answer to the question 'Can money be sent out of this contract?'. But by using a technique called covenants, it is possible to specify other conditions, like restricting _where_ money can be sent. To read more about this technique, refer to the [CashScript Covenants Guide](../guides/writing-covenants-and-introspection.md).
 
 #### **Example**
 

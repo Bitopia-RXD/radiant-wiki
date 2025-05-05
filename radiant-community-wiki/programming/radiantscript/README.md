@@ -162,4 +162,4 @@ async function run() {
 }
 ```
 
-**Tip:** Read more about the JavaScript SDK in the [SDK documentation](sdk-examples/sdk-contract-instantiation.md).
+**Tip:** Read more about the JavaScript SDK in the [SDK documentation](sdk/contract-instantiation.md).

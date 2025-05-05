@@ -1,10 +1,10 @@
-# SDK - Examples
+# Examples
 
 An extensive collection of examples is available in the [GitHub repository](https://github.com/Bitcoin-com/cashscript/tree/master/examples). Below we discuss a few of these examples in more details. These examples focus mainly on the use of the SDK, while the [Examples page](https://radiant4people.com/docs/language/examples) in the language section focuses more on the CashScript syntax.
 
-### Transfer With Timeout <a href="#transfer-with-timeout" id="transfer-with-timeout"></a>
+## Transfer With Timeout <a href="#transfer-with-timeout" id="transfer-with-timeout"></a>
 
-The idea of this smart contract is explained on the [Language Examples page](https://radiant4people.com/docs/language/examples#transfer-with-timeout). The gist is that it allows you to send an amount of BCH to someone, but if they don't claim the sent amount, it can be recovered by the sender.
+The idea of this smart contract is explained on the [Language Examples page](../language/examples.md). The gist is that it allows you to send an amount of BCH to someone, but if they don't claim the sent amount, it can be recovered by the sender.
 
 \`\`\`solidity title="TransferWithTimeout.cash" contract TransferWithTimeout(pubkey sender, pubkey recipient, int timeout) { function transfer(sig recipientSig) { require(checkSig(recipientSig, recipient)); }
 
@@ -58,7 +58,7 @@ async function run() {
 }
 ````
 
-### Memo.cash Announcement <a href="#memocash-announcement" id="memocash-announcement"></a>
+## Memo.cash Announcement <a href="#memocash-announcement" id="memocash-announcement"></a>
 
 [Memo.cash](https://memo.cash/) is a Twitter-like social network based on Bitcoin Cash. It uses `OP_RETURN` outputs to post messages on-chain. By using a covenant we can create an example contract whose only job is to post Isaac Asimov's first law of smart contracts to Memo.cash. Just to remind its fellow smart contracts.
 

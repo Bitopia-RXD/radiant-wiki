@@ -48,7 +48,7 @@
 * :sparkles: Add multiplication, e.g. `int x = 5 * 5`
 * :sparkles: Add _native_ introspection/covenants
 * :boom: **BREAKING**: Remove all old introspection/covenant functionality (`tx.version`, `tx.hashPrevouts`, `tx.hashSequence`, `tx.outpoint`, `tx.bytecode`, `tx.value`, `tx.sequence`, `tx.hashOutputs`, `tx.locktime`, `tx.hashtype`, `OutputP2PKH`, `OutputP2SH`, `OutputNullData`)
-* See the [migration notes](releases-migration-notes.md#v06-to-v07) for details on migrating from the old introspection to the new _native_ introspection methods.
+* See the [migration notes](migration-notes.md#v06-to-v07) for details on migrating from the old introspection to the new _native_ introspection methods.
 * :boom: **BREAKING**: Remove `sig` to `datasig` casting since this was only useful for _old_ covenants
 * :bug: Fix ESM build
 
@@ -175,8 +175,8 @@ CashScript used to be very tightly coupled with BITBOX. This proved to be proble
 * :boom: Remove `Sig` alias for `SignatureTemplate` that was deprecated in v0.4.1.
 * :boom: **BREAKING**: Refactor contract instantiation flow
 * A contract is now instantiated by providing a compiled artifact, constructor arguments and an optional network provider.
-* Anyone can implement the NetworkProvider interface to create a custom provider. The CashScript SDK offers three providers out of the box: one based on electrum-cash (default), one based on FullStack.cash' infrastructure, and one based on BITBOX. See the [NetworkProvider docs](sdk-examples/sdk-contract-instantiation.md#networkprovider) for details.
-* See the [migration notes](releases-migration-notes.md) for details on migrating from the old contract instantiation flow.
+* Anyone can implement the NetworkProvider interface to create a custom provider. The CashScript SDK offers three providers out of the box: one based on electrum-cash (default), one based on FullStack.cash' infrastructure, and one based on BITBOX. See the [NetworkProvider docs](../sdk/contract-instantiation.md#networkprovider) for details.
+* See the [migration notes](migration-notes.md) for details on migrating from the old contract instantiation flow.
 * :boom: **BREAKING**: Remove the artifacts `'networks'` field and `.deployed()` functionality, This proved to be confusing and is better suited to be handled outside of the CashScript SDK.
 * :boom: **BREAKING**: `.send()` now returns a libauth Transaction instead of a BITBOX Transaction object. Alternatively a `raw` flag can be passed into the function to return a raw hex string.
 * :hammer\_and\_wrench: Removed BITBOX as a dependency in favour of libauth for utility functions.
@@ -246,7 +246,7 @@ CashScript used to be very tightly coupled with BITBOX. This proved to be proble
 
 ### **Migration**
 
-This update contains several breaking changes. See the [migration notes](releases-migration-notes.md#v03-to-v04) for a full migration guide.
+This update contains several breaking changes. See the [migration notes](migration-notes.md#v03-to-v04) for a full migration guide.
 
 ***
 

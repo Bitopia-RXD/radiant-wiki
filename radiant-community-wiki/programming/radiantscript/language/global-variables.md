@@ -1,4 +1,4 @@
-# Language - Global Variables
+# Global Variables
 
 ## Globally available units <a href="#globally-available-units" id="globally-available-units"></a>
 
@@ -39,7 +39,7 @@ Due to limitations in the underlying Bitcoin Script, `tx.time` can only be used 
 require(tx.time >= <expression>);
 ```
 
-Because of the way time locks work, **a corresponding time lock needs to be added to the transaction**. The CashScript SDK automatically sets this _transaction level_ time lock to the most recent block number, as this is the most common use case. If you need to use a different block number or timestamp, this should be passed into the CashScript SDK using the [`withTime()`](../sdk-examples/sdk-sending-transactions.md#withtime) function. If the default matches your use case, **no additional actions are required**.
+Because of the way time locks work, **a corresponding time lock needs to be added to the transaction**. The CashScript SDK automatically sets this _transaction level_ time lock to the most recent block number, as this is the most common use case. If you need to use a different block number or timestamp, this should be passed into the CashScript SDK using the [`withTime()`](../sdk/sending-transactions.md#withtime) function. If the default matches your use case, **no additional actions are required**.
 
 {% hint style="info" %}
 **Note:** `tx.time` corresponds to the `nLocktime` field of the current transaction and the `OP_CHECKLOCKTIMEVERIFY` opcode.
@@ -55,7 +55,7 @@ Due to limitations in the underlying Bitcoin Script, `tx.age` can only be used i
 require(tx.age >= <expression>);
 ```
 
-Because of the way time locks work, **a corresponding time lock needs to be added to the transaction**. This can be done in the CashScript SDK using the [`withAge()`](../sdk-examples/sdk-sending-transactions.md#withage) function. However, the value passed into this function will always be treated as a number of blocks, so **it is currently not supported to use `tx.age` as a number of second chunks**.
+Because of the way time locks work, **a corresponding time lock needs to be added to the transaction**. This can be done in the CashScript SDK using the [`withAge()`](../sdk/sending-transactions.md#withage) function. However, the value passed into this function will always be treated as a number of blocks, so **it is currently not supported to use `tx.age` as a number of second chunks**.
 
 {% hint style="info" %}
 **Note:** `tx.age` corresponds to the `nSequence` field of the current _UTXO_ and the `OP_CHECKSEQUENCEVERIFY` opcode.
@@ -63,7 +63,7 @@ Because of the way time locks work, **a corresponding time lock needs to be adde
 
 ## Introspection variables <a href="#introspection-variables" id="introspection-variables"></a>
 
-Introspection functionality is used to create _covenant_ contracts. Covenants are a technique used to put constraints on spending the money inside a smart contract. The main use case of this is limiting the addresses where money can be sent and the amount sent. To explore the possible uses of covenants inside smart contracts, read the [CashScript Covenants Guide](../guides-writing-covenants-and-introspection.md).
+Introspection functionality is used to create _covenant_ contracts. Covenants are a technique used to put constraints on spending the money inside a smart contract. The main use case of this is limiting the addresses where money can be sent and the amount sent. To explore the possible uses of covenants inside smart contracts, read the [CashScript Covenants Guide](../guides/writing-covenants-and-introspection.md).
 
 ### this.activeInputIndex <a href="#thisactiveinputindex" id="thisactiveinputindex"></a>
 
@@ -98,7 +98,7 @@ int tx.locktime
 Represents the `nLocktime` field of the transaction.
 
 {% hint style="info" %}
-**Note:** `tx.locktime` is similar to the [`tx.time`](language-global-variables.md#txtime) global variable. It is recommended to only use `tx.locktime` for adding `nLocktime` to simulated state and [`tx.time`](language-global-variables.md#txtime) in all other cases.
+**Note:** `tx.locktime` is similar to the [`tx.time`](global-variables.md#txtime) global variable. It is recommended to only use `tx.locktime` for adding `nLocktime` to simulated state and [`tx.time`](global-variables.md#txtime) in all other cases.
 {% endhint %}
 
 ### tx.inputs <a href="#txinputs" id="txinputs"></a>
