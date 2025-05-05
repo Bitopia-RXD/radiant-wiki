@@ -1,6 +1,6 @@
 # Examples
 
-An extensive collection of examples is available in the [GitHub repository](https://github.com/Bitcoin-com/cashscript/tree/master/examples). Below we discuss a few of these examples in more details. These examples focus mainly on the use of the SDK, while the [Examples page](https://radiant4people.com/docs/language/examples) in the language section focuses more on the CashScript syntax.
+An extensive collection of examples is available in the [GitHub repository](https://github.com/Bitcoin-com/cashscript/tree/master/examples). Below we discuss a few of these examples in more details. These examples focus mainly on the use of the SDK, while the [Examples page](../language/examples.md) in the language section focuses more on the CashScript syntax.
 
 ## Transfer With Timeout <a href="#transfer-with-timeout" id="transfer-with-timeout"></a>
 
