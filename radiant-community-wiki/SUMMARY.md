@@ -46,6 +46,8 @@
     * [Migration Notes](programming/radiantscript/releases/migration-notes.md)
     * [Release Notes](programming/radiantscript/releases/release-notes.md)
 * [scryptlib](programming/scryptlib/README.md)
+  * [HashedMap](programming/scryptlib/hashedmap/README.md)
+    * [HashedMap - Chinese](programming/scryptlib/hashedmap/hashedmap-chinese.md)
   * [rawstate](programming/scryptlib/rawstate.md)
   * [Chained APIs](programming/scryptlib/chained-apis/README.md)
     * [Chained APIs - Chinese](programming/scryptlib/chained-apis/chained-apis-chinese.md)
