@@ -45,7 +45,10 @@
   * [Releases](programming/radiantscript/releases/README.md)
     * [Migration Notes](programming/radiantscript/releases/migration-notes.md)
     * [Release Notes](programming/radiantscript/releases/release-notes.md)
-* [scryptlib](programming/scryptlib.md)
+* [scryptlib](programming/scryptlib/README.md)
+  * [rawstate](programming/scryptlib/rawstate.md)
+  * [Chained APIs](programming/scryptlib/chained-apis/README.md)
+    * [Chained APIs - Chinese](programming/scryptlib/chained-apis/chained-apis-chinese.md)
 * [Scrypt Boilerplate](programming/scrypt-boilerplate.md)
 
 ## Guides

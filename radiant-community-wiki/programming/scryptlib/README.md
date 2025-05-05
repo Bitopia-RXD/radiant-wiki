@@ -23,7 +23,9 @@ By using `scryptlib`, both scripts can be obtained with ease.
 
 ### Contract Description File <a href="#contract-description-file" id="contract-description-file"></a>
 
-The compiler output results in a JSON file. It’s a representation used to build locking and unlocking scripts. We call this file a [**contract description file**](https://radiant4people.com/programming/rad-scryptlib/docs/counter_debug_desc.json).
+The compiler output results in a JSON file. It’s a representation used to build locking and unlocking scripts. We call this file a **contract description file**.
+
+{% file src="../../.gitbook/assets/counter_debug_desc.json" %}
 
 There are three ways to generate this file (named as `xxx_desc.json`):
 
