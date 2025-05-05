@@ -14,7 +14,7 @@ layout:
 
 # Scrypt Boilerplate
 
-## Note: Modified to use @radiantblockchian/radjs for testnet/superAssetR100.js <a href="#note-modified-to-use-radiantblockchianradjs-for-testnetsuperassetr100js" id="note-modified-to-use-radiantblockchianradjs-for-testnetsuperassetr100js"></a>
+**Note:** Modified to use @radiantblockchian/radjs for testnet/superAssetR100.js
 
 ## sCrypt Project Boilerplate <a href="#scrypt-project-boilerplate" id="scrypt-project-boilerplate"></a>
 
@@ -151,9 +151,11 @@ expect(result.success, result.error).to.be.true
 
 Run unit tests file within the editor/explorer context menu.
 
-![Screenshot](https://scrypt-ide.readthedocs.io/en/latest/_images/run_testting.gif)
+<figure><img src="../.gitbook/assets/run_testting.gif" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
 **Note:** The test files must be suffixed by `.scrypttest.js` or `.scrypttest.ts`, otherwise the "Run sCrypt Test" option would not appear in the menu.
+{% endhint %}
 
 #### Run from console <a href="#run-from-console" id="run-from-console"></a>
 
@@ -197,4 +199,4 @@ Before deploying a contract, make sure the latest contract has been compiled to 
 
 IDE provides a universal UI interface. You can deploy the contract with one click by simply filling in the relevant parameters. You can call the public function of the contract with the click of a button without writing a line of code.
 
-![Screenshot](https://scrypt-ide.readthedocs.io/en/latest/_images/deploy_demo.gif)
+<figure><img src="../.gitbook/assets/deploy_demo.gif" alt=""><figcaption></figcaption></figure>
