@@ -40,6 +40,8 @@ The command for starting the node container is:
 sudo docker run --name radiantnode -itd radiantcommunity/radiant-node
 ```
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 You might not need to sudo if you have given docker sudo rights. The -itd tag is to run the container interactively, with tty (terminal) and detatched (background). The last bit is the reference to the image you want to run.
 
 The name tag is optional, but makes it easier when we specify it when we want to inspect the container and when we stop it.
@@ -60,11 +62,15 @@ You can run this to see what containers are currently running:
 sudo docker ps
 ```
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 and you can run this to see all containers that has been ran:
 
 ```
 sudo docker ps -a
 ```
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Acces the container to inspect and troubleshoot: We can access the terminal of the running container to inspect and troubleshoot it using this command:
 
@@ -79,6 +85,8 @@ radiant-cli -getinfo
 ```
 
 to see that our node is running. You can see other useful commands to run on the node in the [Radiant Node guide](radiant.md#useful-commands).
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 To go back out of the container simply use run`exit` inside the container.
 
