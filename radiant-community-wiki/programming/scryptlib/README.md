@@ -254,7 +254,7 @@ const unlockingScriptHex = unlockingScript.toHex();
 
 #### 2. Wrap Locking and Unlocking Script into a Transaction <a href="#id-2-wrap-locking-and-unlocking-script-into-a-transaction" id="id-2-wrap-locking-and-unlocking-script-into-a-transaction"></a>
 
-[Chained APIs](https://radiant4people.com/programming/rad-scryptlib/docs/chained_api_en/) make building transactions super easy.
+[Chained APIs](chained-apis/) make building transactions super easy.
 
 ### Local Unit Tests <a href="#local-unit-tests" id="local-unit-tests"></a>
 
