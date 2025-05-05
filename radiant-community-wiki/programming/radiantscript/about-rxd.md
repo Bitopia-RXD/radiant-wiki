@@ -22,7 +22,7 @@ The most used locking/unlocking script pattern is called _Pay-to-Public-Key-Hash
 
 UTXOs are used as inputs to Radiant transactions and produce new UTXOs as outputs. UTXOs need to be spent in their entirety within a transaction. So whenever the user wishes to use a 10 RXD UTXO to send someone 1 RXD, they need to send 9 RXD back to themselves. Realistically, part of the funds would be reserved for transaction fees as well.
 
-### Smart Contracts <a href="#smart-contracts" id="smart-contracts"></a>
+## Smart Contracts <a href="#smart-contracts" id="smart-contracts"></a>
 
 Peer-to-peer electronic cash was the first real use case of blockchain technology. But in recent years, smart contracts have grown in popularity. These smart contracts allow people to use the security that blockchains such as Bitcoin, Radiant and Ethereum offer and apply it to use cases other than cash. Especially Decentralised Finance (DeFi) applications such as [Maker](https://makerdao.com/), [Uniswap](https://uniswap.org/) and [Aave](https://aave.com/) have skyrocketed.
 
