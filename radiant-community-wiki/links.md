@@ -45,7 +45,7 @@ layout:
 
 ### Mainnet Explorers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
 
-* **Explorer 1:** [https://radiantexplorer.com](https://radiantexplorer.com/)
+* **Explorer 1:** [https://radiantexplorer.com](https://radiantexplorer.com/) (Under maintenance)
 * **Explorer 2:** [https://explorer.radiant.ovh](https://explorer.radiant.ovh/)
 * **Explorer 3:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
 * **Explorer 4:** [https://radiantscan.io](https://radiantscan.io/)
@@ -53,14 +53,13 @@ layout:
 
 ***
 
-* **Top 100 RXD Wallets:** [https://radiantexplorer.com/richlist](https://radiantexplorer.com/richlist)
 * **Mempool Summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
 * **Transaction Stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
 * **Block Stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
 
 ### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
-* **Explorer:** [https://explorer-testnet.radiantblockchain.org](https://explorer-testnet.radiantblockchain.org/)
+* **Explorer:** [https://explorer-testnet.radiantblockchain.org](https://explorer-testnet.radiantblockchain.org/) (Under maintenance)
 
 ### Glyph Explorers <a href="#glyph-explorers" id="glyph-explorers"></a>
 
@@ -72,6 +71,7 @@ layout:
 * **Discord - RXDDapps:** [https://discord.gg/BccnsD3Gsh](https://discord.gg/BccnsD3Gsh)
 * **Telegram - Main:** [https://t.me/RadiantBlockchain](https://t.me/RadiantBlockchain)
 * **Telegram - Traders:** [https://t.me/RadiantBlockchainTraders](https://t.me/RadiantBlockchainTraders)
+* **Telegram - Miners:** [https://t.me/rxdradiantmining](https://t.me/rxdradiantmining)
 * **Medium - Community:** [https://radiant-community.medium.com](https://radiant-community.medium.com/)
 * **Medium - Radiant Foundation:** [https://radiantfoundation.medium.com](https://radiantfoundation.medium.com/)
 * **Medium - Initial:** [https://medium.com/@RadiantLayerOne](https://medium.com/@RadiantLayerOne)
