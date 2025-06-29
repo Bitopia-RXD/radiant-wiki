@@ -88,6 +88,13 @@ layout:
 * **RXDDapps:** [https://rxddapps.com](https://rxddapps.com/)
 * **Radiant Foundation:** [https://radiantfoundation.org](https://radiantfoundation.org)
 
+## Guides:
+
+* **Glyphs User Guide - Mine and Create:** [https://radiantblockchain.org/glyphs-guide.html](https://radiantblockchain.org/glyphs-guide.html)
+* **Radiant Blockchain Community Wiki:** [https://radiantblockchain.gitbook.io/wiki](https://radiantblockchain.gitbook.io/wiki)
+* **How to keep your Radiant safe and secure**: [https://radiant-community.medium.com/how-to-keep-your-radiant-safe-and-secure-2b2531fb9382](https://radiant-community.medium.com/how-to-keep-your-radiant-safe-and-secure-2b2531fb9382)
+* **Recover a wallet in Radiant:** [https://radiant-community.medium.com/how-to-recover-a-wallet-in-radiant-3db3638331a5](https://radiant-community.medium.com/how-to-recover-a-wallet-in-radiant-3db3638331a5)
+
 ## Wallets <a href="#wallets" id="wallets"></a>
 
 * **Electron Wallet 0.1.4 - Win / Linux / Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
