@@ -160,5 +160,5 @@ layout:
 * **wildrig:** [https://github.com/andru-kun/wildrig-multi/releases](https://github.com/andru-kun/wildrig-multi/releases)
 * **MiningPoolStats:** [https://miningpoolstats.stream/radiant](https://miningpoolstats.stream/radiant)
 * **Minerstats:** [https://minerstat.com/coin/RXD](https://minerstat.com/coin/RXD)
-* **Hashrateno:** [https://hashrate.no](https://hashrate.no/)
-* **Whattomine:** [https://whattomine.com](https://whattomine.com/)
+* **Hashrate:** [https://hashrate.no/coins/rxd](https://hashrate.no/coins/rxd)
+* **Whattomine:** [https://whattomine.com/coins/356-rxd-sha512256d](https://whattomine.com/coins/356-rxd-sha512256d)
