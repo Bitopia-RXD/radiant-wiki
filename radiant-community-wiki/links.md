@@ -1,16 +1,5 @@
 ---
 description: Radiant Blockchain Links and Resources
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Links
@@ -45,21 +34,12 @@ layout:
 
 ### Mainnet Explorers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
 
-* **Explorer 1:** [https://radiantexplorer.com](https://radiantexplorer.com/) (Under maintenance)
-* **Explorer 2:** [https://explorer.radiant.ovh](https://explorer.radiant.ovh/)
-* **Explorer 3:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
-* **Explorer 4:** [https://radiantscan.io](https://radiantscan.io/)
-* **Explorer 5:** [https://blockbook.radiant4people.com](https://blockbook.radiant4people.com)
-
-***
-
-* **Mempool Summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
-* **Transaction Stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
-* **Block Stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
+* **Explorer 1:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
+* **Explorer 2:** [https://blockbook.radiant4people.com](https://blockbook.radiant4people.com)
 
 ### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
-* **Explorer:** [https://explorer-testnet.radiantblockchain.org](https://explorer-testnet.radiantblockchain.org/) (Under maintenance)
+* Under maintenance
 
 ### Glyph Explorers <a href="#glyph-explorers" id="glyph-explorers"></a>
 
@@ -72,9 +52,11 @@ layout:
 * **Telegram - Main:** [https://t.me/RadiantBlockchain](https://t.me/RadiantBlockchain)
 * **Telegram - Traders:** [https://t.me/RadiantBlockchainTraders](https://t.me/RadiantBlockchainTraders)
 * **Telegram - Miners:** [https://t.me/rxdradiantmining](https://t.me/rxdradiantmining)
+* **Substack - Community:** [https://nocookie9107.substack.com](https://nocookie9107.substack.com/)
 * **Medium - Community:** [https://radiant-community.medium.com](https://radiant-community.medium.com/)
 * **Medium - Radiant Foundation:** [https://radiantfoundation.medium.com](https://radiantfoundation.medium.com/)
 * **Medium - Initial:** [https://medium.com/@RadiantLayerOne](https://medium.com/@RadiantLayerOne)
+* **Radiant Community Wiki:** [https://radiantblockchain.gitbook.io/wiki](https://radiantblockchain.gitbook.io/wiki)
 * **Reddit - Main:** [https://www.reddit.com/r/Radiant\_RXD](https://www.reddit.com/r/Radiant_RXD)
 * **Reddit - Initial:** [https://www.reddit.com/r/RadiantBlockchain](https://www.reddit.com/r/RadiantBlockchain)
 * **X - Community:** [https://twitter.com/RXD\_Community](https://x.com/RXD_Community)
@@ -82,6 +64,9 @@ layout:
 * **X - RadiantFoundation:** [https://x.com/RXDFoundation](https://x.com/RXDFoundation)
 * **X - Initial:** [https://x.com/RadiantLayerOne](https://x.com/RadiantLayerOne)
 * **Bitcointalk:** [https://bitcointalk.org/index.php?topic=5436028;all](https://bitcointalk.org/index.php?topic=5436028)
+* **TikTok - Community:** [https://www.tiktok.com/@radiantrxd\_official](https://www.tiktok.com/@radiantrxd_official)
+* **Instagram - Community:** [https://www.instagram.com/radiant\_rxd\_official](https://www.instagram.com/radiant_rxd_official)
+* **YouTube - Community:** [https://www.youtube.com/@theradianttube](https://www.youtube.com/@theradianttube)
 
 ## Organisations
 
@@ -94,6 +79,8 @@ layout:
 * **Radiant Blockchain Community Wiki:** [https://radiantblockchain.gitbook.io/wiki](https://radiantblockchain.gitbook.io/wiki)
 * **How to keep your Radiant safe and secure**: [https://radiant-community.medium.com/how-to-keep-your-radiant-safe-and-secure-2b2531fb9382](https://radiant-community.medium.com/how-to-keep-your-radiant-safe-and-secure-2b2531fb9382)
 * **Recover a wallet in Radiant:** [https://radiant-community.medium.com/how-to-recover-a-wallet-in-radiant-3db3638331a5](https://radiant-community.medium.com/how-to-recover-a-wallet-in-radiant-3db3638331a5)
+* **Radiant Community Wiki:** [https://radiantblockchain.gitbook.io/wiki](https://radiantblockchain.gitbook.io/wiki)
+* **Radiant Brand Guide:** [https://radiantblockchain.org/rxd-brand-guide.html](https://radiantblockchain.org/rxd-brand-guide.html)
 
 ## Wallets <a href="#wallets" id="wallets"></a>
 
@@ -132,6 +119,7 @@ layout:
 ### Token Mining <a href="#token-mining" id="token-mining"></a>
 
 * **Glyph Miner:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
+* **Glyph Contracts:** [https://glyph.blockminerz.com/contracts](https://glyph.blockminerz.com/contracts)
 * **Photonic Wallet:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
 * **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
 
