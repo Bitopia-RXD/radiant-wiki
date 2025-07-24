@@ -36,7 +36,8 @@ description: Radiant Blockchain Links and Resources
 ### Mainnet Explorers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
 
 * **Explorer 1:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
-* **Explorer 2:** [https://blockbook.radiant4people.com](https://blockbook.radiant4people.com)
+* **Explorer 2:** [https://rxd-explorer.blockminerz.com](https://rxd-explorer.blockminerz.com/)
+* **Explorer 3:** [https://radiantexplorer.com](https://radiantexplorer.com/)
 
 ### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
