@@ -68,6 +68,7 @@ description: Radiant Blockchain Links and Resources
 * **Radiant Community Wiki:** [https://radiantblockchain.gitbook.io/wiki](https://radiantblockchain.gitbook.io/wiki)
 * **Reddit - Main:** [https://www.reddit.com/r/Radiant\_RXD](https://www.reddit.com/r/Radiant_RXD)
 * **Reddit - Initial:** [https://www.reddit.com/r/RadiantBlockchain](https://www.reddit.com/r/RadiantBlockchain)
+* **Radiant World X Community:** [https://x.com/i/communities/1948823693016051912](https://x.com/i/communities/1948823693016051912)
 * **X - Community:** [https://twitter.com/RXD\_Community](https://x.com/RXD_Community)
 * **X - Planet\_Radiant:** [https://x.com/Planet\_Radiant](https://x.com/Planet_Radiant)
 * **X - RadiantFoundation:** [https://x.com/RXDFoundation](https://x.com/RXDFoundation)
