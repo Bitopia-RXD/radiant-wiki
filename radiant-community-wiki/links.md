@@ -111,7 +111,7 @@ description: Radiant Blockchain Links and Resources
 * **TradeOgre RXD/BTC:** [https://tradeogre.com/exchange/RXD-BTC](https://tradeogre.com/exchange/RXD-BTC)
 * **NonKYC RXD/USDT:** [https://nonkyc.io/market/RXD\_USDT](https://nonkyc.io/market/RXD_USDT)
 * **XT RXD/USDT:** [https://www.xt.com/en/trade/rxd\_usdt](https://www.xt.com/en/trade/rxd_usdt)
-* **LetsExchange:** [https://letsexchange.io/exchange/usdt-to-rxd](https://letsexchange.io/exchange/usdt-to-rxd)
+* **LetsExchange:** [https://letsexchange.io/exchange/usdt-to-rxd](https://letsexchange.io/exchange/usdt-to-rxd?ref_id=EiDWiy7xrxZTeAiy)
 
 ## Market Info <a href="#market-info" id="market-info"></a>
 
