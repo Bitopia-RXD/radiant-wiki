@@ -52,7 +52,7 @@ description: Radiant Blockchain Links and Resources
 
 ### Glyph Explorers <a href="#glyph-explorers" id="glyph-explorers"></a>
 
-* **Explorer:** [https://glyph.blockminerz.com](https://glyph.blockminerz.com/)
+* **Explorer:** [https://glyph-explorer.rxd-radiant.com](https://glyph-explorer.rxd-radiant.com)
 
 ## Communication <a href="#communication" id="communication"></a>
 
@@ -107,8 +107,6 @@ description: Radiant Blockchain Links and Resources
 * **CoinEx RXD/USDT:** [https://www.coinex.com/en/exchange/rxd-usdt](https://www.coinex.com/en/exchange/rxd-usdt)
 * **CoinEx RXD/BTC:** [https://www.coinex.com/en/exchange/rxd-btc](https://www.coinex.com/en/exchange/rxd-btc)
 * **MEXC RXD/USDT:** [https://www.mexc.com/exchange/RXD\_USDT](https://www.mexc.com/exchange/RXD_USDT)
-* **TradeOgre RXD/USDT:** [https://tradeogre.com/exchange/RXD-USDT](https://tradeogre.com/exchange/RXD-USDT)
-* **TradeOgre RXD/BTC:** [https://tradeogre.com/exchange/RXD-BTC](https://tradeogre.com/exchange/RXD-BTC)
 * **NonKYC RXD/USDT:** [https://nonkyc.io/market/RXD\_USDT](https://nonkyc.io/market/RXD_USDT)
 * **XT RXD/USDT:** [https://www.xt.com/en/trade/rxd\_usdt](https://www.xt.com/en/trade/rxd_usdt)
 * **LetsExchange:** [https://letsexchange.io/exchange/usdt-to-rxd](https://letsexchange.io/exchange/usdt-to-rxd?ref_id=EiDWiy7xrxZTeAiy)
