@@ -43,7 +43,6 @@ description: Radiant Blockchain Links and Resources
 
 ***
 
-* **Top 100 wallets:** [https://rxd-explorer.blockminerz.com/richlist](https://rxd-explorer.blockminerz.com/richlist)
 * **Mempool summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
 * **Block stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
 * **Transaction stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
