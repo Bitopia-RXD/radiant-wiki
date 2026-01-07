@@ -12,9 +12,12 @@ description: Radiant Blockchain Links and Resources
 
 ## Code <a href="#code" id="code"></a>
 
-* **GitHub Community - Active:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
+* **GitHub Radiant Community - Active:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
+* **GitHub Radiant Foundation - Active:** [https://github.com/Radiant-Core](https://github.com/Radiant-Core)
 * **GitHub Initial - Archived:** [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain)
 * **Radiant Node:** [https://github.com/RadiantBlockchain-Community/radiant-node](https://github.com/RadiantBlockchain-Community/radiant-node)
+* **Radiant-Core Node 2.0:** [https://github.com/Radiant-Core/Radiant-Core](https://github.com/Radiant-Core/Radiant-Core)
+* **RXinDexer - Indexer for RXD and Glyphs:** [https://github.com/Radiant-Core/RXinDexer](https://github.com/Radiant-Core/RXinDexer)
 * **RadiantJS:** [https://github.com/chainbow/radiantjs](https://github.com/chainbow/radiantjs)
 * **RXD.WASM/RXD-RS:** [https://github.com/RadiantBlockchain-Community/rxd-wasm](https://github.com/RadiantBlockchain-Community/rxd-wasm)
 * **RadiantScript:** [https://github.com/RadiantBlockchain-Community/radiantscript](https://github.com/RadiantBlockchain-Community/radiantscript)
@@ -29,14 +32,13 @@ description: Radiant Blockchain Links and Resources
 
 * **Faucet - Mainnet:** [https://faucet.radiant4people.com](https://faucet.radiant4people.com/)
 * **Faucet - Testnet:** [https://faucet-testnet.radiant4people.com](https://faucet-testnet.radiant4people.com/)
-* **Faucet Games - Mainnet:** [https://faucetgames.rxddapps.com/?ref=104x](https://faucetgames.rxddapps.com/?ref=104x)
 
 ## Explorers <a href="#explorers" id="explorers"></a>
 
 ### Mainnet Explorers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
 
 * **Explorer 1:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
-* **Explorer 2:** [https://rxd-explorer.blockminerz.com](https://rxd-explorer.blockminerz.com/)
+* **Explorer 2:** [https://explorer1.rxd-radiant.com](https://explorer1.rxd-radiant.com/)
 * **Explorer 3:** [https://radiantexplorer.com](https://radiantexplorer.com/)
 
 ***
@@ -57,7 +59,6 @@ description: Radiant Blockchain Links and Resources
 ## Communication <a href="#communication" id="communication"></a>
 
 * **Discord - Main:** [https://discord.gg/radiantblockchain](https://discord.gg/radiantblockchain)
-* **Discord - RXDDapps:** [https://discord.gg/BccnsD3Gsh](https://discord.gg/BccnsD3Gsh)
 * **Telegram - Main:** [https://t.me/RadiantBlockchain](https://t.me/RadiantBlockchain)
 * **Telegram - Traders:** [https://t.me/RadiantBlockchainTraders](https://t.me/RadiantBlockchainTraders)
 * **Telegram - Miners:** [https://t.me/rxdradiantmining](https://t.me/rxdradiantmining)
@@ -80,7 +81,6 @@ description: Radiant Blockchain Links and Resources
 
 ## Organisations
 
-* **RXDDapps:** [https://rxddapps.com](https://rxddapps.com/)
 * **Radiant Foundation:** [https://radiantfoundation.org](https://radiantfoundation.org)
 
 ## Guides:
@@ -101,6 +101,8 @@ description: Radiant Blockchain Links and Resources
 * **Photonic Wallet - Web App**: [https://photonic.radiant4people.com](https://photonic.radiant4people.comhttps/photonic.radiant4people.com)
 * **Photonic Wallet - Extension:** [https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1)
 * **Photonic Wallet - Source:** [https://github.com/RadiantBlockchain-Community/photonic-wallet](https://github.com/RadiantBlockchain-Community/photonic-wallet)
+* **WarWallet - Extension:** [https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil](https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil)
+* **Glyphium - Web App:** [https://wallet.glyphium.com](https://wallet.glyphium.com/)
 
 ## Exchanges <a href="#exchanges" id="exchanges"></a>
 
@@ -110,6 +112,7 @@ description: Radiant Blockchain Links and Resources
 * **NonKYC RXD/USDT:** [https://nonkyc.io/market/RXD\_USDT](https://nonkyc.io/market/RXD_USDT)
 * **XT RXD/USDT:** [https://www.xt.com/en/trade/rxd\_usdt](https://www.xt.com/en/trade/rxd_usdt)
 * **LetsExchange:** [https://letsexchange.io/exchange/usdt-to-rxd](https://letsexchange.io/exchange/usdt-to-rxd?ref_id=EiDWiy7xrxZTeAiy)
+* **SimpleSwap:** [https://simpleswap.io/coins/rxd](https://simpleswap.io/coins/rxd)
 
 ## Market Info <a href="#market-info" id="market-info"></a>
 
@@ -119,7 +122,6 @@ description: Radiant Blockchain Links and Resources
 * **LiveCoinWatch:** [https://www.livecoinwatch.com/price/Radiant-RXD](https://www.livecoinwatch.com/price/Radiant-RXD)
 * **CoinCodex:** [https://coincodex.com/crypto/radiant](https://coincodex.com/crypto/radiant/)
 * **CryptoRank:** [https://cryptorank.io/price/radiant](https://cryptorank.io/price/radiant)
-* **RXD/USDT Chart:** [https://coinpaprika.com/trading-view/rxd-radiant](https://coinpaprika.com/trading-view/rxd-radiant)
 * **CryptoCompare:** [https://www.cryptocompare.com/coins/rxd/analysis/USDT](https://www.cryptocompare.com/coins/rxd/analysis/USDT)
 * **CoinCarp:** [https://www.coincarp.com/currencies/radiant/price/](https://www.coincarp.com/currencies/radiant/price/)
 
@@ -128,7 +130,7 @@ description: Radiant Blockchain Links and Resources
 ### Token Mining <a href="#token-mining" id="token-mining"></a>
 
 * **Glyph Miner:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
-* **Glyph Contracts:** [https://glyph.blockminerz.com/contracts](https://glyph.blockminerz.com/contracts)
+* **Glyph Contracts:** [https://glyph-explorer.rxd-radiant.com/contracts](https://glyph-explorer.rxd-radiant.com/contracts)
 * **Photonic Wallet:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
 * **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
 
@@ -138,7 +140,6 @@ description: Radiant Blockchain Links and Resources
 * **HumPool:** [https://humpool.com](https://humpool.com/)
 * **Vipor:** [https://vipor.net/mine/rxd\_pplns\_1](https://vipor.net/mine/rxd_pplns_1)
 * **Rplant Pool:** [https://pool.rplant.xyz/#radiant](https://pool.rplant.xyz/#radiant)
-* **BlockMinerz:** [https://blockminerz.com/en/pools/Radiant](https://blockminerz.com/en/pools/Radiant)
 * **Kryptex:** [https://pool.kryptex.com/rxd](https://pool.kryptex.com/rxd)
 * **WoolyPooly:** [https://woolypooly.com/en/coin/rxd](https://woolypooly.com/en/coin/rxd)
 * **RXD SoloPool:** [https://rxd.solopool.org](https://rxd.solopool.org/)
@@ -163,6 +164,6 @@ description: Radiant Blockchain Links and Resources
 * **Rigel (NVIDIA):** [https://github.com/rigelminer/rigel/releases/](https://github.com/rigelminer/rigel/releases/)
 * **wildrig:** [https://github.com/andru-kun/wildrig-multi/releases](https://github.com/andru-kun/wildrig-multi/releases)
 * **MiningPoolStats:** [https://miningpoolstats.stream/radiant](https://miningpoolstats.stream/radiant)
-* **Minerstats:** [https://minerstat.com/coin/RXD](https://minerstat.com/coin/RXD)
+* **Minerstat:** [https://minerstat.com/coin/RXD](https://minerstat.com/coin/RXD)
 * **Hashrate:** [https://hashrate.no/coins/rxd](https://hashrate.no/coins/rxd)
 * **Whattomine:** [https://whattomine.com/coins/356-rxd-sha512256d](https://whattomine.com/coins/356-rxd-sha512256d)
