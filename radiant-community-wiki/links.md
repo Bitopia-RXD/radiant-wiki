@@ -54,6 +54,7 @@ description: Radiant Blockchain Links and Resources
 ### Glyph Explorers <a href="#glyph-explorers" id="glyph-explorers"></a>
 
 * **Explorer:** [https://glyph-explorer.rxd-radiant.com](https://glyph-explorer.rxd-radiant.com)
+* **Glyphium:** [https://www.glyphium.com](https://www.glyphium.com/)
 
 ## Communication <a href="#communication" id="communication"></a>
 
@@ -61,6 +62,7 @@ description: Radiant Blockchain Links and Resources
 * **Telegram - Main:** [https://t.me/RadiantBlockchain](https://t.me/RadiantBlockchain)
 * **Telegram - Traders:** [https://t.me/RadiantBlockchainTraders](https://t.me/RadiantBlockchainTraders)
 * **Telegram - Miners:** [https://t.me/rxdradiantmining](https://t.me/rxdradiantmining)
+* **Telegram - Glyphium:** [https://t.me/radiant\_glyphium](https://t.me/radiant_glyphium)
 * **Substack - Community:** [https://nocookie9107.substack.com](https://nocookie9107.substack.com/)
 * **Medium - Community:** [https://radiant-community.medium.com](https://radiant-community.medium.com/)
 * **Medium - Radiant Foundation:** [https://radiantfoundation.medium.com](https://radiantfoundation.medium.com/)
@@ -101,7 +103,7 @@ description: Radiant Blockchain Links and Resources
 * **Photonic Wallet - Extension:** [https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1)
 * **Photonic Wallet - Source:** [https://github.com/RadiantBlockchain-Community/photonic-wallet](https://github.com/RadiantBlockchain-Community/photonic-wallet)
 * **WarWallet - Extension:** [https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil](https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil)
-* **Glyphium - Web App:** [https://wallet.glyphium.com](https://wallet.glyphium.com/)
+* **Glyphium Wallet - Web App:** [https://wallet.glyphium.com](https://wallet.glyphium.com/)
 
 ## Exchanges <a href="#exchanges" id="exchanges"></a>
 
