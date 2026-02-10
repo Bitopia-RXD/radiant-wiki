@@ -12,8 +12,8 @@ description: Radiant Blockchain Links and Resources
 
 ## Code <a href="#code" id="code"></a>
 
+* **GitHub Radiant Core - Active:** [https://github.com/Radiant-Core](https://github.com/Radiant-Core)
 * **GitHub Radiant Community - Active:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
-* **GitHub Radiant Foundation - Active:** [https://github.com/Radiant-Core](https://github.com/Radiant-Core)
 * **GitHub Initial - Archived:** [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain)
 * **Radiant Node:** [https://github.com/RadiantBlockchain-Community/radiant-node](https://github.com/RadiantBlockchain-Community/radiant-node)
 * **Radiant-Core Node 2.0:** [https://github.com/Radiant-Core/Radiant-Core](https://github.com/Radiant-Core/Radiant-Core)
@@ -40,12 +40,14 @@ description: Radiant Blockchain Links and Resources
 * **Explorer 1:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
 * **Explorer 2:** [https://explorer1.rxd-radiant.com](https://explorer1.rxd-radiant.com/)
 * **Explorer 3:** [https://radiantexplorer.com](https://radiantexplorer.com/)
+* **Node Crawler:** [https://nodes.rxd-radiant.com](https://nodes.rxd-radiant.com)
 
 ***
 
 * **Mempool summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
 * **Block stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
 * **Transaction stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
+* **Halving countdown:** [https://rxd-halving.vercel.app](https://rxd-halving.vercel.app/)
 
 ### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
@@ -71,9 +73,10 @@ description: Radiant Blockchain Links and Resources
 * **Reddit - Main:** [https://www.reddit.com/r/Radiant\_RXD](https://www.reddit.com/r/Radiant_RXD)
 * **Reddit - Initial:** [https://www.reddit.com/r/RadiantBlockchain](https://www.reddit.com/r/RadiantBlockchain)
 * **Radiant World X Community:** [https://x.com/i/communities/1948823693016051912](https://x.com/i/communities/1948823693016051912)
-* **X - Community:** [https://twitter.com/RXD\_Community](https://x.com/RXD_Community)
-* **X - Planet\_Radiant:** [https://x.com/Planet\_Radiant](https://x.com/Planet_Radiant)
+* **X - RadiantCoreOrg:** [https://x.com/RadiantCoreOrg](https://x.com/RadiantCoreOrg)
 * **X - RadiantFoundation:** [https://x.com/RXDFoundation](https://x.com/RXDFoundation)
+* **X - Planet\_Radiant:** [https://x.com/Planet\_Radiant](https://x.com/Planet_Radiant)
+* **X - Community:** [https://x.com/RXD\_Community](https://x.com/RXD_Community)
 * **X - Initial:** [https://x.com/RadiantLayerOne](https://x.com/RadiantLayerOne)
 * **Bitcointalk:** [https://bitcointalk.org/index.php?topic=5436028;all](https://bitcointalk.org/index.php?topic=5436028)
 * **TikTok - Community:** [https://www.tiktok.com/@radiantrxd\_official](https://www.tiktok.com/@radiantrxd_official)
