@@ -15,8 +15,8 @@ description: Radiant Blockchain Links and Resources
 * **GitHub Radiant Core - Active:** [https://github.com/Radiant-Core](https://github.com/Radiant-Core)
 * **GitHub Radiant Community - Active:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
 * **GitHub Initial - Archived:** [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain)
+* **Radiant-Core Node v2:** [https://github.com/Radiant-Core/Radiant-Core](https://github.com/Radiant-Core/Radiant-Core)
 * **Radiant Node:** [https://github.com/RadiantBlockchain-Community/radiant-node](https://github.com/RadiantBlockchain-Community/radiant-node)
-* **Radiant-Core Node 2.0:** [https://github.com/Radiant-Core/Radiant-Core](https://github.com/Radiant-Core/Radiant-Core)
 * **RXinDexer - Indexer for RXD and Glyphs:** [https://github.com/Radiant-Core/RXinDexer](https://github.com/Radiant-Core/RXinDexer)
 * **RadiantJS:** [https://github.com/chainbow/radiantjs](https://github.com/chainbow/radiantjs)
 * **RXD.WASM/RXD-RS:** [https://github.com/RadiantBlockchain-Community/rxd-wasm](https://github.com/RadiantBlockchain-Community/rxd-wasm)
@@ -137,6 +137,10 @@ description: Radiant Blockchain Links and Resources
 * **Glyph Contracts:** [https://glyph-explorer.rxd-radiant.com/contracts](https://glyph-explorer.rxd-radiant.com/contracts)
 * **Photonic Wallet:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
 * **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
+
+### Solo - Mainnet <a href="#pools-mainnet" id="pools-mainnet"></a>
+
+* **Radiant Stratum Proxy:** [https://github.com/Radiant-Core/radiant-stratum-proxy](https://github.com/Radiant-Core/radiant-stratum-proxy)
 
 ### Pools - Mainnet <a href="#pools-mainnet" id="pools-mainnet"></a>
 
