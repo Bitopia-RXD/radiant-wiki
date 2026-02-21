@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # FAQs
 
 ## What is Radiant? <a href="#what-is-radiant" id="what-is-radiant"></a>
@@ -24,7 +10,7 @@ Radiant is a peer-to-peer programmable digital asset system, derived from a fork
 * Utilizes a robust hashing algorithm, SHA512256d
 * Implements the ASERT DAA (Difficulty Adjustment Algorithm)
 * Genesis Date: June 20, 2022, 02:42:50 GMT+0000
-* Genesis Hash: [0000000065d8ed5d8be28d6876b3ffb660ac2a6c0ca59e437e1f7a6f4e003fb4](https://radiantexplorer.com/block/0000000065d8ed5d8be28d6876b3ffb660ac2a6c0ca59e437e1f7a6f4e003fb4)
+* Genesis Hash: [0000000065d8ed5d8be28d6876b3ffb660ac2a6c0ca59e437e1f7a6f4e003fb4](https://explorer.radiantblockchain.org/block/0000000065d8ed5d8be28d6876b3ffb660ac2a6c0ca59e437e1f7a6f4e003fb4)
 * Block Time: 300 seconds (5 minutes)
 * Halving: Every 2 years (every 210,000 blocks)
 * Subsidy Emission: 50,000 per block (Now 25,000 per block)
@@ -43,10 +29,6 @@ Radiant stands out for several reasons:
 ## How was Radiant fairly launched? <a href="#how-was-radiant-fairly-launched" id="how-was-radiant-fairly-launched"></a>
 
 Radiant was launched as a 100% PoW blockchain, ready for use, without any involvement of investors, ICOs, premining, or coin allocations. Mining guides and instructions, including how to mine with rented hash power, were publicly released by Atoshi, Radiant's developer, ensuring that everyone had equal access to RXD coins from day one.
-
-## What is Radiant ethos? Is Radiant considered an investment? <a href="#what-is-radiant-ethos-is-radiant-considered-an-investment" id="what-is-radiant-ethos-is-radiant-considered-an-investment"></a>
-
-Radiant aims to be a scalable and flexible blockchain technology, not primarily designed for investment purposes or generating profits from RXD coin holdings. Similar to Bitcoin, which was created as a peer-to-peer electronic cash system, Radiant was designed as a peer-to-peer programmable digital asset system. While you can still acquire RXD coins from exchanges, it's essential to understand that there are no guarantees of further development. Always perform your research (DYOR) and exercise caution when considering any investment.
 
 ## Why is it a fork from BCH? <a href="#why-is-it-a-fork-from-bch" id="why-is-it-a-fork-from-bch"></a>
 
@@ -94,7 +76,7 @@ The next halving event for Radiant will occur around the middle of April 2026, r
 
 Radiant will effectively have 0 block rewards within the year 2108, when the block reward falls below 1 photon (1/100,000,000 RXD) after the 43rd halving.
 
-## How many transactions per second can Radiant achieve?  <a href="#what-is-the-back-to-genesis-problem" id="what-is-the-back-to-genesis-problem"></a>
+## How many transactions per second can Radiant achieve? <a href="#what-is-the-back-to-genesis-problem" id="what-is-the-back-to-genesis-problem"></a>
 
 With the current block size of 256MB, Radiant is capable of doing 4,000 TPS (Transaction Per Second). If needed, miners can optimize in the future to scale linearly. The Radiant Blockchain is designed to scale towards 500,000+ TPS.
 
@@ -185,6 +167,7 @@ Check the Radiant node deployment guides
 * [Compile Node](https://radiant4people.com/guides/node/compile/)
 * [Run Node with Docker](https://radiant4people.com/guides/docker/radiant-node-guide/)
 * [Run Node on Flux](https://radiant-community.medium.com/host-your-electrumx-radiant-node-via-the-flux-marketplace-ecf2388832d6)
+* [Radiant Server Setup Guide](https://github.com/telostia/radiant-server-easy-setup)
 
 ### Is there any reward for running a node? <a href="#is-there-any-reward-for-running-a-node" id="is-there-any-reward-for-running-a-node"></a>
 
@@ -213,12 +196,18 @@ You can access your RXD through:
 
 The current toolbox available to help developers build on Radiant is:
 
-* [RadiantJS:](https://github.com/chainbow/radiantjs) Radiant JavaScript Library.
-* [RXD.WASM/RXD-RS:](https://github.com/RadiantBlockchain-Community/rxd-wasm) Rust/WASM Library to interact with Radiant.
-* [RadiantScript:](https://github.com/RadiantBlockchain-Community/radiantscript) Fork of CashScript with support for Radiant Opcodes to create complex smart contracts.
-* [Glyph Protocol:](https://github.com/RadiantBlockchain-Community/glyph-miner?tab=readme-ov-file#protocol) Create Fungible Tokens, Non-Fungible Tokens, or Smart Contracts by utilizing digital signatures on Photons, the sub-units of Radiant's coin, RXD.
-* [Photonic Wallet:](https://github.com/RadiantBlockchain-Community/photonic-wallet?tab=readme-ov-file#introduction) A non-custodial wallet for minting and transferring tokens, following the Glyphs Protocol. The code runs completely client side and only requires a connection to an ElectrumX server.
+* [Developer Guide:](https://radiantcore.org/docs/developer-guide.html) Build apps on Radiant: radiantjs SDK, transactions, Glyph tokens, RadiantScript smart contracts, ElectrumX integration, node RPC, and V2 opcodes.
+* [Radiant Token Creation Guide:](https://radiantcore.org/docs/token-creation.html) Learn how to create tokens on Radiant using the Glyph protocol. Whether you want to create a simple NFT, launch a fungible token, or set up a mineable token contract, this document has you covered.
+* [Radiant Smart Contract Best Practices](https://radiantcore.org/docs/contract-best-practices.html)
+* [RadiantScript:](https://github.com/Radiant-Core/RadiantScript) A fork of CashScript with support for Radiant Opcodes. RadiantScript is a high-level language that allows you to write Radiant Smart Contracts in a straightforward and familiar way. Its syntax is inspired by Ethereum's Solidity language, but its functionality is different since the underlying systems have very different fundamentals.
+* [RadiantJS:](https://github.com/Radiant-Core/radiantjs) A Radiant JavaScript Library
+* [Glyph Protocol:](https://github.com/Radiant-Core/Glyph-miner) Create Fungible Tokens, Non-Fungible Tokens, or Smart Contracts by utilizing digital signatures on Photons, the sub-units of Radiant's coin, RXD.
+* [Photonic Wallet:](https://github.com/Radiant-Core/Photonic-Wallet) A non-custodial wallet for minting and transferring tokens, following the Glyphs Protocol. The code runs completely client side and only requires a connection to an ElectrumX server.
 * [Photonic Wallet - Extension:](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1) Utilize the Photonic Wallet extension available at the Chrome Web Store.
-* [Muon Pay SDK:](https://github.com/RadiantRanger42/MuonPaySDK) A powerful and easy-to-integrate solution for merchants looking to accept payments on the Radiant (RXD) blockchain.
+* [Radiant-Core:](https://github.com/Radiant-Core/Radiant-Core) GitHub Repo with the latest updates.
+* [Radiant MCP Server:](https://github.com/Radiant-Core/radiant-mcp-server) Enables AI agents to query chain state, manage Glyph tokens, resolve WAVE names, and interact with the Radiant ecosystem.
+* [RXinDexer:](https://github.com/Radiant-Core/RXinDexer) Blockchain indexer for RXD and Glyphs.
+* [Muon Pay SDK:](https://github.com/Radiant-Core/MuonPaySDK) A powerful and easy-to-integrate solution for merchants looking to accept payments on the Radiant (RXD) blockchain.
 * [Radiant Server Setup Guide:](https://github.com/telostia/radiant-server-easy-setup) Easy to follow guide on how to setup and run a Radiant Node and ElectrumX Server.
 * [Glyphs Protocol Tech Guide:](https://radiantblockchain.org/glyphs-protocol-guide.html) Learn the technical details on how the Glyphs Protocol works on Radiant.
+* [RXD.WASM/RXD-RS:](https://github.com/RadiantBlockchain-Community/rxd-wasm) A Rust/WASM Library to interact with Radiant.
