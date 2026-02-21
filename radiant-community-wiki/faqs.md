@@ -156,18 +156,17 @@ Radiant was bootstrapped and introduced to the world by an individual or group o
 
 ## How to mine Radiant? <a href="#how-to-mine-radiant" id="how-to-mine-radiant"></a>
 
+An in-depth [Radiant Mining Guide](https://radiantcore.org/docs/mining-guide.html).
+
 A step-by-step guide on [how to mine RXD with an ASIC miner](https://pool.kryptex.com/articles/how-to-mine-radiant-en).
 
 Radiant's initial GPU mining guide when it was first launched can be found on [GitHub](https://github.com/RadiantBlockchain/rad-bfgminer/blob/master/MINING_RAD_GUIDE.md).
 
 ## How to run a Radiant node? <a href="#how-to-run-a-radiant-node" id="how-to-run-a-radiant-node"></a>
 
-Check the Radiant node deployment guides
+Check the Radiant Node deployment guide
 
-* [Compile Node](https://radiant4people.com/guides/node/compile/)
-* [Run Node with Docker](https://radiant4people.com/guides/docker/radiant-node-guide/)
-* [Run Node on Flux](https://radiant-community.medium.com/host-your-electrumx-radiant-node-via-the-flux-marketplace-ecf2388832d6)
-* [Radiant Server Setup Guide](https://github.com/telostia/radiant-server-easy-setup)
+* [Run a node, build an app, or start mining in minutes](https://radiantcore.org/#get-started)
 
 ### Is there any reward for running a node? <a href="#is-there-any-reward-for-running-a-node" id="is-there-any-reward-for-running-a-node"></a>
 
@@ -177,25 +176,25 @@ No, Radiant is a 100% PoW Blockchain. The only way to get RXD is through mining.
 
 You can access your RXD through:
 
-### Software wallets <a href="#software-wallets" id="software-wallets"></a>
+### Software <a href="#software-wallets" id="software-wallets"></a>
 
-You can access your RXD through:
-
-**Software**
-
-* [Electron Radiant Wallet:](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4) Open source desktop wallet based off the popular BTC wallet upgraded for RXD.
-* [ChainBow Wallet:](https://chainbow.io/) Mobile and desktop wallet compatible with 0-conf transactions.
-* [Photonic Wallet:](https://photonic.radiant4people.com/) A multi platform wallet developed by Radiant community developers, compatible with digital asset minting (Glyph Protocol assets).
+* [Electron Radiant Wallet v0.1.4 - Desktop](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4) Open source desktop wallet based off the popular BTC wallet upgraded for RXD.
+* [ChainBow Wallet v2 - iOS](https://apps.apple.com/us/app/chainbow-wallet/id1568850934) Radiant Wallet compatible with 0-conf transactions.
+* [ChainBow Wallet v2 - Android](https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet) Radiant Wallet compatible with 0-conf transactions.
+* [Photonic Wallet - Web App:](https://photonic.radiant4people.com) A multi platform wallet developed by Radiant community developers, compatible with digital asset minting (Glyph Protocol assets).
 * [Photonic Wallet - Extension:](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1) Install via the Chrome Web Store.
+* [WarWallet - Extension:](https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil) Install via the Chrome Web Store.
+* [Glyphium Wallet - Web App:](https://wallet.glyphium.com) A digital asset management wallet for Radiant
 
-**Hardware**
+### Hardware <a href="#software-wallets" id="software-wallets"></a>
 
-* [Tangem Wallet:](https://tangem.com/en/pricing/?promocode=RADIANT/en/) Slim as a bank card, secure as a bank vault.
+[Tangem Wallet:](https://tangem.com/en/pricing/?promocode=RADIANT/en/) Slim as a bank card, secure as a bank vault.
 
 ## What developer tooling is available on Radiant?
 
-The current toolbox available to help developers build on Radiant is:
+Current toolbox available to help developers build on Radiant:
 
+* [Get Started Guide:](https://radiantcore.org/#get-started) Run a node, build an app, or start mining in minutes.
 * [Developer Guide:](https://radiantcore.org/docs/developer-guide.html) Build apps on Radiant: radiantjs SDK, transactions, Glyph tokens, RadiantScript smart contracts, ElectrumX integration, node RPC, and V2 opcodes.
 * [Radiant Token Creation Guide:](https://radiantcore.org/docs/token-creation.html) Learn how to create tokens on Radiant using the Glyph protocol. Whether you want to create a simple NFT, launch a fungible token, or set up a mineable token contract, this document has you covered.
 * [Radiant Smart Contract Best Practices](https://radiantcore.org/docs/contract-best-practices.html)
