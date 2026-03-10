@@ -39,6 +39,7 @@ description: Radiant Blockchain Links and Resources
 * **Radiant Blockchain Community Wiki:** [https://radiantblockchain.gitbook.io/wiki](https://radiantblockchain.gitbook.io/wiki)
 * **Gravity Whitepaper:** [https://github.com/Radiant-Core/Project-Gravity](https://github.com/Radiant-Core/Project-Gravity)
 * **RXD Glyph Explorer - Source:** [https://github.com/cdonnachie/rxd-glyph-explorer](https://github.com/cdonnachie/rxd-glyph-explorer)
+* **Radiant Enhancement Proposals:** [https://github.com/Radiant-Core/REP](https://github.com/Radiant-Core/REP)
 
 ## Faucets <a href="#faucets" id="faucets"></a>
 
