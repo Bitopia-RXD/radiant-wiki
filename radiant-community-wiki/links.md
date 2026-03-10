@@ -40,8 +40,6 @@ description: Radiant Blockchain Links and Resources
 * **Gravity Whitepaper:** [https://github.com/Radiant-Core/Project-Gravity](https://github.com/Radiant-Core/Project-Gravity)
 * **RXD Glyph Explorer - Source:** [https://github.com/cdonnachie/rxd-glyph-explorer](https://github.com/cdonnachie/rxd-glyph-explorer)
 
-
-
 ## Faucets <a href="#faucets" id="faucets"></a>
 
 * **Faucet - Mainnet:** [https://faucet.radiant4people.com](https://faucet.radiant4people.com/)
@@ -133,7 +131,7 @@ description: Radiant Blockchain Links and Resources
 
 ## Wallets <a href="#wallets" id="wallets"></a>
 
-* **Electron Wallet 0.1.4 - Win / Linux / Mac:** [https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4)
+* **Electron Wallet 0.1.4 - Win / Linux / Mac:** [https://github.com/Radiant-Core/Electron-Wallet/releases/tag/v0.1.4](https://github.com/Radiant-Core/Electron-Wallet/releases/tag/v0.1.4)
 * **ChainBow Wallet 2.1.1 - iOS** [https://apps.apple.com/us/app/chainbow-wallet/id1568850934](https://apps.apple.com/us/app/chainbow-wallet/id1568850934)
 * **ChainBow Wallet 2.1.1 - Android** [https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet](https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet)
 * **Tangem Hardware Wallet - Mobile with NFC:** [https://tangem.com/en/pricing/?promocode=RADIANT](https://tangem.com/en/pricing/?promocode=RADIANT)
