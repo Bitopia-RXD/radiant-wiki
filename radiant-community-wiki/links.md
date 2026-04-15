@@ -13,13 +13,13 @@ description: Radiant Blockchain Links and Resources
 ## Code Repos and Info <a href="#code" id="code"></a>
 
 * **Radiant Core - Developer Hub:** [https://radiantcore.org](https://radiantcore.org/)
+* **Radiant Technical Docs:** [https://radiantcore.org/docs/](https://radiantcore.org/docs/)
 * **GitHub - Radiant Core - Active:** [https://github.com/Radiant-Core](https://github.com/Radiant-Core)
 * **GitHub - Community:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
 * **GitHub - Initial - Public Archived:** [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain)
-* **Radiant Technical Docs:** [https://radiantcore.org/docs/](https://radiantcore.org/docs/)
 * **Radiant-Core Node v2x:** [https://github.com/Radiant-Core/Radiant-Core](https://github.com/Radiant-Core/Radiant-Core)
 * **Radiant-Core Node Helper:** [https://github.com/Radiant-Core/radiant-node-helper](https://github.com/Radiant-Core/radiant-node-helper)
-* **Radiant Node:** [https://github.com/RadiantBlockchain-Community/radiant-node](https://github.com/RadiantBlockchain-Community/radiant-node)
+* **Radiant Node v1:** [https://github.com/RadiantBlockchain-Community/radiant-node](https://github.com/RadiantBlockchain-Community/radiant-node)
 * **Glyph Token Standards:** [https://github.com/Radiant-Core/Glyph-Token-Standards](https://github.com/Radiant-Core/Glyph-Token-Standards)
 * **Radiant MCP Server:** [https://github.com/Radiant-Core/radiant-mcp-server](https://github.com/Radiant-Core/radiant-mcp-server)
 * **RXinDexer - Radiant Indexer (RXD + Glyphs):** [https://github.com/Radiant-Core/RXinDexer](https://github.com/Radiant-Core/RXinDexer)
@@ -67,7 +67,7 @@ description: Radiant Blockchain Links and Resources
 * **Mempool summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
 * **Block stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
 * **Transaction stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
-* **Halving countdown:** [https://rxd-halving.vercel.app](https://rxd-halving.vercel.app/)
+* **Halving countdown:** [https://halving.rxd-radiant.com](https://halving.rxd-radiant.com/)
 
 ### Testnet Explorers <a href="#testnet-explorers" id="testnet-explorers"></a>
 
@@ -132,13 +132,14 @@ description: Radiant Blockchain Links and Resources
 
 ## Wallets <a href="#wallets" id="wallets"></a>
 
-* **Electron Wallet 0.1.4 - Win / Linux / Mac:** [https://github.com/Radiant-Core/Electron-Wallet/releases/tag/v0.1.4](https://github.com/Radiant-Core/Electron-Wallet/releases/tag/v0.1.4)
+* **Electron Radiant Wallet - Win / Linux / Mac:** [https://github.com/Radiant-Core/Electron-Wallet/releases/](https://github.com/Radiant-Core/Electron-Wallet/releases/tag/v0.1.4)
 * **ChainBow Wallet 2.1.1 - iOS** [https://apps.apple.com/us/app/chainbow-wallet/id1568850934](https://apps.apple.com/us/app/chainbow-wallet/id1568850934)
 * **ChainBow Wallet 2.1.1 - Android** [https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet](https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet)
 * **Tangem Hardware Wallet - Mobile with NFC:** [https://tangem.com/en/pricing/?promocode=RADIANT](https://tangem.com/en/pricing/?promocode=RADIANT)
-* **Photonic Wallet - Web App**: [https://photonic.radiant4people.com](https://photonic.radiant4people.comhttps/photonic.radiant4people.com)
-* **Photonic Wallet - Extension:** [https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1)
-* **Photonic Wallet - Source:** [https://github.com/Radiant-Core/Photonic-Wallet](https://github.com/Radiant-Core/Photonic-Wallet)
+* **Photonic Wallet v2 - Web App**: [https://photonic-wallet.com](https://photonic-wallet.com/)
+* **Photonic Wallet v1 - Web App**: [https://photonic.radiant4people.com](https://photonic.radiant4people.comhttps/photonic.radiant4people.com)
+* **Photonic Wallet v1 - Extension:** [https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1)
+* **Photonic Wallet v2 - Source:** [https://github.com/Radiant-Core/Photonic-Wallet](https://github.com/Radiant-Core/Photonic-Wallet)
 * **WarWallet - Extension:** [https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil](https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil)
 * **Glyphium Wallet - Web App:** [https://wallet.glyphium.com](https://wallet.glyphium.com/)
 
@@ -167,9 +168,11 @@ description: Radiant Blockchain Links and Resources
 
 ### Token Mining <a href="#token-mining" id="token-mining"></a>
 
-* **Glyph Miner:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
+* **Glyph Miner v2 - Web App:** [https://glyph-miner.com](https://glyph-miner.com/)
+* **Glyph Miner v1 - Web App:** [https://glyph.radiant4people.com](https://glyph.radiant4people.com/)
 * **Glyph Contracts:** [https://glyph-explorer.rxd-radiant.com/contracts](https://glyph-explorer.rxd-radiant.com/contracts)
-* **Photonic Wallet:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
+* **Photonic Wallet v2 - Web App**: [https://photonic-wallet.com](https://photonic-wallet.com/)
+* **Photonic Wallet v1 - Web App:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
 * **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
 
 ### Solo - Mainnet <a href="#pools-mainnet" id="pools-mainnet"></a>

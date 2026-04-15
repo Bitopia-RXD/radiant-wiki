@@ -178,11 +178,11 @@ You can access your RXD through:
 
 ### Software <a href="#software-wallets" id="software-wallets"></a>
 
-* [Electron Radiant Wallet v0.1.4 - Desktop](https://github.com/RadiantBlockchain/electron-radiant/releases/tag/v0.1.4) Open source desktop wallet based off the popular BTC wallet upgraded for RXD.
+* [Electron Radiant Wallet - Desktop](https://github.com/Radiant-Core/Electron-Wallet/releases/) Open source desktop wallet based off the popular BTC wallet upgraded for RXD.
 * [ChainBow Wallet v2 - iOS](https://apps.apple.com/us/app/chainbow-wallet/id1568850934) Radiant Wallet compatible with 0-conf transactions.
 * [ChainBow Wallet v2 - Android](https://play.google.com/store/apps/details?id=io.chainbow.bsvwallet) Radiant Wallet compatible with 0-conf transactions.
-* [Photonic Wallet - Web App:](https://photonic.radiant4people.com) A multi platform wallet developed by Radiant community developers, compatible with digital asset minting (Glyph Protocol assets).
-* [Photonic Wallet - Extension:](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1) Install via the Chrome Web Store.
+* [Photonic Wallet v2 - Web App:](https://photonic-wallet.com/) A multi platform wallet developed by Radiant community developers, compatible with digital asset minting (Glyph Protocol assets).
+* [Photonic Wallet v1 - Extension:](https://chromewebstore.google.com/detail/photonic-wallet/ldagidbelgfoonfhbggfgmlhaccfeepb?pli=1) Install via the Chrome Web Store.
 * [WarWallet - Extension:](https://chromewebstore.google.com/detail/warwallet/ppohfcljpmdapjfidicjpnpjcgdmgmil) Install via the Chrome Web Store.
 * [Glyphium Wallet - Web App:](https://wallet.glyphium.com) A digital asset management wallet for Radiant
 
