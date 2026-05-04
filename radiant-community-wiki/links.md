@@ -13,7 +13,7 @@ description: Radiant Blockchain Links and Resources
 ## Code Repos and Info <a href="#code" id="code"></a>
 
 * **Radiant Core - Developer Hub:** [https://radiantcore.org](https://radiantcore.org/)
-* **Radiant Technical Docs:** [https://radiantcore.org/docs/](https://radiantcore.org/docs/)
+* **Radiant Technical Docs:** [https://radiantcore.org/docs](https://radiantcore.org/docs/)
 * **GitHub - Radiant Core - Active:** [https://github.com/Radiant-Core](https://github.com/Radiant-Core)
 * **GitHub - Community:** [https://github.com/RadiantBlockchain-Community](https://github.com/RadiantBlockchain-Community)
 * **GitHub - Initial - Public Archived:** [https://github.com/RadiantBlockchain](https://github.com/RadiantBlockchain)
@@ -30,6 +30,7 @@ description: Radiant Blockchain Links and Resources
 * **RadiantScript:** [https://github.com/Radiant-Core/RadiantScript](https://github.com/Radiant-Core/RadiantScript)
 * **rxdeb - Radiant Script Debugger:** [https://github.com/Radiant-Core/rxdeb](https://github.com/Radiant-Core/rxdeb)
 * **RadiantJS:** [https://github.com/Radiant-Core/radiantjs](https://github.com/Radiant-Core/radiantjs)
+* **Python SDK:** [https://github.com/MudwoodLabs/pyrxd](https://github.com/MudwoodLabs/pyrxd)
 * **RXD.WASM/RXD-RS:** [https://github.com/RadiantBlockchain-Community/rxd-wasm](https://github.com/RadiantBlockchain-Community/rxd-wasm)
 * **Photonic Wallet - Source:** [https://github.com/Radiant-Core/Photonic-Wallet](https://github.com/Radiant-Core/Photonic-Wallet)
 * **Glyph Miner - Source:** [https://github.com/Radiant-Core/Glyph-miner](https://github.com/Radiant-Core/Glyph-miner)
@@ -52,8 +53,9 @@ description: Radiant Blockchain Links and Resources
 
 * **Explorer 1:** [https://explorer.radiantblockchain.org](https://explorer.radiantblockchain.org/)
 * **Explorer 2:** [https://explorer1.rxd-radiant.com](https://explorer1.rxd-radiant.com/)
-* **Radiant Explorer 3:** [https://radiantcore.org/explorer/](https://radiantcore.org/explorer/)
-* **Explorer 4:** [https://radiantexplorer.com](https://radiantexplorer.com/)
+* **Explorer 3:** [https://explorer2.rxd-radiant.com](https://explorer2.rxd-radiant.com/)
+* **Radiant Explorer 4:** [https://radiantcore.org/explorer](https://radiantcore.org/explorer/)
+* **Explorer 5:** [https://radiantexplorer.com](https://radiantexplorer.com/)
 * **Node Crawler:** [https://nodes.rxd-radiant.com](https://nodes.rxd-radiant.com)
 
 ### ElectrumX Servers <a href="#mainnet-explorers" id="mainnet-explorers"></a>
@@ -63,7 +65,7 @@ description: Radiant Blockchain Links and Resources
 
 ### Blockchain Stats <a href="#mainnet-explorers" id="mainnet-explorers"></a>
 
-* **Radiant Explorer Core:** [https://radiantcore.org/explorer/](https://radiantcore.org/explorer/)
+* **Radiant Explorer Core:** [https://radiantcore.org/explorer](https://radiantcore.org/explorer/)
 * **Mempool summary:** [https://explorer.radiantblockchain.org/mempool-summary](https://explorer.radiantblockchain.org/mempool-summary)
 * **Block stats:** [https://explorer.radiantblockchain.org/block-stats](https://explorer.radiantblockchain.org/block-stats)
 * **Transaction stats:** [https://explorer.radiantblockchain.org/tx-stats](https://explorer.radiantblockchain.org/tx-stats)
@@ -120,7 +122,7 @@ description: Radiant Blockchain Links and Resources
 
 ### Technical Guides <a href="#testnet-explorers" id="testnet-explorers"></a>
 
-* **Radiant Technical Docs:** [https://radiantcore.org/docs/](https://radiantcore.org/docs/)
+* **Radiant Technical Docs:** [https://radiantcore.org/docs](https://radiantcore.org/docs/)
 * **Radiant Quick Reference:** [https://radiantcore.org/docs/quick-reference.html](https://radiantcore.org/docs/quick-reference.html)
 * **Radiant Developer Guide:** [https://radiantcore.org/docs/developer-guide.html](https://radiantcore.org/docs/developer-guide.html)
 * **Radiant Token Creation Guide:** [https://radiantcore.org/docs/token-creation.html](https://radiantcore.org/docs/token-creation.html)
@@ -166,6 +168,11 @@ description: Radiant Blockchain Links and Resources
 
 ## Miner Resources
 
+### Guides <a href="#token-mining" id="token-mining"></a>
+
+* **Radiant Mining Guide:** [https://radiantcore.org/docs/mining-guide.html](https://radiantcore.org/docs/mining-guide.html)
+* **Radiant Technical Docs:** [https://radiantcore.org/docs](https://radiantcore.org/docs/)
+
 ### Token Mining <a href="#token-mining" id="token-mining"></a>
 
 * **Glyph Miner v2 - Web App:** [https://glyph-miner.com](https://glyph-miner.com/)
@@ -173,7 +180,7 @@ description: Radiant Blockchain Links and Resources
 * **Glyph Contracts:** [https://glyph-explorer.rxd-radiant.com/contracts](https://glyph-explorer.rxd-radiant.com/contracts)
 * **Photonic Wallet v2 - Web App**: [https://photonic-wallet.com](https://photonic-wallet.com/)
 * **Photonic Wallet v1 - Web App:** [https://photonic.radiant4people.com](https://photonic.radiant4people.com/)
-* **Server-Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
+* **ElectrumX Server Status:** [https://radiantblockchain-community.github.io/electrumx-check](https://radiantblockchain-community.github.io/electrumx-check/)
 
 ### Solo - Mainnet <a href="#pools-mainnet" id="pools-mainnet"></a>
 
