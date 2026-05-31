@@ -54,7 +54,9 @@ Most excitingly, GlyPhium is expanding into interactive entertainment with a bra
 
 
 
-[<sup>Source via X</sup>](https://x.com/Planet_Radiant/status/2060687277869896009)
+{% hint style="info" %}
+[Source via X](https://x.com/Planet_Radiant/status/2060687277869896009)
+{% endhint %}
 
 
 
