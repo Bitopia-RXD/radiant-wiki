@@ -52,6 +52,8 @@ Alongside a revamped public platform, the development team has announced an aggr
 
 Most excitingly, GlyPhium is expanding into interactive entertainment with a brand-new gaming initiative, bringing massive utility, massive engagement, and a wave of new users to the Radiant ecosystem.
 
+
+
 ***
 
 #### **Issue 11 - April 2026**
@@ -84,6 +86,8 @@ The network has hit a massive 75 percent distribution milestone with 15.8 billio
 
 At a steady $0.000107, Radiant is perfectly positioned for its next breakout as scarcity continues to build.
 
+
+
 ***
 
 #### **Issue 10 - March 2026**
@@ -109,6 +113,8 @@ From North America to Southeast Asia, Radiant’s decentralized footprint is exp
 As of March 31, 2026, Radiant (RXD) remained in a period of neutral consolidation between $0.000083 and $0.0001.&#x20;
 
 Following the Core 2.2.0 upgrade, the market is holding steady as the circulating supply nears its final milestones, with key resistance currently established at $0.00013.
+
+
 
 ***
 
@@ -146,6 +152,8 @@ With a large circulating supply, even small percentage moves can shift market ca
 
 Traders and long-term supporters alike are watching for potential breakout momentum.
 
+
+
 ***
 
 #### **Issue 8 - January 2026**
@@ -177,6 +185,8 @@ The reduction has sparked speculation in the mining community over the status of
 Some miners believe the machines have been temporarily powered down due to weaker profitability, while others question whether large-scale ASIC deployment was ever sustainable beyond an initial surge.&#x20;
 
 For now, it remains unclear whether the decline reflects a temporary pause or a more lasting retreat of ASIC miners from the Radiant network.
+
+
 
 ***
 
@@ -238,6 +248,8 @@ First teased in late 2025, this project has become the most significant unsolved
 
 With the Halving officially slated for April 10, 2026, and a massive reduction in inflation on the horizon, the unveiling of R-Shield is strategically timed to cincide with a new era of scarcity.
 
+
+
 ***
 
 #### **Issue 6 - November 2025**
@@ -276,6 +288,8 @@ The only thing standing between the chain and total centralization is a tiny pix
 
 The network needs you - suit up!
 
+
+
 ***
 
 #### **Issue 5 - October 31, 2025**
@@ -308,6 +322,8 @@ Multiplier Week is here. Post, earn, and conquer - every mission brings 3×50 RX
 
 Rally your creativity, lead the charge, and make your mark.
 
+
+
 ***
 
 #### **Issue 4 - September 30, 2025**
@@ -333,6 +349,8 @@ This fluctuation raises questions about the factors driving such shifts, includi
 Whispers in the Radiant community suggest a development that could change how the chain is explored and understood.&#x20;
 
 Nothing official has been announced, but the idea of faster, more accessible blockchain data is drawing attention, reflecting the quiet dedication of Radiant’s developers.
+
+
 
 ***
 
@@ -366,6 +384,8 @@ These contributors are helping shape projects, share technical insights, and str
 
 Special appreciation goes out to all developers dedicating their time and skills - their efforts are a driving force behind Radiant’s continued growth and innovation.
 
+
+
 ***
 
 #### **Issue 2 - August 2025**
@@ -395,6 +415,8 @@ With this milestone, Radiant shines brighter than ever, proving the future is Ra
 Since July’s discovery that DragonBall A11 miners can’t process large transactions over 2 MB, Radiant’s hashrates have fluctuated sharply.&#x20;
 
 The community now questions whether DragonBall is merely scaling back to cut costs or planning a full exit, a move that could impact both network security and hashrate stability.
+
+
 
 ***
 
@@ -429,3 +451,7 @@ Radiant (RXD) trades near **$0.000021**, up 36% from March lows but well below i
 Traders highlight a massive falling wedge, strong volume shelf, and bullish signals from SAR, RSI, and Williams %R.&#x20;
 
 The resolution of miner limitations may decide if momentum turns into lasting growth.
+
+
+
+[_Source via X_](https://x.com/Planet_Radiant/status/1957846132844888554)
