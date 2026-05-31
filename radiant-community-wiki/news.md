@@ -1,7 +1,7 @@
 ---
 description: THE RADIANT HORIZON
 layout:
-  width: default
+  width: wide
   title:
     visible: true
   description:
@@ -9,7 +9,7 @@ layout:
   tableOfContents:
     visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: true
   metadata:
