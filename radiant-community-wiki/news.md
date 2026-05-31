@@ -1,5 +1,5 @@
 ---
-description: THE RADIANT HORIZON
+description: Monthly Radiant Updates
 layout:
   width: default
   title:
@@ -22,7 +22,7 @@ layout:
 
 # News Headlines
 
-#### The Radiant Horizon
+#### THE RADIANT HORIZON
 
 {% hint style="info" icon="newspaper" %}
 Issue 12 - May 2026
