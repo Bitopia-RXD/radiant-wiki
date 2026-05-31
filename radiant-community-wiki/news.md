@@ -22,9 +22,9 @@ layout:
 
 # News Headlines
 
-#### **The Radiant Horizon**
+#### The Radiant Horizon
 
-**Issue 12 - May 2026**
+Issue 12 - May 2026
 
 ## Groundbreaking innovations propel Photonic, Gravity, and GlyPhium!
 
