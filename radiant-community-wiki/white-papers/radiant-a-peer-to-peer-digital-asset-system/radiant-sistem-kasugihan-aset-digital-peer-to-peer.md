@@ -22,15 +22,13 @@ Kaya Bitcoin, kita nemtokake koin elektronik minangka seri tandha asta digital. 
 
 ![Diagram 1. Radiant Transactions.](https://radiant4people.com/tech/whitepaper/images/w2.jpeg)
 
-> **Diagram 1.** Transaksi Radiant.\
->
+> **Diagram 1.** Transaksi Radiant.<br>
 
 Kanggo verifikasi manawa mbuwang kaping pindho ora kedadeyan, kita nggunakake server timestamp sing disebarake, nggunakake sistem bukti kerja adhedhasar hash kanggo nyetel riwayat kanonik kanggo nemtokake transaksi sing teka dhisik. Transaksi diatur dadi blok. Miturut konvensi, transaksi pisanan, sing diarani "transaksi berbasis koin", ing blok minangka transaksi khusus sing miwiti koin anyar sing diduweni dening panyipta blok kasebut. Blok dirantai bebarengan lan ngatur transaksi dadi Merkle Tree \[4]. Kabeh transaksi, kajaba sing pisanan, kudu ngrujuk marang transaksi sadurunge sing mbentuk grafik asiklik terarah (DAG) ing ngendi kabeh dhuwit recehan pungkasane nyambung menyang paling ora siji transaksi tartamtu ing wiwitan blok.
 
 ![Diagram 2. Block Structure; transactions are organized into a Merkle Tree.](https://radiant4people.com/tech/whitepaper/images/w3.jpeg)
 
-> **Diagram 2.** Struktur Blok; transaksi diaturke menyang Wit Merkle.\
->
+> **Diagram 2.** Struktur Blok; transaksi diaturke menyang Wit Merkle.<br>
 
 Masalah karo desain iki, ing konteks aset digital, mung ana siji jinis koin, utawa aset digital, lan ora ana konsep koin sing ditemtokake pangguna (utawa jinis aset digital). Desain bisa uga cukup kanggo transaksi kaya pembayaran elektronik ing unit akun nyata, nanging ora langsung cocok kanggo nggunakake liyane jinis dhuwit recehan utawa aset digital. Solusi umum yaiku ngenalake layanan kayata indeksasi transaksi sing ngawasi transaksi kanggo urutan data tartamtu kanggo menehi tandha nggawe aset digital. Masalah karo solusi iki yaiku gumantung marang perusahaan sing mbukak layanan kasebut, kanthi keaslian aset digital sing kudu dipercaya, kaya layanan liyane ing web. We needed cara kanggo kedhaftar kanggo nduduhake nggawe jinis tartamtu saka duwit receh, nanging ora gumantung ing layanan dipercaya kanggo digunakake kanggo presentation data.
 
@@ -40,15 +38,13 @@ Kita nemtokake koin elektronik khusus, utawa aset digital, minangka seri tandha 
 
 ![Diagram 3. Transactions representing user-defined coin types — or digital assets.](https://radiant4people.com/tech/whitepaper/images/w4.jpeg)
 
-> **Diagram 3.** Transaksine kuwi makili jinis duwit receh pangguna-ditetepake — utawa digital asset\
->
+> **Diagram 3.** Transaksine kuwi makili jinis duwit receh pangguna-ditetepake — utawa digital asset<br>
 
 Kanggo nindakake, kita kudu nggawe pengenal unik sing stabil lan mekanisme transaksi kanggo nglacak keaslian jinis koin (aset digital). Pangguna sistem kudu duwe bukti yen jinis koin tartamtu ora palsu lan kanthi akurat nggambarake aset digital kasebut.
 
 ![Diagram 4. Custom user-defined coin types are defined from a special mint transaction. A unique identifier is used to classify the coin type.](https://radiant4people.com/tech/whitepaper/images/w5.jpeg)
 
-> **Diagram 4.** Jinis koin khusus sing ditemtokake pangguna ditemtokake saka transaksi mint khusus. Pengenal unik digunakake kanggo nggolongake jinis koin.\
->
+> **Diagram 4.** Jinis koin khusus sing ditemtokake pangguna ditemtokake saka transaksi mint khusus. Pengenal unik digunakake kanggo nggolongake jinis koin.<br>
 
 ## 4. Identifier Seng Unik <a href="#id-4-identifier-seng-unik" id="id-4-identifier-seng-unik"></a>
 
@@ -58,8 +54,7 @@ Instruksi pemrograman, sing diarani `OP_PUSHINPUTREF`, digunakake kanggo masang 
 
 ![Diagram 5. Unique identifiers are initialized by matching an outpoint of one of the outputs being spent, and then maintained as long as at least one of the outputs being spent contains the same unique identifier in the script body.](https://radiant4people.com/tech/whitepaper/images/w6.jpeg)
 
-> **Diagram 5.** Pengenal seng unik diinisialisasi kanthi cocog karo titik metu saka salah sawijining output sing digunakake, lan banjur dijaga anggere paling ora siji output sing ditanggepi ngemot pengenal unik sing padha ing awak naskah.\
->
+> **Diagram 5.** Pengenal seng unik diinisialisasi kanthi cocog karo titik metu saka salah sawijining output sing digunakake, lan banjur dijaga anggere paling ora siji output sing ditanggepi ngemot pengenal unik sing padha ing awak naskah.<br>
 
 Instruksi pemrograman prasaja iki nyedhiyakake pengenal unik sing bisa digunakake minangka referensi stabil kanggo nggawe aturan lanjut. Contone, macem-macem jinis dhuwit recehan, aset digital, saiki bisa gumantung ing jinis dhuwit recehan liyane. Amarga kabeh data lokal kanggo transaksi, liwat transaksi input wong tuwa langsung, gampang kanggo klien lan layanan kanggo validasi keaslian aset digital ing wektu lan papan O (1) konstan, ngindhari kabutuhan layanan sing dipercoyo.
 
@@ -69,8 +64,7 @@ Sampeyan bisa ngasilake pengenal unik kanthi cara alternatif lan uga nyedhiyakak
 
 ![Diagram 6. Full parent transaction validation, mathematical induction proof by embedding the full parent transactions into the inputs resulting in exponential transaction size increase.](https://radiant4people.com/tech/whitepaper/images/w7.jpeg)
 
-> **Diagram 6.** Validasi transaksi induk seng lengkap, bukti induksi matematika kanthi ngetik transaksi induk seng lengkap menyang input sing nyebabake paningkatan eksponensial ing ukuran transaksi.\
->
+> **Diagram 6.** Validasi transaksi induk seng lengkap, bukti induksi matematika kanthi ngetik transaksi induk seng lengkap menyang input sing nyebabake paningkatan eksponensial ing ukuran transaksi.<br>
 
 Kita bisa nindakake iki kanthi ngowahi algoritma hash transaksi sing digunakake ing Bitcoin, ing ngendi intisarine sha-256 seng gandha diitung saka transaksi serial, menyang versi anyar sing pisanan ngringkes isi transaksi kanggo nurunake hash. Kita ngenalake versi 3 saka algoritma hash transaksi, kanggo mbedakake saka versi 1 lan 2 sing digunakake ing Bitcoin. Proses kasebut minangka ciri saben lapangan, utawa komponen transaksi, dadi hash perantara, sing bisa digunakake minangka input ukuran tetep lan kanthi mangkono ngindhari pertumbuhan ukuran transaksi eksponensial.
 
@@ -90,8 +84,7 @@ Nggunakake algoritma hash transaksi kanggo versi transaksi ke 3 (ketigo), kita b
 
 ![Diagram 7. Compressed parent transaction validation, mathematical induction proof by embedding the transaction hash version 3 preimage data-structure of the parent and grand-parent to enforce arbitrary rules and constraints.](https://radiant4people.com/tech/whitepaper/images/w8.jpeg)
 
-> **Diagram 7.** Validasi transaksi induk sing dikompres, bukti induksi matematika kanthi nanem struktur data preimage hash transaksi versi 3 saka wong tuwa lan simbah kanggo ngetrapake aturan lan kendala sing sewenang-wenang\
->
+> **Diagram 7.** Validasi transaksi induk sing dikompres, bukti induksi matematika kanthi nanem struktur data preimage hash transaksi versi 3 saka wong tuwa lan simbah kanggo ngetrapake aturan lan kendala sing sewenang-wenang<br>
 
 ## 6. Jaringane <a href="#id-6-jaringane" id="id-6-jaringane"></a>
 
@@ -99,8 +92,7 @@ Topologi jaringan minangka grafik sing meh lengkap, ing ngendi saben Node Pertam
 
 ![Diagram 8. Mining Nodes are well-connected and build on top of each other's blocks. Archive nodes store complete blocks for historical analysis and bootstrapping purposes. Agent nodes are listener nodes which filter and store transactions to serve clients.](https://radiant4people.com/tech/whitepaper/images/w9.jpeg)
 
-> **Diagram 8.** Node Mining disambungake kanthi apik lan dibangun ing ndhuwur blok masing-masing. Node arsip nyimpen blok lengkap kanggo analisis historis lan tujuan bootstrap. Node agen minangka simpul pamireng sing nyaring lan nyimpen transaksi kanggo nglayani klien.\
->
+> **Diagram 8.** Node Mining disambungake kanthi apik lan dibangun ing ndhuwur blok masing-masing. Node arsip nyimpen blok lengkap kanggo analisis historis lan tujuan bootstrap. Node agen minangka simpul pamireng sing nyaring lan nyimpen transaksi kanggo nglayani klien.<br>
 
 Node Pertambangane disambungake kanthi luwih apik menyang grafik sing meh lengkap ing antarane Node Pertambangan liyane. Tugase yaiku mbangun blok saben liyane lan njaga konsensus kanggo sawetara atus blok paling anyar, lan njaga set UTXO kanggo pencegahan belonjo kaping pindho..
 

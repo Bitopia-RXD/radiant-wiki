@@ -24,15 +24,13 @@ Mirip dengan Bitcoin, kami mendefinisikan koin elektronik sebagai rangkaian tand
 
 ![Diagram 1. Radiant Transactions.](https://radiant4people.com/tech/whitepaper/images/w2.jpeg)
 
-> **Diagram 1.** Transaksi Radiant.\
->
+> **Diagram 1.** Transaksi Radiant.<br>
 
 Untuk memverifikasi bahwa pembelanjaan ganda tidak terjadi, kami menggunakan server timestamp terdistribusi, menggunakan sistem proof-of-work berbasis hash untuk mengatur riwayat kanonis guna menentukan transaksi mana yang tiba lebih dulu. Transaksi diatur ke dalam blok. Sesuai kesepakatan, transaksi pertama, yang disebut "transaksi berbasis koin", dalam sebuah blok adalah transaksi khusus yang memulai koin baru yang dimiliki oleh pembuat blok. Blok dirantai bersama dan mengatur transaksi menjadi Pohon Merkle \[4]. Semua transaksi, kecuali yang pertama, harus mengacu pada transaksi sebelumnya yang membentuk grafik asiklik terarah (DAG) di mana semua koin pada akhirnya terhubung kembali ke setidaknya satu transaksi khusus di awal blok.
 
 ![Diagram 2. Block Structure; transactions are organized into a Merkle Tree.](https://radiant4people.com/tech/whitepaper/images/w3.jpeg)
 
-> **Diagram 2.** Struktur Blok; transaksi diatur ke dalam Pohon Merkle.\
->
+> **Diagram 2.** Struktur Blok; transaksi diatur ke dalam Pohon Merkle.<br>
 
 Masalah dengan desain ini, dalam konteks aset digital, adalah hanya ada satu jenis koin, atau aset digital, dan tidak ada konsep koin yang ditentukan pengguna (atau jenis aset digital). Desainnya berfungsi cukup baik untuk transaksi seperti pembayaran elektronik di unit akun asli, namun tidak langsung cocok untuk digunakan untuk jenis koin atau aset digital lainnya. Solusi umum adalah dengan memperkenalkan layanan seperti pengindeks transaksi yang memantau transaksi untuk urutan data khusus untuk menandai pembuatan aset digital. Masalah dengan solusi ini adalah bergantung pada perusahaan yang menjalankan layanan, dengan keaslian aset digital yang perlu dipercaya, sama seperti layanan lain di web. Kami membutuhkan cara bagi pengguna untuk menunjukkan pembuatan jenis koin khusus, tetapi tidak bergantung pada layanan tepercaya yang akan digunakan untuk presentasi data.
 
@@ -42,15 +40,13 @@ Kami mendefinisikan koin elektronik khusus, atau aset digital, sebagai rangkaian
 
 ![Diagram 3. Transactions representing user-defined coin types — or digital assets.](https://radiant4people.com/tech/whitepaper/images/w4.jpeg)
 
-> **Diagram 3.** Transaksi yang mewakili jenis koin yang ditentukan pengguna — atau digital asset\
->
+> **Diagram 3.** Transaksi yang mewakili jenis koin yang ditentukan pengguna — atau digital asset<br>
 
 Untuk melakukannya, kita perlu membuat pengidentifikasi unik yang stabil dan mekanisme transaksi untuk melacak keaslian jenis koin (aset digital). Pengguna sistem perlu memiliki bukti bahwa jenis koin khusus bukan pemalsuan dan secara akurat mewakili aset digital.
 
 ![Diagram 4. Custom user-defined coin types are defined from a special mint transaction. A unique identifier is used to classify the coin type.](https://radiant4people.com/tech/whitepaper/images/w5.jpeg)
 
-> **Diagram 4.** Jenis koin khusus yang ditentukan pengguna ditentukan dari transaksi mint khusus. Pengidentifikasi unik digunakan untuk mengklasifikasikan jenis koin.\
->
+> **Diagram 4.** Jenis koin khusus yang ditentukan pengguna ditentukan dari transaksi mint khusus. Pengidentifikasi unik digunakan untuk mengklasifikasikan jenis koin.<br>
 
 ## 4. Pengidentifikasi Unik <a href="#id-4-pengidentifikasi-unik" id="id-4-pengidentifikasi-unik"></a>
 
@@ -60,8 +56,7 @@ Instruksi pemrograman, disebut `OP_PUSHINPUTREF`, digunakan untuk melampirkan re
 
 ![Diagram 5. Unique identifiers are initialized by matching an outpoint of one of the outputs being spent, and then maintained as long as at least one of the outputs being spent contains the same unique identifier in the script body.](https://radiant4people.com/tech/whitepaper/images/w6.jpeg)
 
-> **Diagram 5.** Pengidentifikasi unik diinisialisasi dengan mencocokkan titik keluar dari salah satu keluaran yang digunakan, dan kemudian dipertahankan selama setidaknya salah satu keluaran yang dikeluarkan berisi pengenal unik yang sama di badan skrip.\
->
+> **Diagram 5.** Pengidentifikasi unik diinisialisasi dengan mencocokkan titik keluar dari salah satu keluaran yang digunakan, dan kemudian dipertahankan selama setidaknya salah satu keluaran yang dikeluarkan berisi pengenal unik yang sama di badan skrip.<br>
 
 Instruksi pemrograman sederhana ini memberikan pengidentifikasi unik yang dapat digunakan sebagai referensi stabil untuk membuat aturan lanjutan. Misalnya, berbagai jenis koin, aset digital, kini dapat bergantung pada jenis koin lainnya. Karena semua data bersifat lokal untuk transaksi, melalui transaksi masukan induk langsung, mudah bagi klien dan layanan untuk memvalidasi keaslian aset digital dalam O(1) waktu dan ruang yang konstan, menghindari kebutuhan akan layanan tepercaya .
 
@@ -71,8 +66,7 @@ Dimungkinkan untuk membuat pengidentifikasi unik dengan cara alternatif dan juga
 
 ![Diagram 6. Full parent transaction validation, mathematical induction proof by embedding the full parent transactions into the inputs resulting in exponential transaction size increase.](https://radiant4people.com/tech/whitepaper/images/w7.jpeg)
 
-> **Diagram 6.** Validasi full parent transaction, pembuktian induksi matematis dengan memasukkan full parent transaction ke dalam input yang menghasilkan peningkatan ukuran transaksi secara eksponensial.\
->
+> **Diagram 6.** Validasi full parent transaction, pembuktian induksi matematis dengan memasukkan full parent transaction ke dalam input yang menghasilkan peningkatan ukuran transaksi secara eksponensial.<br>
 
 Kita dapat melakukannya dengan memodifikasi algoritme hash transaksi yang digunakan dalam Bitcoin, di mana intisari sha-256 ganda dihitung dari transaksi berseri, menjadi versi baru yang terlebih dahulu meringkas konten transaksi untuk memperoleh hash. Kami memperkenalkan algoritma hash transaksi versi 3, untuk membedakannya dari penggunaan versi 1 dan versi 2 di Bitcoin. Prosesnya adalah mencirikan setiap bidang, atau komponen transaksi, ke hash perantara, yang dapat digunakan sebagai input ukuran tetap dan dengan demikian menghindari pertumbuhan ukuran transaksi eksponensial.
 
@@ -92,8 +86,7 @@ Dengan menggunakan algoritme hash transaksi untuk transaksi versi 3, kami dapat 
 
 ![Diagram 7. Compressed parent transaction validation, mathematical induction proof by embedding the transaction hash version 3 preimage data-structure of the parent and grand-parent to enforce arbitrary rules and constraints.](https://radiant4people.com/tech/whitepaper/images/w8.jpeg)
 
-> **Diagram 7.** Validasi transaksi induk terkompresi, bukti induksi matematis dengan menyematkan struktur data preimage hash transaksi versi 3 dari induk dan kakek-nenek untuk menegakkan aturan dan batasan yang sewenang-wenang\
->
+> **Diagram 7.** Validasi transaksi induk terkompresi, bukti induksi matematis dengan menyematkan struktur data preimage hash transaksi versi 3 dari induk dan kakek-nenek untuk menegakkan aturan dan batasan yang sewenang-wenang<br>
 
 ## 6. Jaringan <a href="#id-6-jaringan" id="id-6-jaringan"></a>
 
@@ -101,8 +94,7 @@ Topologi jaringan adalah grafik yang hampir lengkap, di mana setiap Node Penamba
 
 ![Diagram 8. Mining Nodes are well-connected and build on top of each other's blocks. Archive nodes store complete blocks for historical analysis and bootstrapping purposes. Agent nodes are listener nodes which filter and store transactions to serve clients.](https://radiant4people.com/tech/whitepaper/images/w9.jpeg)
 
-> **Diagram 8.** Node Penambangan terhubung dengan baik dan dibangun di atas blok masing-masing. Node arsip menyimpan blok lengkap untuk analisis historis dan tujuan bootstrap. Node agen adalah node pendengar yang memfilter dan menyimpan transaksi untuk melayani klien.\
->
+> **Diagram 8.** Node Penambangan terhubung dengan baik dan dibangun di atas blok masing-masing. Node arsip menyimpan blok lengkap untuk analisis historis dan tujuan bootstrap. Node agen adalah node pendengar yang memfilter dan menyimpan transaksi untuk melayani klien.<br>
 
 Node Penambangan terhubung dengan baik ke dalam grafik yang hampir lengkap antara Node Penambangan lainnya. Tugas mereka adalah membangun di atas blok satu sama lain dan mempertahankan konsensus untuk beberapa ratus blok terbaru, dan mempertahankan set UTXO untuk pencegahan pengeluaran ganda.
 

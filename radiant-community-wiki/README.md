@@ -14,6 +14,10 @@ This Wiki is maintained by active community members who continuely show up to be
 
 
 
+{% content-ref url="news-and-headlines.md" %}
+[news-and-headlines.md](news-and-headlines.md)
+{% endcontent-ref %}
+
 {% content-ref url="white-papers/radiant-a-peer-to-peer-digital-asset-system/" %}
 [radiant-a-peer-to-peer-digital-asset-system](white-papers/radiant-a-peer-to-peer-digital-asset-system/)
 {% endcontent-ref %}

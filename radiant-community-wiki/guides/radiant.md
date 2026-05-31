@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Radiant Node
 
 ## COMPILE RADIANT NODE WITH UBUNTU 22.04 <a href="#compile-radiant-node-with-ubuntu-2204" id="compile-radiant-node-with-ubuntu-2204"></a>

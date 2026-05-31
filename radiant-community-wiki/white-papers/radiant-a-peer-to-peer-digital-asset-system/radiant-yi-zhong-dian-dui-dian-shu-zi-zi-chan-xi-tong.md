@@ -24,15 +24,13 @@ radiantblockchain.org
 
 ![Diagram 1. Radiant Transactions.](https://radiant4people.com/tech/whitepaper/images/w2.jpeg)
 
-> 图1 Radiant交易\
->
+> 图1 Radiant交易<br>
 
 为了验证双花，我们使用分布式时间戳服务器，使用基于哈希的工作量证明系统来组织规范历史，以确定哪个交易先到达。交易被组织成块。按照惯例，块中的第一个交易，称为“coinbase交易”，是一种特殊的交易，属于出块矿工挖到的新币。块被链接在一起，并将交易组织成Merkle树\[4]。除了第一个交易外，所有交易都必须引用前一个交易，形成一个有向无环图（DAG），其中所有硬币最终都会连接回至少一个块开头的特殊交易。
 
 ![Diagram 2. Block Structure; transactions are organized into a Merkle Tree.](https://radiant4people.com/tech/whitepaper/images/w3.jpeg)
 
-> **图2** 区块结构；交易组织成Merkle树\
->
+> **图2** 区块结构；交易组织成Merkle树<br>
 
 这种设计在数字资产的背景下存在的问题是，只有一种数字货币或数字资产，没有用户定义数字货币（或数字资产类型）的概念。这种设计对于以币本位计价单位进行电子支付类交易足够好，但并不立即适用于其他类型的数字货币或数字资产。一个常见的解决方案是引入一种服务，如交易索引器，它监视交易中的特殊数据序列以表示数字资产的创建。这种解决方案的问题在于它依赖于运行该服务的公司，需要像网络上的任何其他服务一样信任数字资产的真实性。
 
@@ -44,15 +42,13 @@ radiantblockchain.org
 
 ![Diagram 3. Transactions representing user-defined coin types — or digital assets.](https://radiant4people.com/tech/whitepaper/images/w4.jpeg)
 
-> **图 3** 代表用户定义币种类型或数字资产的交易\
->
+> **图 3** 代表用户定义币种类型或数字资产的交易<br>
 
 为了实现这一点，我们需要创建一个稳定的唯一标识符和一个交易机制来跟踪数字货币类型（数字资产）的真实性。系统的用户需要有证据证明自定义数字货币类型不是伪造的，并准确地代表数字资产。
 
 ![Diagram 4. Custom user-defined coin types are defined from a special mint transaction. A unique identifier is used to classify the coin type.](https://radiant4people.com/tech/whitepaper/images/w5.jpeg)
 
-> **图 4** 自定义用户定义币种类型由特殊的铸币交易定义，使用唯一标识符来分类币种类型。\
->
+> **图 4** 自定义用户定义币种类型由特殊的铸币交易定义，使用唯一标识符来分类币种类型。<br>
 
 ## 4. 唯一标识符 <a href="#id-4" id="id-4"></a>
 
@@ -62,8 +58,7 @@ radiantblockchain.org
 
 ![Diagram 5. Unique identifiers are initialized by matching an outpoint of one of the outputs being spent, and then maintained as long as at least one of the outputs being spent contains the same unique identifier in the script body.](https://radiant4people.com/tech/whitepaper/images/w6.jpeg)
 
-> **图 5.** 唯一标识符通过匹配一个被花费的输出的输出点来初始化，并在至少一个被花费的输出在脚本体中包含相同的唯一标识符时维护。\
->
+> **图 5.** 唯一标识符通过匹配一个被花费的输出的输出点来初始化，并在至少一个被花费的输出在脚本体中包含相同的唯一标识符时维护。<br>
 
 这种简单的编程指令提供了一个唯一标识符，可以用作稳定引用来创建高级规则。例如，不同的数字货币类型、数字资产现在可以依赖于其他数字货币类型。由于所有数据都是本地交易，通过其直接父输入交易，客户端和服务很容易在O（1）常数时间和空间内验证数字资产的真实性，避免了对可信服务的需求。
 
@@ -73,8 +68,7 @@ radiantblockchain.org
 
 ![Diagram 6. Full parent transaction validation, mathematical induction proof by embedding the full parent transactions into the inputs resulting in exponential transaction size increase.](https://radiant4people.com/tech/whitepaper/images/w7.jpeg)
 
-> **图 6** 完整的父交易验证，通过将完整的父交易嵌入到输入中进行数学归纳证明，导致事务大小呈指数级增加。\
->
+> **图 6** 完整的父交易验证，通过将完整的父交易嵌入到输入中进行数学归纳证明，导致事务大小呈指数级增加。<br>
 
 我们可以通过修改比特币中使用的交易哈希算法来实现这一点，其中从序列化交易计算双sha-256摘要，转换为新版本，该版本首先总结交易内容以派生哈希。我们引入了交易哈希算法版本3，以将其与比特币中使用的版本1和版本2区分开来。该过程是对交易的每个字段或组件进行哈希，以获得中间哈希，该中间哈希可用作固定大小的输入，从而避免了指数交易大小增长。
 
@@ -94,8 +88,7 @@ radiantblockchain.org
 
 ![Diagram 7. Compressed parent transaction validation, mathematical induction proof by embedding the transaction hash version 3 preimage data-structure of the parent and grand-parent to enforce arbitrary rules and constraints.](https://radiant4people.com/tech/whitepaper/images/w8.jpeg)
 
-> **图 7** 压缩的父交易验证，通过嵌入父交易和祖父交易的事务哈希版本3的前像数据结构来进行数学归纳证明，以强制执行任意规则和约束。\
->
+> **图 7** 压缩的父交易验证，通过嵌入父交易和祖父交易的事务哈希版本3的前像数据结构来进行数学归纳证明，以强制执行任意规则和约束。<br>
 
 ## 6. 网络 <a href="#id-6" id="id-6"></a>
 
@@ -103,8 +96,7 @@ radiantblockchain.org
 
 ![Diagram 8. Mining Nodes are well-connected and build on top of each other's blocks. Archive nodes store complete blocks for historical analysis and bootstrapping purposes. Agent nodes are listener nodes which filter and store transactions to serve clients.](https://radiant4people.com/tech/whitepaper/images/w9.jpeg)
 
-> **图 8** 挖矿节点是良好连接的，并且基于彼此的区块构建。存档节点存储完整的区块以进行历史分析和引导。代理节点是监听节点，过滤和存储交易以为客户提供服务。\
->
+> **图 8** 挖矿节点是良好连接的，并且基于彼此的区块构建。存档节点存储完整的区块以进行历史分析和引导。代理节点是监听节点，过滤和存储交易以为客户提供服务。<br>
 
 挖矿节点之间相互连接，形成一个近乎完全图。它们的工作是在彼此的块上建立并维护最近几百个块的共识，并维护UTXO集以防止双重支付。
 
