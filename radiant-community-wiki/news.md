@@ -180,11 +180,13 @@ For now, it remains unclear whether the decline reflects a temporary pause or a 
 
 ***
 
-#### **Issue 7 - December 2025**
+#### **Issue 7 - December 2025**&#x20;
 
-## Phoenix rising
+YEAR-END SPECIAL EDITION
 
-**Radiant-Core 2.0 shatters development silence with massive node launch!**
+## Phoenix Rising
+
+### **Radiant-Core 2.0 shatters development silence with massive node launch!**
 
 The Radiant community closed 2025 with its most significant technical milestone yet: the launch of **Project Phoenix (Node 2.0)** and RXinDexer.&#x20;
 
@@ -206,11 +208,35 @@ By dominating video marketing and empowering holders to act as a decentralized P
 
 ### GlyPhium explosion: massive airdrop surpasses 6.8 million as "MemeFi" revolution begins!
 
-### The diamond hand test
+GlyPhium isn't just bulding a platform; they are bulding an empre.&#x20;
 
-**RXD survives 2025’s price bloodbath to build the future!**
+After smashing their airdrop promises by delivering 6.8 million GLYPH, the team is now targeting the meme market with the upcoming "GlyPhium Fun" module.&#x20;
+
+With 32 active mint contracts and a growing army of holders, the Glyph Protocol is officially the heartbeat of Radiant.
+
+### The Diamond Hand Test
+
+**RXD survives 2025's price bloodbath to build the future!**
+
+While technical development reached a fever pitch, the 2025 market cycle was a brutal test of resolve for Radiant (RXD) holders.&#x20;
+
+The year was characterized by a "slow bleed" from January highs of approximately $0.00080 down to a mid-December low of $0.000108, marking an overall annual decline of -83.09%.&#x20;
+
+Despite these heavy market headwinds and limited liquidity-averaging only $60k-$130k in daily volume-the Radiant spirit remains unbreakable.
+
+A massive September surge provided a glimpse of the project's true potential; the price spiked to $0.00031.&#x20;
+
+With the year closing at a stabilized level of $0.000125, many analysts remain "Technically Bullish," viewing this period as a necessary capitulation before the next cycle.&#x20;
+
+As we look toward a 2026 turnaround powered by the upcoming halving the question remains: is this the ultimate "buy the dip" moment before the 2026 explosion?
 
 ### The silent progress: will 2026 be the year of Radiant?
+
+As the ecosystem crosses into 2026, the enigma of R-Shield remains the "silent progress" set to shock the Radiant community.&#x20;
+
+First teased in late 2025, this project has become the most significant unsolved mystery in the Radiant landscape, fueling intense market speculation about whether it will serve as a revolutionary privacy layer or a major security ugrade for Radiant's Turing-complete architecture.&#x20;
+
+With the Halving officially slated for April 10, 2026, and a massive reduction in inflation on the horizon, the unveiling of R-Shield is strategically timed to cincide with a new era of scarcity.
 
 ***
 
@@ -232,7 +258,7 @@ The vision has shifted from simple tooling to a full-scale ecosystem expansion.&
 
 His message to the community is clear: "You are not alone… more developers, more projects, and more visionaries will join." The infrastructure is live, the builders are committed, and the horizon is enormous.
 
-### Momentum in the east
+### Momentum in the East
 
 Network signals confirm a quiet but powerful shift: technical inquiries from Eastern mining and investment communities are steadily climbing.&#x20;
 
@@ -286,7 +312,7 @@ Rally your creativity, lead the charge, and make your mark.
 
 #### **Issue 4 - September 30, 2025**
 
-## RXD slumps into September’s end
+## RXD slumps into September's end
 
 **A pause before the next surge?**
 
@@ -322,7 +348,7 @@ The surge came with heavy trading volume and a wave of community excitement, tur
 
 While still far from its all-time highs, the explosive rally has put Radiant back on traders’ radars as a coin with serious momentum.
 
-### Radiant forms “Radiant Army”
+### Radiant forms "Radiant Army"
 
 Radiant has launched the Radiant Army, a community-driven squad focused on boosting the project’s visibility.&#x20;
 
