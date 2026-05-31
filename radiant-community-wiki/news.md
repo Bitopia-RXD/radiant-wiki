@@ -54,6 +54,10 @@ Most excitingly, GlyPhium is expanding into interactive entertainment with a bra
 
 
 
+[_Source via X_](https://x.com/Planet_Radiant/status/2060687277869896009)
+
+
+
 ***
 
 #### **Issue 11 - April 2026**
@@ -88,6 +92,10 @@ At a steady $0.000107, Radiant is perfectly positioned for its next breakout as 
 
 
 
+[_Source via X_](https://x.com/Planet_Radiant/status/2050022428148207690)
+
+
+
 ***
 
 #### **Issue 10 - March 2026**
@@ -113,6 +121,10 @@ From North America to Southeast Asia, Radiant’s decentralized footprint is exp
 As of March 31, 2026, Radiant (RXD) remained in a period of neutral consolidation between $0.000083 and $0.0001.&#x20;
 
 Following the Core 2.2.0 upgrade, the market is holding steady as the circulating supply nears its final milestones, with key resistance currently established at $0.00013.
+
+
+
+[_Source via X_](https://x.com/noCookie9107/status/2039028761442844750)
 
 
 
@@ -154,6 +166,10 @@ Traders and long-term supporters alike are watching for potential breakout momen
 
 
 
+[_Source via X_](https://x.com/noCookie9107/status/2027797937280192589)
+
+
+
 ***
 
 #### **Issue 8 - January 2026**
@@ -185,6 +201,10 @@ The reduction has sparked speculation in the mining community over the status of
 Some miners believe the machines have been temporarily powered down due to weaker profitability, while others question whether large-scale ASIC deployment was ever sustainable beyond an initial surge.&#x20;
 
 For now, it remains unclear whether the decline reflects a temporary pause or a more lasting retreat of ASIC miners from the Radiant network.
+
+
+
+[_Source via X_](https://x.com/noCookie9107/status/2018022048656990213)
 
 
 
@@ -250,6 +270,10 @@ With the Halving officially slated for April 10, 2026, and a massive reduction i
 
 
 
+[_Source via X_](https://x.com/noCookie9107/status/2006443884877066349)
+
+
+
 ***
 
 #### **Issue 6 - November 2025**
@@ -290,6 +314,10 @@ The network needs you - suit up!
 
 
 
+[_Source via X_](https://x.com/Planet_Radiant/status/1995189081991749702)
+
+
+
 ***
 
 #### **Issue 5 - October 31, 2025**
@@ -324,6 +352,10 @@ Rally your creativity, lead the charge, and make your mark.
 
 
 
+[_Source via X_](https://x.com/Planet_Radiant/status/1984258503310258196)
+
+
+
 ***
 
 #### **Issue 4 - September 30, 2025**
@@ -349,6 +381,10 @@ This fluctuation raises questions about the factors driving such shifts, includi
 Whispers in the Radiant community suggest a development that could change how the chain is explored and understood.&#x20;
 
 Nothing official has been announced, but the idea of faster, more accessible blockchain data is drawing attention, reflecting the quiet dedication of Radiant’s developers.
+
+
+
+[_Source via X_](https://x.com/noCookie9107/status/1973080334494212557)
 
 
 
@@ -386,6 +422,10 @@ Special appreciation goes out to all developers dedicating their time and skills
 
 
 
+[_Source via X_](https://x.com/Planet_Radiant/status/1967637789312483605)
+
+
+
 ***
 
 #### **Issue 2 - August 2025**
@@ -415,6 +455,10 @@ With this milestone, Radiant shines brighter than ever, proving the future is Ra
 Since July’s discovery that DragonBall A11 miners can’t process large transactions over 2 MB, Radiant’s hashrates have fluctuated sharply.&#x20;
 
 The community now questions whether DragonBall is merely scaling back to cut costs or planning a full exit, a move that could impact both network security and hashrate stability.
+
+
+
+[_Source via X_](https://x.com/Planet_Radiant/status/1961822580937019488)
 
 
 
