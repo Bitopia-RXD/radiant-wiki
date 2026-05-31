@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# News
+# News Headlines
 
 #### **Issue 12 - May 2026**
 
