@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Radiant Blockchain](README.md)
+* [News](news.md)
 * [FAQs](faqs.md)
 * [Induction Proof System FAQs](induction-proof-system-faqs.md)
 * [Links](links.md)
