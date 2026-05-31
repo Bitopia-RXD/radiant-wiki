@@ -1,5 +1,5 @@
 ---
-description: Monthly Radiant Updates
+description: Monthly Radiant Chronicles
 layout:
   width: default
   title:
@@ -150,7 +150,13 @@ Following the Core 2.2.0 upgrade, the market is holding steady as the circulatin
 
 ***
 
-#### The Radiant Horizon: Issue 9 - February 2026
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 9 - February 2026
+{% endhint %}
 
 ## Radiant nears hard fork as block 410,000 approaches
 
@@ -192,7 +198,13 @@ Traders and long-term supporters alike are watching for potential breakout momen
 
 ***
 
-#### The Radiant Horizon: Issue 8 - January 2026
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 8 - January 2026
+{% endhint %}
 
 ## Radiant releases draft of Glyph v2 token standard
 
@@ -230,9 +242,13 @@ For now, it remains unclear whether the decline reflects a temporary pause or a 
 
 ***
 
-#### The Radiant Horizon: Issue 7 - December 2025&#x20;
 
-YEAR-END SPECIAL EDITION
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 7 - December 2025 - YEAR-END SPECIAL EDITION
+{% endhint %}
 
 ## Phoenix Rising
 
@@ -296,7 +312,13 @@ With the Halving officially slated for April 10, 2026, and a massive reduction i
 
 ***
 
-#### The Radiant Horizon: Issue 6 - November 2025
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 6 - November 2025
+{% endhint %}
 
 ## GlyPhium Phase 1
 
@@ -340,7 +362,13 @@ The network needs you - suit up!
 
 ***
 
-#### The Radiant Horizon: Issue 5 - October 31, 2025
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 5 - October 31, 2025
+{% endhint %}
 
 ## WarWallet launches as R-Shield remains a mystery
 
@@ -378,7 +406,13 @@ Rally your creativity, lead the charge, and make your mark.
 
 ***
 
-#### The Radiant Horizon: Issue 4 - September 30, 2025
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 4 - September 30, 2026
+{% endhint %}
 
 ## RXD slumps into September's end
 
@@ -410,7 +444,13 @@ Nothing official has been announced, but the idea of faster, more accessible blo
 
 ***
 
-#### The Radiant Horizon: Issue 3 - September 2025
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 3 - September 2025
+{% endhint %}
 
 ## Radiant doubles in a month!
 
@@ -448,7 +488,13 @@ Special appreciation goes out to all developers dedicating their time and skills
 
 ***
 
-#### The Radiant Horizon: Issue 2 - August 2025
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 2 - August 2025
+{% endhint %}
 
 ## RXD skyrockets over 60%
 
@@ -484,7 +530,13 @@ The community now questions whether DragonBall is merely scaling back to cut cos
 
 ***
 
-#### The Radiant Horizon: Issue 1 - July 2025
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 1 - July 2025
+{% endhint %}
 
 ## The miner that broke Radiant?
 
