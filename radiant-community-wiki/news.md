@@ -22,6 +22,10 @@ layout:
 
 # News Headlines
 
+
+
+***
+
 #### THE RADIANT HORIZON
 
 {% hint style="info" icon="newspaper" %}
@@ -64,7 +68,13 @@ Most excitingly, GlyPhium is expanding into interactive entertainment with a bra
 
 ***
 
-#### The Radiant Horizon: Issue 11 - April 2026
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 11 - April 2026
+{% endhint %}
 
 ## Gravity completes first battle-hardened mainnet trade
 
@@ -102,7 +112,13 @@ At a steady $0.000107, Radiant is perfectly positioned for its next breakout as 
 
 ***
 
-#### The Radiant Horizon: Issue 10 - March 2026
+
+
+#### THE RADIANT HORIZON
+
+{% hint style="info" icon="newspaper" %}
+Issue 10 - March 2026
+{% endhint %}
 
 ## Radiant Core v2.2.0: Next-level network hardening is here!
 
