@@ -22,7 +22,7 @@ layout:
 
 # News
 
-#### **Issue 12 – May 2026**
+#### **Issue 12 - May 2026**
 
 ## Groundbreaking innovations propel Photonic, Gravity, and GlyPhium!
 
@@ -54,9 +54,7 @@ Most excitingly, GlyPhium is expanding into interactive entertainment with a bra
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/2060687277869896009)
-{% endhint %}
 
 
 
@@ -94,9 +92,7 @@ At a steady $0.000107, Radiant is perfectly positioned for its next breakout as 
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/2050022428148207690)
-{% endhint %}
 
 
 
@@ -128,9 +124,7 @@ Following the Core 2.2.0 upgrade, the market is holding steady as the circulatin
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/noCookie9107/status/2039028761442844750)
-{% endhint %}
 
 
 
@@ -172,9 +166,7 @@ Traders and long-term supporters alike are watching for potential breakout momen
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/noCookie9107/status/2027797937280192589)
-{% endhint %}
 
 
 
@@ -212,9 +204,7 @@ For now, it remains unclear whether the decline reflects a temporary pause or a 
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/noCookie9107/status/2018022048656990213)
-{% endhint %}
 
 
 
@@ -280,9 +270,7 @@ With the Halving officially slated for April 10, 2026, and a massive reduction i
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/noCookie9107/status/2006443884877066349)
-{% endhint %}
 
 
 
@@ -326,9 +314,7 @@ The network needs you - suit up!
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/1995189081991749702)
-{% endhint %}
 
 
 
@@ -366,9 +352,7 @@ Rally your creativity, lead the charge, and make your mark.
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/1984258503310258196)
-{% endhint %}
 
 
 
@@ -400,9 +384,7 @@ Nothing official has been announced, but the idea of faster, more accessible blo
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/noCookie9107/status/1973080334494212557)
-{% endhint %}
 
 
 
@@ -440,9 +422,7 @@ Special appreciation goes out to all developers dedicating their time and skills
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/1967637789312483605)
-{% endhint %}
 
 
 
@@ -478,9 +458,7 @@ The community now questions whether DragonBall is merely scaling back to cut cos
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/1961822580937019488)
-{% endhint %}
 
 
 
@@ -520,6 +498,5 @@ The resolution of miner limitations may decide if momentum turns into lasting gr
 
 
 
-{% hint style="info" %}
 [Source: X](https://x.com/Planet_Radiant/status/1957846132844888554)
-{% endhint %}
+
