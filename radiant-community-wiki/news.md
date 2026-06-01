@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# News Headlines
+# News
 
 
 
@@ -124,7 +124,7 @@ Issue 10 - March 2026
 
 The Radiant (RXD) ecosystem just got a massive boost with the release of **Radiant Core v2.2.0**!&#x20;
 
-This high-impact maintenance update is engineered to “harden and smooth" the network, featuring updated checkpoints and a refreshed “assume-valid” block height at 412,000 for lightning-fast initial syncs. By cleaning up seed nodes and optimizing DNS seeders, peer discovery is now more reliable than ever.&#x20;
+This high-impact maintenance update is engineered to "harden and smooth" the network, featuring updated checkpoints and a refreshed “assume-valid” block height at 412,000 for lightning-fast initial syncs. By cleaning up seed nodes and optimizing DNS seeders, peer discovery is now more reliable than ever.&#x20;
 
 While all revolutionary V2 hard fork features like OP\_BLAKE3 and OP\_K12 remain fully locked and loaded, this release ensures the Radiant foundation is rock-solid and ready for the next wave of global adoption.
 
@@ -172,11 +172,11 @@ Alongside the core changes, ecosystem tools including mining software, wallets, 
 
 As block 410,000 draws near, the community watches closely, preparing for the next phase of Radiant’s evolution.
 
-### Dragon Ball speculation grows as m2pool hash rate climbs
+### DragonBall speculation grows as m2pool hash rate climbs
 
-Rumors of Dragon Ball’s return are resurfacing as m2pool.com reports around 31.19 TH/s out of the network’s 426 TH/s total and has mined 10 of the last 100 blocks.&#x20;
+Rumors of DragonBall’s return are resurfacing as m2pool.com reports around 31.19 TH/s out of the network’s 426 TH/s total and has mined 10 of the last 100 blocks.&#x20;
 
-Widely suspected to be linked to Dragon Ball miners, M2Pool’s steady activity has drawn community scrutiny.&#x20;
+Widely suspected to be linked to DragonBall miners, M2Pool's steady activity has drawn community scrutiny.&#x20;
 
 With RXD prices keeping margins tight, some question the timing, while others argue hash rate often moves ahead of price. For now, the data tells the story.
 
@@ -210,7 +210,7 @@ Issue 8 - January 2026
 
 The Radiant blockchain has officially released the draft specification for **Glyph v2**, an ambitious upgrade designed to unify fungible tokens, NFTs, and naming services under a single framework.&#x20;
 
-Operating within Radiant’s UTXO-based model, the standard eschews complex virtual machines in favor of efficient script-level enforcement.&#x20;
+Operating within Radiant's UTXO-based model, the standard eschews complex virtual machines in favor of efficient script-level enforcement.&#x20;
 
 This version introduces critical features such as on-chain royalty enforcement, which allows creators to hardcode secondary-market fees at the time of minting, and a standardized burn mechanism for verifiable token destruction.&#x20;
 
@@ -226,7 +226,7 @@ By streamlining complex asset management into a native protocol, Radiant positio
 
 ### Radiant hashrate drops sharply, raising questions around ASIC miners
 
-Radiant’s (RXD) network hashrate has dropped sharply in recent weeks, falling to the hundreds of terahashes per second, according to data from hashrate.no, a notable decline from earlier levels.&#x20;
+Radiant's (RXD) network hashrate has dropped sharply in recent weeks, falling to the hundreds of terahashes per second, according to data from hashrate.no, a notable decline from earlier levels.&#x20;
 
 The reduction has sparked speculation in the mining community over the status of Radiant-compatible ASIC miners, particularly DragonBall units that were previously credited with boosting network hashpower.&#x20;
 
@@ -256,7 +256,7 @@ Issue 7 - December 2025 - YEAR-END SPECIAL EDITION
 
 The Radiant community closed 2025 with its most significant technical milestone yet: the launch of **Project Phoenix (Node 2.0)** and RXinDexer.&#x20;
 
-As the first major implementation since Atoshi’s departure, this release marks a definitive leap toward decentralized autonomy.&#x20;
+As the first major implementation since Atoshi's departure, this release marks a definitive leap toward decentralized autonomy.&#x20;
 
 Built on C++20, the modern infrastructure now supports massive 12 MB transactions and 81,000 inputs, while the introduction of PSRT (on-chain atomic swaps) enables a new era of native decentralized exchanges.&#x20;
 
@@ -274,7 +274,7 @@ By dominating video marketing and empowering holders to act as a decentralized P
 
 ### GlyPhium explosion: massive airdrop surpasses 6.8 million as "MemeFi" revolution begins!
 
-GlyPhium isn't just bulding a platform; they are bulding an empre.&#x20;
+GlyPhium isn't just bulding a platform; they are bulding an empire.&#x20;
 
 After smashing their airdrop promises by delivering 6.8 million GLYPH, the team is now targeting the meme market with the upcoming "GlyPhium Fun" module.&#x20;
 
@@ -302,7 +302,7 @@ As the ecosystem crosses into 2026, the enigma of R-Shield remains the "silent p
 
 First teased in late 2025, this project has become the most significant unsolved mystery in the Radiant landscape, fueling intense market speculation about whether it will serve as a revolutionary privacy layer or a major security ugrade for Radiant's Turing-complete architecture.&#x20;
 
-With the Halving officially slated for April 10, 2026, and a massive reduction in inflation on the horizon, the unveiling of R-Shield is strategically timed to cincide with a new era of scarcity.
+With the Halving officially slated for April 10, 2026, and a massive reduction in inflation on the horizon, the unveiling of R-Shield is strategically timed to coincide with a new era of scarcity.
 
 
 
