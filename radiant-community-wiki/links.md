@@ -172,6 +172,7 @@ layout:
 * **XT RXD/USDT:** [https://www.xt.com/en/trade/rxd\_usdt](https://www.xt.com/en/trade/rxd_usdt)
 * **LetsExchange:** [https://letsexchange.io/exchange/usdt-to-rxd](https://letsexchange.io/exchange/usdt-to-rxd?ref_id=EiDWiy7xrxZTeAiy)
 * **SimpleSwap:** [https://simpleswap.io/coins/rxd](https://simpleswap.io/coins/rxd)
+* **Gleec DEX:** [https://dex.gleec.com/dex](https://dex.gleec.com/dex)
 
 ## Market Info <a href="#market-info" id="market-info"></a>
 
