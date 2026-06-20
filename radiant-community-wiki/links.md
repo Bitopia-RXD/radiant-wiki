@@ -50,7 +50,7 @@ layout:
 * **RadiantScript:** [https://github.com/Radiant-Core/RadiantScript](https://github.com/Radiant-Core/RadiantScript)
 * **rxdeb - Radiant Script Debugger:** [https://github.com/Radiant-Core/rxdeb](https://github.com/Radiant-Core/rxdeb)
 * **RadiantJS:** [https://github.com/Radiant-Core/radiantjs](https://github.com/Radiant-Core/radiantjs)
-* **Pyrxd - Python SDK:** [https://github.com/Radiant-Core/pyrxd](https://github.com/Radiant-Core/pyrxd)
+* **Pyrxd - Python SDK:** [https://github.com/MudwoodLabs/pyrxd](https://github.com/MudwoodLabs/pyrxd)
 * **RXD.WASM/RXD-RS:** [https://github.com/RadiantBlockchain-Community/rxd-wasm](https://github.com/RadiantBlockchain-Community/rxd-wasm)
 * **Photonic Wallet - Source:** [https://github.com/Radiant-Core/Photonic-Wallet](https://github.com/Radiant-Core/Photonic-Wallet)
 * **Glyph Miner - Source:** [https://github.com/Radiant-Core/Glyph-miner](https://github.com/Radiant-Core/Glyph-miner)
